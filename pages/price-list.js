@@ -2,7 +2,7 @@ import Head from "next/head";
 
 export default function PriceList() {
   return (
-    <div>
+    <>
       <Head>
         <title>Nails By Michelle | Price List </title>
         <meta
@@ -11,7 +11,9 @@ export default function PriceList() {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <h1 className="text-5xl text-blue-400 font-bold">Price List</h1>
-    </div>
+      <div>
+        <h1 className="text-5xl text-blue-400 font-bold">Price List</h1>
+      </div>
+    </>
   );
 }
