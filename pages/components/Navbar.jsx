@@ -11,7 +11,7 @@ const Navbar = () => {
     <nav>
       <div className="flex items-center justify-between w-full h-[150px] bg-pink-100 shadow-lg shadow-pink-400">
         <h1 className="text-pink-400 text-5xl ml-24 ">Nails By Michelle 💅🏼</h1>
-        {}
+
         <ul className="w-96 hidden md:flex justify-between mr-24 text-pink-400 font-bold text-xl ">
           <a>
             <Link href="/">
@@ -24,11 +24,9 @@ const Navbar = () => {
             </Link>
           </a>
           <a>
-            <Link href="/price-list">
-              <li className="hover:scale-110 hover:cursor-pointer">
-                Price List
-              </li>
-            </Link>
+            <li className="hover:scale-110 hover:cursor-pointer">
+              <Link href="/price-list">Price List</Link>
+            </li>
           </a>
           <a>
             <Link href="/contact">

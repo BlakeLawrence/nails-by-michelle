@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Nails By Michelle</title>
+        <title>Nails By Michelle | Home </title>
         <meta
           name="home"
           content="Nails By Michelle - Cheddar's best nail Salon"
