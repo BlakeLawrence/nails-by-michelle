@@ -17,6 +17,7 @@ const Navbar = () => {
       {/* Top Nav section - Logo and location etc  */}
       <div className="w-full h-[100px] flex justify-evenly items-center ">
         <div className="flex items-center">
+          <Image src={logo} alt="main logo" width={80} height={80}></Image>
           <h1 className="text-pink-400 text-2xl md:text-3xl lg:text-5xl ml-4 ">
             Nails By Michelle
           </h1>
