@@ -13,9 +13,7 @@ export default function Home() {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="flex w-full">
-        <h1 className="text-5xl text-blue-400 font-bold">home page </h1>
-      </div>
+      <div className="flex w-full justify-center"></div>
     </div>
   );
 }
