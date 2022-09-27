@@ -14,7 +14,7 @@ const Navbar = () => {
       <div className="w-full h-[120px] flex justify-evenly items-center ">
         <div className="flex items-center">
           <Image src={logo} alt="main logo" width={80} height={80}></Image>
-          <h1 className="text-pink-400 text-2xl md:text-3xl lg:text-5xl ml-4 font-medium font-[montserrat]">
+          <h1 className="text-pink-400 text-2xl md:text-3xl lg:text-5xl ml-4 font-medium font-[raleway] font-semibold">
             Nails By Michelle
           </h1>
         </div>
@@ -24,7 +24,7 @@ const Navbar = () => {
             <div className="border-[1px] border-gray-300 hover:border-pink-300 rounded-full p-2 mr-2 hover:animate-bounce">
               <ImLocation className="text-pink-400" size="1.5rem" />
             </div>
-            <div className="flex flex-col text-[#787878]">
+            <div className="flex flex-col text-[#787878] font-[raleway]">
               <p>Labourham Way, Draycott</p>
               <p>Cheddar, BS27 3RP</p>
             </div>
@@ -33,7 +33,7 @@ const Navbar = () => {
             <div className="border-[1px] border-gray-300 hover:border-pink-300 rounded-full p-2 mr-2 hover:animate-bounce">
               <AiOutlineClockCircle className="text-pink-400" size="1.5rem" />
             </div>
-            <div className="flex flex-col text-[#787878]">
+            <div className="flex flex-col text-[#787878] font-[raleway]">
               <p className="font-medium">Mon - Sat</p>
               <p>
                 <Link className="hover:cursor-pointer" href="/contact">
@@ -46,7 +46,7 @@ const Navbar = () => {
             <div className="border-[1px] border-gray-300 hover:border-pink-300 rounded-full p-2 mr-2 hover:animate-bounce">
               <BsFillTelephoneFill className="text-pink-400" size="1.5rem" />
             </div>
-            <div className="flex flex-col text-[#787878]">
+            <div className="flex flex-col text-[#787878] font-[raleway]">
               <p className="font-medium">Call</p>
               <p>073 081 40607</p>
             </div>
@@ -54,7 +54,7 @@ const Navbar = () => {
         </ul>
       </div>
       {/* Main Nav - menu items (Home, About etc) */}
-      <nav className="w-full h-[80px] flex justify-between items-center bg-pink-200 shadow-pink-400 shadow-md">
+      <nav className="w-full h-[80px] flex justify-between items-center bg-pink-200 shadow-pink-400 shadow-md font-[raleway]">
         <ul className="w-full flex justify-around items-center  text-[#868789]">
           <Link href="/">
             <li className="text-sm sm:text-xl font-semibold hover:scale-125 hover:cursor-pointer">
