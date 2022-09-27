@@ -11,7 +11,7 @@ export default function Home() {
           name="home"
           content="Nails By Michelle - Cheddar's premium nail Salon"
         />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/nail-polish.svg" />
       </Head>
       <div className="flex w-full justify-center"></div>
     </div>
