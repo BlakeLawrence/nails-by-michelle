@@ -9,7 +9,7 @@ export default function Contact() {
         <link rel="icon" href="/nail-polish.svg" />
       </Head>
       <div className="flex">
-        <div className="p-4 flex flex-col items-center w-1/3 mt-12 ml-12 bg-pink-100 rounded-md shadow-lg">
+        <div className="p-4 flex flex-col items-center w-1/3 mt-12 ml-8 bg-pink-100 rounded-md shadow-lg">
           <h2 className="pl-4 text-xl sm:text-4xl md:text-5xl font-[] flex justify-start text-[#787878]">
             Opening Hours
           </h2>
