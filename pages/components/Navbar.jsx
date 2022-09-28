@@ -42,7 +42,7 @@ const Navbar = () => {
           </div>
         </li>
       </ul>
-      {/* Top Nav section - Logo and location etc  */}
+      {/* Main Nav section - Logo and location etc  */}
       <div className="w-full h-[120px] flex justify-evenly items-center border-b-[1px] border-gray-200">
         <div className="pl-3 lg:pl-0 flex items-center">
           <Image src={logo} alt="main logo" width={80} height={80}></Image>
@@ -88,7 +88,7 @@ const Navbar = () => {
       </div>
       <div></div>
       {/* Main Nav - menu items (Home, About etc) */}
-      <nav className=" w-full h-[70px] flex justify-between items-center  shadow-pink-400 shadow-xl font-[montserrat]">
+      <nav className=" w-full h-[70px] flex justify-between items-center border-b-[1px] border-gray-200 font-[montserrat]">
         <ul className="w-full flex justify-around items-center  text-[#868789]">
           <Link href="/">
             <li className="text-sm sm:text-xl font-medium hover:scale-125 hover:cursor-pointer  hover:text-pink-400">
