@@ -10,6 +10,38 @@ import logo from "../../public/nail-polish.svg";
 const Navbar = () => {
   return (
     <>
+      {/* location etc only for phone mode */}
+      <ul className="sm:hidden flex justify-between items-center text-[9px] p-2 border-b-[1px] border-gray-200">
+        <li className="flex items-center pr-2">
+          <div className="border-[1px] border-gray-300 hover:border-pink-300 rounded-full p-2 mr-3 hover:animate-bounce">
+            <ImLocation className="text-pink-400" size="1rem" />
+          </div>
+          <div className="flex flex-col text-[10px] md:text-[15px]  text-[#787878] font-[montserrat] font-medium">
+            <p>Labourham Way, Draycott</p>
+            <p>Cheddar, BS27 3RP</p>
+          </div>
+        </li>
+        <li className="flex  items-center pr-2">
+          <div className="border-[1px] border-gray-300 hover:border-pink-300 rounded-full p-2 mr-3 hover:animate-bounce">
+            <AiOutlineClockCircle className="text-pink-400" size="1rem" />
+          </div>
+          <div className="flex flex-col text-[10px] md:text-[15px]  text-[#787878] font-[montserrat]">
+            <p className="font-bold">Mon - Sat</p>
+            <Link className="hover:cursor-pointer font-medium" href="/contact">
+              click for opening hours
+            </Link>
+          </div>
+        </li>
+        <li className="flex items-center ">
+          <div className="border-[1px] border-gray-300 hover:border-pink-300 rounded-full p-2 mr-3 hover:animate-bounce">
+            <BsFillTelephoneFill className="text-pink-400" size="1rem" />
+          </div>
+          <div className="flex flex-col text-[10px] md:text-[15px]  text-[#787878] font-[montserrat]">
+            <p className="font-bold">Call</p>
+            <p className="font-medium">073 081 40607</p>
+          </div>
+        </li>
+      </ul>
       {/* Top Nav section - Logo and location etc  */}
       <div className="w-full h-[120px] flex justify-evenly items-center border-b-[1px] border-gray-200">
         <div className="pl-3 lg:pl-0 flex items-center">
@@ -19,12 +51,12 @@ const Navbar = () => {
           </h1>
         </div>
 
-        <ul className="hidden md:flex justify-between items-center text-sm sm:text-md">
+        <ul className="hidden sm:flex justify-between items-center text-sm sm:text-md">
           <li className="flex items-center pr-4 lg:pr-10">
             <div className="border-[1px] border-gray-300 hover:border-pink-300 rounded-full p-2 mr-3 hover:animate-bounce">
               <ImLocation className="text-pink-400" size="1.5rem" />
             </div>
-            <div className="flex flex-col text-[#787878] font-[raleway] font-medium">
+            <div className="flex flex-col text-[10px] md:text-[15px]  text-[#787878] font-[montserrat] font-medium">
               <p>Labourham Way, Draycott</p>
               <p>Cheddar, BS27 3RP</p>
             </div>
@@ -33,7 +65,7 @@ const Navbar = () => {
             <div className="border-[1px] border-gray-300 hover:border-pink-300 rounded-full p-2 mr-3 hover:animate-bounce">
               <AiOutlineClockCircle className="text-pink-400" size="1.5rem" />
             </div>
-            <div className="flex flex-col text-[#787878] font-[raleway]">
+            <div className="flex flex-col text-[10px] md:text-[15px]  text-[#787878] font-[montserrat]">
               <p className="font-bold">Mon - Sat</p>
               <Link
                 className="hover:cursor-pointer font-medium"
@@ -47,13 +79,14 @@ const Navbar = () => {
             <div className="border-[1px] border-gray-300 hover:border-pink-300 rounded-full p-2 mr-3 hover:animate-bounce">
               <BsFillTelephoneFill className="text-pink-400" size="1.5rem" />
             </div>
-            <div className="flex flex-col text-[#787878] font-[raleway]">
+            <div className="flex flex-col text-[10px] md:text-[15px]  text-[#787878] font-[montserrat]">
               <p className="font-bold">Call</p>
               <p className="font-medium">073 081 40607</p>
             </div>
           </li>
         </ul>
       </div>
+      <div></div>
       {/* Main Nav - menu items (Home, About etc) */}
       <nav className=" w-full h-[70px] flex justify-between items-center  shadow-pink-400 shadow-xl font-[montserrat]">
         <ul className="w-full flex justify-around items-center  text-[#868789]">
