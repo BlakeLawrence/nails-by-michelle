@@ -24,8 +24,8 @@ const Services = () => {
               height={1000}
               alt="nails"
             />
-            <div className="bg-pink-300 w-2/3 rounded-md mt-6">
-              <p className="flex justify-center text-[11px] sm:text-xl p-4 text-[#ffff] font-medium font-[montserrat]">
+            <div className="bg-pink-300 w-11/12 sm:w-2/3 rounded-md mt-2 sm:mt-6">
+              <p className="flex justify-center text-[11px] sm:text-xl p-2 sm:p-4 text-[#ffff] font-medium font-[montserrat]">
                 All Nails
               </p>
             </div>
@@ -40,8 +40,8 @@ const Services = () => {
               alt="pamper party image"
             />
 
-            <div className=" bg-pink-300 w-2/3 rounded-md mt-6">
-              <p className="flex justify-center text-[11px] sm:text-xl p-4 text-[#ffff] font-medium font-[montserrat]">
+            <div className=" bg-pink-300 w-11/12 sm:w-2/3 rounded-md mt-2 sm:mt-6">
+              <p className="flex justify-center text-[11px] sm:text-xl p-2 sm:p-4 text-[#ffff] font-medium font-[montserrat]">
                 Kids Pamper Parties
               </p>
             </div>
@@ -55,9 +55,9 @@ const Services = () => {
               height={825}
               alt="pamper party image"
             />
-            <div className="bg-pink-300 w-2/3 rounded-md mt-6">
-              <p className="flex justify-center text-[11px] sm:text-xl p-4 text-[#ffff] font-medium font-[montserrat]">
-                Lashes - coming soon
+            <div className="bg-pink-300 w-11/12 sm:w-2/3 rounded-md mt-2 sm:mt-6">
+              <p className="flex justify-center text-[11px] sm:text-xl p-2 sm:p-4 text-[#ffff] font-medium font-[montserrat]">
+                Lashes
               </p>
             </div>
           </div>
