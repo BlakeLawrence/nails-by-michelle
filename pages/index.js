@@ -1,6 +1,4 @@
 import Head from "next/head";
-import Image from "next/image";
-import Link from "next/link";
 
 export default function Home() {
   return (
@@ -13,7 +11,12 @@ export default function Home() {
         />
         <link rel="icon" href="/nail-polish.svg" />
       </Head>
-      <div className="flex w-full justify-center"></div>
+      <div className=" flex w-full bg-[url('/hand.jpg')] h-[400px] sm:h-[550px] bg-no-repeat bg-center bg-cover ">
+        <h3 className="p-20 text-6xl font-bold font-[montserrat] text-[#ff91e2]">
+          COME IN, TREAT YOURSELF!!
+        </h3>
+      </div>
+      <div className="w-full h-screen"></div>
     </div>
   );
 }

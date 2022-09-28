@@ -9,7 +9,7 @@ export default function Contact() {
         <link rel="icon" href="/nail-polish.svg" />
       </Head>
       {/* Parent Div for opening hours and contact details that controls flex direction for responsiveness */}
-      <div className="flex flex-row">
+      <div className="flex">
         {/* Opening hourse Card */}
         <div className="flex">
           <div className="p-4 flex flex-col items-center w-full md:w-2/3 lg:w-2/3 2xl:w-1/3  mt-12 ml-4 mr-4 sm:ml-8 bg-pink-100 rounded-md shadow-lg">
@@ -82,7 +82,7 @@ export default function Contact() {
             </div>
           </div>
           {/* Contact details Div */}
-          <div className="w-1/2 mt-12 p-4 rounded-md bg-gray-200">
+          <div className="w-1/2 mt-12 p-4 rounded-md bg-gray-200 shadow-lg">
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Reprehenderit quas ipsa ducimus aspernatur, incidunt voluptas
