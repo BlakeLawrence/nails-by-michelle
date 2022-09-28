@@ -23,14 +23,16 @@ export default function Home() {
           </h3>
           {/* buttons div */}
           <div className="mt-6 sm:mt-16">
-            <Link href="services" spy={true} smooth={true} duration={500}>
+            <Link href="#services" spy={true} smooth={true} duration={500}>
               <button className="text-[11px] sm:text-[14px] px-4 py-3 mr-6 text-[#ffffff] font-medium font-[montserrat] md:w-32 rounded-full bg-purple-400 hover:scale-110">
                 SERVICES
               </button>
             </Link>
-            <button className="text-[11px] sm:text-[14px] px-4 py-3 text-purple-400 border-[1px] font-medium font-[montserrat] md:w-32 border-purple-400 rounded-full bg-[#ffffff] hover:scale-110">
-              PRICES
-            </button>
+            <Link href="/price-list">
+              <button className="text-[11px] sm:text-[14px] px-4 py-3 text-purple-400 border-[1px] font-medium font-[montserrat] md:w-32 border-purple-400 rounded-full bg-[#ffffff] hover:scale-110">
+                PRICES
+              </button>
+            </Link>
           </div>
         </div>
       </div>

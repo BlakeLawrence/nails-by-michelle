@@ -43,7 +43,7 @@ const Navbar = () => {
         </li>
       </ul>
       {/* Main Nav section - Logo and location etc  */}
-      <div className="w-full h-[120px] flex justify-evenly items-center border-b-[1px] border-gray-200">
+      <div className="w-full h-[120px] flex justify-evenly items-center border-b-[1px] border-gray-200 ">
         <div className="pl-3 lg:pl-0 flex items-center">
           <Image src={logo} alt="main logo" width={80} height={80}></Image>
           <h1 className="text-pink-400 text-2xl sm:text-3xl xl:text-4xl ml-4 font-[montserrat] font-medium">
