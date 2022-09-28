@@ -58,25 +58,25 @@ const Navbar = () => {
       <nav className="w-full h-[70px] flex justify-between items-center bg-pink-200 shadow-pink-400 shadow-md font-[raleway]">
         <ul className="w-full flex justify-around items-center  text-[#868789]">
           <Link href="/">
-            <li className="text-sm sm:text-xl font-semibold hover:scale-125 hover:cursor-pointer">
+            <li className="text-sm sm:text-xl font-medium hover:scale-125 hover:cursor-pointer">
               Home
             </li>
           </Link>
 
           <Link href="/">
-            <li className="text-sm sm:text-xl font-semibold hover:scale-125 hover:cursor-pointer">
+            <li className="text-sm sm:text-xl font-medium hover:scale-125 hover:cursor-pointer">
               About
             </li>
           </Link>
 
           <Link href="/price-list">
-            <li className="text-sm sm:text-xl font-semibold hover:scale-125 hover:cursor-pointer">
+            <li className="text-sm sm:text-xl font-medium hover:scale-125 hover:cursor-pointer">
               Price List
             </li>
           </Link>
 
           <Link href="/contact">
-            <li className="text-sm sm:text-xl font-semibold hover:scale-125 hover:cursor-pointer">
+            <li className="text-sm sm:text-xl font-medium hover:scale-125 hover:cursor-pointer">
               Contact
             </li>
           </Link>
