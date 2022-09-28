@@ -19,11 +19,11 @@ export default function Home() {
             GO ON, TREAT YOURSELF!
           </h3>
           {/* buttons div */}
-          <div className="mt-16">
-            <button className="px-4 py-2 mr-6 text-[#ffffff] font-medium font-[montserrat] w-32 rounded-full bg-purple-400 hover:scale-110">
+          <div className="mt-6 sm:mt-16">
+            <button className="text-[11px] sm:text-[14px] px-4 py-2 mr-6 text-[#ffffff] font-medium font-[montserrat] md:w-32 rounded-full bg-purple-400 hover:scale-110">
               SERVICES
             </button>
-            <button className="px-4 py-2 text-purple-400 border-[1px] font-medium font-[montserrat] w-32 border-purple-400 rounded-full bg-[#ffffff] hover:scale-110">
+            <button className="text-[11px] sm:text-[14px] px-4 py-2 text-purple-400 border-[1px] font-medium font-[montserrat] md:w-32 border-purple-400 rounded-full bg-[#ffffff] hover:scale-110">
               PRICES
             </button>
           </div>
