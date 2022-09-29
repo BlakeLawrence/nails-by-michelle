@@ -14,7 +14,7 @@ export default function Footer() {
       <div className="flex flex-row h-auto w-1/4 sm:w-56">
         <div className="h-10 w-10 sm:h-16 sm:w-16 relative ml-3 sm:ml-8">
           <Image
-            src="/nail-polish.svg"
+            src="/flower-logo.png"
             alt="Project Clean-up logo"
             layout="fill"
             objectFit="cover"

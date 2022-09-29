@@ -5,7 +5,7 @@ import { ImLocation } from "react-icons/im";
 import { AiOutlineClockCircle } from "react-icons/ai";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import Image from "next/image";
-import logo from "../../public/nail-polish.svg";
+import logo from "../../public/flower-logo.png";
 
 const Navbar = () => {
   return (
@@ -47,9 +47,9 @@ const Navbar = () => {
       </ul>
       {/* Main Nav section - Logo and location etc  */}
       <div className="w-full h-[120px] flex justify-evenly items-center border-b-[1px] border-pink-200 bg-gradient-to-b ">
-        <div className="pl-0 flex items-center ">
-          <Image src={logo} alt="main logo" width={80} height={80}></Image>
-          <h1 className="text-[#fb5dd1] text-xl sm:text-3xl xl:text-4xl ml-4 font-[montserrat] font-medium">
+        <div className=" flex items-center ">
+          <Image src={logo} alt="main logo" width={70} height={70}></Image>
+          <h1 className="text-[#ff4f9e] text-2xl sm:text-3xl xl:text-4xl ml-1 sm:ml-4 font-[montserrat] font-medium pt-4">
             NAILS BY MICHELLE
           </h1>
         </div>
