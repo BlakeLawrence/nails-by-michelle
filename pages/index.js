@@ -2,6 +2,7 @@ import Head from "next/head";
 import Link from "next/link";
 import Services from "./components/Services";
 import About from "./components/About";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -39,6 +40,7 @@ export default function Home() {
       <div className="w-full h-screen">
         <About />
         <Services />
+        <Footer />
       </div>
     </div>
   );
