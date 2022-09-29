@@ -25,7 +25,7 @@ const About = () => {
             />
           </div>
           {/* description div */}
-          <div className="flex flex-col justify-center w-full sm:w-1/2 pl-4 pr-4 sm:pl-0 sm:pr-0 text-left pt-8">
+          <div className="flex flex-col justify-center w-full sm:w-1/2 pl-4 pr-4 sm:pl-0 sm:pr-0 text-left pt-14">
             <h3 className="text-2xl sm:text-4xl font-[montserrat] sm:pl-12 pb-4 text-pink-300 font-bold">
               Hi, I'm Michelle
             </h3>
