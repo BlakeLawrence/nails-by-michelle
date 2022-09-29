@@ -23,13 +23,13 @@ export default function Footer() {
       </div>
       {/* Built by and copyright */}
       <div className="mt-3 sm:mt-6 text-center">
-        <span className="text-pink-400 text-xs sm:text-xl mr-4">
+        <span className="text-pink-400 text-xs sm:text-xl mr-4 font-medium">
           <a
             href="https://blakelawrence-portfolio.netlify.app/"
             target="blank"
             className="text-pink-400"
           >
-            Built by Blake Lawrence - Software Developer
+            Built by Blake Lawrence
           </a>
         </span>
         <p className="text-[.5rem] sm:text-lg text-pink-400 mr-4">
