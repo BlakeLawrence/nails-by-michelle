@@ -19,12 +19,12 @@ export default function Home() {
         {/* Heading and buttons div */}
         <div className="flex flex-col p-8 pt-12 sm:p-24 ">
           <h3 className="text-3xl sm:text-5xl lg:text-6xl font-bold font-[montserrat] text-[#f793dc] drop-shadow-lg">
-            HELLO AND WELCOME...
+            HELLO AND WELCOME <br /> TO MY SALON...
           </h3>
           {/* buttons div */}
-          <div className="scroll-smooth mt-6 sm:mt-16">
+          <div className="scroll-smooth mt-10 sm:mt-24">
             <Link href="#services" spy={true} smooth={true} duration={500}>
-              <button className="text-[11px] sm:text-[14px] px-4 py-3 mr-6 text-[#ffffff] font-medium font-[montserrat] md:w-32 rounded-full bg-purple-400 hover:scale-110">
+              <button className="text-[11px] sm:text-[14px] px-4 py-3 mr-4 sm:mr-6 text-[#ffffff] font-medium font-[montserrat] md:w-32 rounded-full bg-purple-400 hover:scale-110">
                 SERVICES
               </button>
             </Link>
