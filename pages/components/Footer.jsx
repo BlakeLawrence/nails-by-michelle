@@ -43,17 +43,17 @@ export default function Footer() {
             href="https://www.facebook.com/profile.php?id=100084402441658"
             target="blank"
           >
-            <AiFillFacebook className="h-6 w-6 sm:h-8 sm:w-8 rounded-md mr-4 text-pink-400 hover:scale-125" />
+            <AiFillFacebook className="h-6 w-6 sm:h-8 sm:w-8 rounded-md mr-4 text-pink-400 hover:scale-125 ease-in duration-100" />
           </a>
         </div>
         <div className="item w-6 h-6 sm:w-10 sm:h-8">
           <a href="https://www.instagram.com" target="blank">
-            <AiFillInstagram className="h-6 w-6 sm:h-8 sm:w-8 rounded-md mr-4 text-pink-400 hover:scale-125" />
+            <AiFillInstagram className="h-6 w-6 sm:h-8 sm:w-8 rounded-md mr-4 text-pink-400 hover:scale-125 ease-in duration-100" />
           </a>
         </div>
         <div className="item w-6 h-6 sm:w-10 sm:h-8">
           <a href="https://www.twitter.com" target="blank">
-            <AiOutlineTwitter className="h-6 w-6 sm:h-8 sm:w-8 mr-2 rounded-md text-pink-400 hover:scale-125" />
+            <AiOutlineTwitter className="h-6 w-6 sm:h-8 sm:w-8 mr-2 rounded-md text-pink-400 hover:scale-125 ease-in duration-100" />
           </a>
         </div>
       </div>

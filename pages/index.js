@@ -25,12 +25,12 @@ export default function Home() {
           {/* buttons div */}
           <div className="scroll-smooth mt-10 sm:mt-24">
             <Link href="#services" spy={true} smooth={true} duration={500}>
-              <button className="text-[11px] sm:text-[14px] px-4 py-3 mr-4 sm:mr-6 text-[#ffffff] font-medium font-[montserrat] md:w-32 rounded-full bg-purple-400 hover:scale-110">
+              <button className="text-[11px] sm:text-[14px] px-4 py-3 mr-4 sm:mr-6 text-[#ffffff] font-medium font-[montserrat] md:w-32 rounded-full bg-purple-400 hover:scale-110 ease-in duration-100">
                 SERVICES
               </button>
             </Link>
             <Link href="/price-list">
-              <button className="text-[11px] sm:text-[14px] px-4 py-3 text-purple-400 border-[1px] font-medium font-[montserrat] md:w-32 border-purple-400 rounded-full bg-[#ffffff] hover:scale-110">
+              <button className="text-[11px] sm:text-[14px] px-4 py-3 text-purple-400 border-[1px] font-medium font-[montserrat] md:w-32 border-purple-400 rounded-full bg-[#ffffff] hover:scale-110 ease-in duration-100">
                 PRICES
               </button>
             </Link>

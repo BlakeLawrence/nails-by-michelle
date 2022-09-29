@@ -100,25 +100,25 @@ const Navbar = () => {
       <nav className=" w-full h-[70px] flex justify-between items-center border-b-[3px] border-b-pink-200 font-[montserrat] ">
         <ul className="w-full flex justify-around items-center  text-pink-400">
           <Link href="/">
-            <li className="main-welcome text-sm sm:text-2xl font-semibold hover:scale-125 hover:cursor-pointer  hover:text-pink-500">
+            <li className="main-welcome text-sm sm:text-2xl font-semibold hover:scale-125 ease-in duration-100 hover:cursor-pointer  hover:text-pink-500">
               Home
             </li>
           </Link>
 
           <Link href="/#about">
-            <li className="main-welcome text-sm sm:text-2xl font-semibold hover:scale-125 hover:cursor-pointer  hover:text-pink-500">
+            <li className="main-welcome text-sm sm:text-2xl font-semibold hover:scale-125 ease-in duration-100 hover:cursor-pointer  hover:text-pink-500">
               About
             </li>
           </Link>
 
           <Link href="/price-list">
-            <li className="main-welcome text-sm sm:text-2xl font-semibold hover:scale-125 hover:cursor-pointer  hover:text-pink-500">
+            <li className="main-welcome text-sm sm:text-2xl font-semibold hover:scale-125 ease-in duration-100 hover:cursor-pointer  hover:text-pink-500">
               Price List
             </li>
           </Link>
 
           <Link href="/contact">
-            <li className="main-welcome text-sm sm:text-2xl font-semibold hover:scale-125 hover:cursor-pointer  hover:text-pink-500">
+            <li className="main-welcome text-sm sm:text-2xl font-semibold hover:scale-125 ease-in duration-100 hover:cursor-pointer  hover:text-pink-500">
               Contact
             </li>
           </Link>
