@@ -25,12 +25,12 @@ const About = () => {
             />
           </div>
           {/* description div */}
-          <div className="flex flex-col justify-center w-full sm:w-1/2 pl-4 pr-4 sm:pl-0 sm:pr-0 text-left pt-14">
-            <h3 className="text-2xl sm:text-4xl font-[montserrat] sm:pl-12 pb-4 text-pink-300 font-bold">
+          <div className="flex flex-col justify-center w-full sm:w-1/2 pl-4 pr-4 sm:pl-0 sm:pr-0 text-left sm:text-center pt-14">
+            <h3 className="text-2xl sm:text-4xl font-[montserrat] sm:pl-12 pb-4 text-[#fda6d6] font-bold">
               Hi, I&apos;m Michelle
             </h3>
             <p className="font-[montserrat] sm:pl-12 sm:text-lg text-gray-500 pb-3  ">
-              I am a wife and mother of two beautiful children.
+              I&apos;m a wife and mother of two beautiful children.
             </p>
             <p className="font-[montserrat] sm:pl-12 sm:text-lg text-gray-500 pb-3  ">
               I started my career as a Nail Technician in 2005 in South Africa.
