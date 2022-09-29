@@ -13,7 +13,7 @@ const Navbar = () => {
       {/* location etc only for phone mode */}
       <ul className="sm:hidden flex justify-between items-center text-[9px] p-2 border-b-[1px] border-pink-200">
         <li className="flex items-center pr-2">
-          <div className="border-[1px] border-pink-400 hover:border-pink-300 rounded-full p-2 mr-3 hover:animate-bounce">
+          <div className="border-[1px] border-pink-400 hover:border-pink-300 rounded-full p-2 mr-3">
             <ImLocation className="text-pink-400" size="1rem" />
           </div>
           <div className="flex flex-col text-[10px] md:text-[15px] text-pink-400 font-[montserrat] font-medium">
@@ -22,7 +22,7 @@ const Navbar = () => {
           </div>
         </li>
         <li className="flex  items-center pr-2">
-          <div className="border-[1px] border-pink-400 hover:border-pink-300 rounded-full p-2 mr-3 hover:animate-bounce">
+          <div className="border-[1px] border-pink-400 hover:border-pink-300 rounded-full p-2 mr-3">
             <AiOutlineClockCircle className="text-pink-400" size="1rem" />
           </div>
           <div className="flex flex-col text-[10px] md:text-[15px] text-pink-400 font-[montserrat]">
@@ -36,7 +36,7 @@ const Navbar = () => {
           </div>
         </li>
         <li className="flex items-center ">
-          <div className="border-[1px] border-pink-400 hover:border-pink-300 rounded-full p-2 mr-3 hover:animate-bounce">
+          <div className="border-[1px] border-pink-400 hover:border-pink-300 rounded-full p-2 mr-3">
             <BsFillTelephoneFill className="text-pink-400" size="1rem" />
           </div>
           <div className="flex flex-col text-[10px] md:text-[15px] font-[montserrat]">
@@ -49,6 +49,7 @@ const Navbar = () => {
       <div className="w-full h-[120px] flex justify-evenly items-center border-b-[1px] border-pink-200 bg-gradient-to-b ">
         <div className=" flex items-center ">
           <Image
+            className="hover:animate-spin-slow"
             src={logo}
             alt="main logo"
             width={70}

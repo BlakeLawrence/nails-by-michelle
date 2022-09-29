@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { BsHeart } from "react-icons/bs";
 
 import {
@@ -12,13 +13,16 @@ export default function Footer() {
     <footer className="flex justify-between items-center w-full h-[6rem] sm:h-[10rem] px-1 sm:px-4 bg-[#ffffff] border-t-[3px] border-pink-200">
       {/* Logo */}
       <div className="flex flex-row h-auto w-1/4 sm:w-56">
-        <div className="h-10 w-10 sm:h-20 sm:w-20 relative ml-3 sm:ml-8">
-          <Image
-            src="/flower-logo.png"
-            alt="Project Clean-up logo"
-            layout="fill"
-            objectFit="cover"
-          />
+        <div className=" h-10 w-10 sm:h-20 sm:w-20 relative ml-3 sm:ml-8">
+          <Link href="/">
+            <Image
+              className="hover:cursor-pointer hover:animate-spin-slow"
+              src="/flower-logo.png"
+              alt="Project Clean-up logo"
+              layout="fill"
+              objectFit="cover"
+            />
+          </Link>
         </div>
       </div>
       {/* Built by and copyright */}

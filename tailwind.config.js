@@ -11,6 +11,9 @@ module.exports = {
       backgroundImage: {
         "hero-background": "url('/hand.jpg')",
       },
+      animation: {
+        "spin-slow": "spin 15s linear infinite",
+      },
     },
   },
   plugins: [],
