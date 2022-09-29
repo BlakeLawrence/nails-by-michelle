@@ -1,4 +1,6 @@
 import Image from "next/image";
+import { BsHeart } from "react-icons/bs";
+
 import {
   AiFillFacebook,
   AiFillInstagram,
@@ -22,7 +24,13 @@ export default function Footer() {
       {/* Built by and copyright */}
       <div className="mt-3 sm:mt-6 text-center">
         <span className="text-pink-400 text-xs sm:text-xl mr-4">
-          Built by Baxters of Surrey
+          <a
+            href="https://blakelawrence-portfolio.netlify.app/"
+            target="blank"
+            className="text-pink-400"
+          >
+            Built by Blake Lawrence - Software Developer
+          </a>
         </span>
         <p className="text-[.5rem] sm:text-lg text-pink-400 mr-4">
           Copyright &copy; 2022
@@ -35,17 +43,17 @@ export default function Footer() {
             href="https://www.facebook.com/profile.php?id=100084402441658"
             target="blank"
           >
-            <AiFillFacebook className="h-6 w-6 sm:h-8 sm:w-8 rounded-md mr-4 text-pink-400" />
+            <AiFillFacebook className="h-6 w-6 sm:h-8 sm:w-8 rounded-md mr-4 text-pink-400 hover:scale-125" />
           </a>
         </div>
         <div className="item w-6 h-6 sm:w-10 sm:h-8">
           <a href="https://www.instagram.com" target="blank">
-            <AiFillInstagram className="h-6 w-6 sm:h-8 sm:w-8 rounded-md mr-4 text-pink-400" />
+            <AiFillInstagram className="h-6 w-6 sm:h-8 sm:w-8 rounded-md mr-4 text-pink-400 hover:scale-125" />
           </a>
         </div>
         <div className="item w-6 h-6 sm:w-10 sm:h-8">
           <a href="https://www.twitter.com" target="blank">
-            <AiOutlineTwitter className="h-6 w-6 sm:h-8 sm:w-8 mr-2 rounded-md text-pink-400" />
+            <AiOutlineTwitter className="h-6 w-6 sm:h-8 sm:w-8 mr-2 rounded-md text-pink-400 hover:scale-125" />
           </a>
         </div>
       </div>
