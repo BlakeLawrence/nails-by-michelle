@@ -6,7 +6,7 @@ export default function Contact() {
       <Head>
         <title>Nails By Michelle | Contact </title>
         <meta name="contact" content="Nails By Michelle - Contact page" />
-        <link rel="icon" href="/nail-polish.svg" />
+        <link rel="icon" href="/flower-logo.png" />
       </Head>
       {/* Opening hours Card */}
     </>

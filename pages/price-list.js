@@ -9,7 +9,7 @@ export default function PriceList() {
           name="price-list"
           content="Nails By Michelle - Price list...come treat yourself at an affordable price"
         />
-        <link rel="icon" href="/nail-polish.svg" />
+        <link rel="icon" href="/flower-logo.png" />
       </Head>
     </>
   );
