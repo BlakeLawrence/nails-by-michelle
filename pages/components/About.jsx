@@ -33,7 +33,7 @@ const About = () => {
               I am a wife and mother of two beautiful children.
             </p>
             <p className="font-[montserrat] sm:pl-12 sm:text-lg text-gray-600 pb-3  ">
-              I started my career as a Nail technician in 2005 in South Africa.
+              I started my career as a Nail Technician in 2005 in South Africa.
               Two years later, I followed my dreams and opened my very own salon
               at the age of 21, where I sucessfully ran the business for 14
               years.
@@ -42,12 +42,12 @@ const About = () => {
               In 2019, we made a family decision to immigrate to the UK where I
               took on a temporary job as an admin assistant for a busy business.
               After a while, my entrepreneurial drive and passion for beautiful
-              nails lead me to offer an after-hours nail service which very
+              nails lead me to offer an after hours nail service, which very
               quickly became popular and has since allowed me the opportunity to
               open up a salon again in the heart of Cheddar, Somerset.
             </p>
             <p className="font-[montserrat] sm:pl-12 sm:text-lg text-gray-600 ">
-              My Salon is a warm, friendly environment where everyone is
+              My salon is a warm, friendly environment where everyone is
               welcome. I pride myself in quality workmanship, I thrive on good
               energy and positivity and I always make sure my clients walk out
               feeling confident with their new nails... after all, the magic to
