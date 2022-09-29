@@ -91,7 +91,7 @@ const Navbar = () => {
       </div>
       <div></div>
       {/* Main Nav - menu items (Home, About etc) */}
-      <nav className=" w-full h-[70px] flex justify-between items-center border-b-[4px] border-b-pink-200 font-[montserrat] ">
+      <nav className=" w-full h-[70px] flex justify-between items-center border-b-[3px] border-b-pink-200 font-[montserrat] ">
         <ul className="w-full flex justify-around items-center  text-pink-400">
           <Link href="/">
             <li className="text-sm sm:text-xl font-semibold hover:scale-125 hover:cursor-pointer  hover:text-pink-500">

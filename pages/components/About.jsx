@@ -5,7 +5,7 @@ const About = () => {
   return (
     <>
       {/* main div */}
-      <div className="w-full bg-pink-100 pb-12 sm:pb-24">
+      <div className="w-full bg-pink-100 pb-12 sm:pb-24 border-t-[1px] border-pink-200">
         {/* Heading div */}
         <div id="about" className="flex p-8 sm:pt-10 sm:pl-20 bg-pink-100">
           <h3 className="text-3xl pb-4 sm:text-5xl lg:text-6xl font-bold font-[montserrat] text-[#f793dc] drop-shadow-lg">
