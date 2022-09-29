@@ -13,30 +13,30 @@ const Services = () => {
         </h3>
         <ul className=" pt-12 pb-20">
           <div>
-            <li className="flex text-2xl sm:text-4xl font-[montserrat] font-bold text-pink-300 pt-4 ">
+            <li className="flex text-[23px]  sm:text-4xl font-[montserrat] font-bold text-pink-300 pt-4 ">
               <BsHeart className="mr-6" /> Gel Polish
             </li>
           </div>
-          <li className="flex text-2xl sm:text-4xl font-[montserrat] font-bold text-pink-300 pt-4 ">
+          <li className="flex text-[23px]  sm:text-4xl font-[montserrat] font-bold text-pink-300 pt-4 ">
             <BsHeart className="mr-6" /> Manicures
           </li>
-          <li className="flex text-2xl sm:text-4xl font-[montserrat] font-bold text-pink-300 pt-4 ">
+          <li className="flex text-[23px]  sm:text-4xl font-[montserrat] font-bold text-pink-300 pt-4 ">
             <BsHeart className="mr-6" /> Pedicures
           </li>
 
-          <li className="flex text-2xl sm:text-4xl font-[montserrat] font-bold text-pink-300 pt-4 ">
+          <li className="flex text-[23px]  sm:text-4xl font-[montserrat] font-bold text-pink-300 pt-4 ">
             <BsHeart className="mr-6" /> Gel Extensions
           </li>
-          <li className="flex text-2xl sm:text-4xl font-[montserrat] font-bold text-pink-300 pt-4 ">
+          <li className="flex text-[23px]  sm:text-4xl font-[montserrat] font-bold text-pink-300 pt-4 ">
             <BsHeart className="mr-6" /> Acrylic Extensions
           </li>
-          <li className="flex text-2xl sm:text-4xl font-[montserrat] font-bold text-pink-300 pt-4 ">
+          <li className="flex text-[23px]  sm:text-4xl font-[montserrat] font-bold text-pink-300 pt-4 ">
             <BsHeart className="mr-6" /> Acrylic Overlays
           </li>
-          <li className="flex text-2xl sm:text-4xl font-[montserrat] font-bold text-pink-300 pt-4 ">
+          <li className="flex text-[23px]  sm:text-4xl font-[montserrat] font-bold text-pink-300 pt-4 ">
             <BsHeart className="mr-6" /> Acrylic Infill
           </li>
-          <li className="flex text-2xl sm:text-4xl font-[montserrat] font-bold text-pink-300 pt-4 ">
+          <li className="flex text-[23px] sm:text-4xl font-[montserrat] font-bold text-pink-300 pt-4 ">
             <BsHeart className="mr-6" /> Eye Lash extensions
           </li>
         </ul>
