@@ -13,7 +13,7 @@ const About = () => {
           </h3>
         </div>
         {/* Image and description div */}
-        <div className="flex flex-col sm:flex-row items-start sm:items-center">
+        <div className="flex flex-col md:flex-row items-start sm:items-center">
           {/* Image div */}
           <div className="flex flex-col items-start w-1/2 h-1/2 sm:w-1/4 pl-4 sm:pl-12">
             <Image
