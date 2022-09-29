@@ -8,7 +8,7 @@ const About = () => {
       <div className="w-full bg-pink-100 pb-12 sm:pb-24 border-t-[1px] border-pink-200">
         {/* Heading div */}
         <div id="about" className="flex p-8 sm:pt-10 sm:pl-20 bg-pink-100">
-          <h3 className="text-3xl pb-4 sm:text-5xl lg:text-6xl font-bold font-[montserrat] text-[#f793dc] drop-shadow-lg">
+          <h3 className="main-welcome text-3xl pb-4 sm:text-5xl lg:text-6xl font-bold font-[montserrat] text-[#f793dc] drop-shadow-lg">
             ABOUT ME...
           </h3>
         </div>
@@ -26,7 +26,7 @@ const About = () => {
           </div>
           {/* description div */}
           <div className="flex flex-col justify-center w-full sm:w-1/2 pl-4 pr-4 sm:pl-0 sm:pr-0 text-left sm:text-center pt-14">
-            <h3 className="text-2xl sm:text-4xl font-[montserrat] sm:pl-12 pb-4 text-[#fda6d6] font-bold">
+            <h3 className="main-welcome text-2xl sm:text-5xl sm:pl-12 pb-4 text-[#f889c6] font-bold">
               Hi, I&apos;m Michelle
             </h3>
             <p className="font-[montserrat] sm:pl-12 sm:text-lg text-gray-600 pb-3  ">

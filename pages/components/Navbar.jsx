@@ -49,8 +49,8 @@ const Navbar = () => {
       <div className="w-full h-[120px] flex justify-evenly items-center border-b-[1px] border-pink-200 bg-gradient-to-b ">
         <div className=" flex items-center ">
           <Image src={logo} alt="main logo" width={70} height={70}></Image>
-          <h1 className="text-[#ff4f9e] text-2xl sm:text-3xl xl:text-4xl ml-1 sm:ml-4 font-[montserrat] font-medium pt-4">
-            NAILS BY MICHELLE
+          <h1 className="text-[#ff4f9e] text-2xl sm:text-3xl xl:text-5xl ml-1 sm:ml-4 pt-4">
+            Nails by Michelle
           </h1>
         </div>
 
@@ -94,25 +94,25 @@ const Navbar = () => {
       <nav className=" w-full h-[70px] flex justify-between items-center border-b-[3px] border-b-pink-200 font-[montserrat] ">
         <ul className="w-full flex justify-around items-center  text-pink-400">
           <Link href="/">
-            <li className="text-sm sm:text-xl font-semibold hover:scale-125 hover:cursor-pointer  hover:text-pink-500">
+            <li className="main-welcome text-sm sm:text-xl font-semibold hover:scale-125 hover:cursor-pointer  hover:text-pink-500">
               Home
             </li>
           </Link>
 
           <Link href="/#about">
-            <li className="text-sm sm:text-xl font-semibold hover:scale-125 hover:cursor-pointer  hover:text-pink-500">
+            <li className="main-welcome text-sm sm:text-xl font-semibold hover:scale-125 hover:cursor-pointer  hover:text-pink-500">
               About
             </li>
           </Link>
 
           <Link href="/price-list">
-            <li className="text-sm sm:text-xl font-semibold hover:scale-125 hover:cursor-pointer  hover:text-pink-500">
+            <li className="main-welcome text-sm sm:text-xl font-semibold hover:scale-125 hover:cursor-pointer  hover:text-pink-500">
               Price List
             </li>
           </Link>
 
           <Link href="/contact">
-            <li className="text-sm sm:text-xl font-semibold hover:scale-125 hover:cursor-pointer  hover:text-pink-500">
+            <li className="main-welcome text-sm sm:text-xl font-semibold hover:scale-125 hover:cursor-pointer  hover:text-pink-500">
               Contact
             </li>
           </Link>

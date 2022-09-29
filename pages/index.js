@@ -19,7 +19,7 @@ export default function Home() {
       <div className="  flex w-full bg-[url('/hand.jpg')] h-[450px] sm:h-[550px] bg-no-repeat bg-center bg-cover ">
         {/* Heading and buttons div */}
         <div className="flex flex-col p-8 pt-12 sm:p-24 ">
-          <h3 className="text-3xl sm:text-5xl lg:text-6xl font-bold font-[montserrat] text-[#f793dc] drop-shadow-lg">
+          <h3 className="main-welcome text-3xl sm:text-5xl lg:text-6xl font-bold font-[montserrat] text-[#f793dc] drop-shadow-lg">
             HELLO AND WELCOME <br /> TO MY SALON...
           </h3>
           {/* buttons div */}

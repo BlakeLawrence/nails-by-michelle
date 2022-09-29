@@ -12,7 +12,7 @@ export default function Footer() {
     <footer className="flex justify-between items-center w-full h-[6rem] sm:h-[10rem] px-1 sm:px-4 bg-[#ffffff] border-t-[3px] border-pink-200">
       {/* Logo */}
       <div className="flex flex-row h-auto w-1/4 sm:w-56">
-        <div className="h-10 w-10 sm:h-16 sm:w-16 relative ml-3 sm:ml-8">
+        <div className="h-10 w-10 sm:h-20 sm:w-20 relative ml-3 sm:ml-8">
           <Image
             src="/flower-logo.png"
             alt="Project Clean-up logo"

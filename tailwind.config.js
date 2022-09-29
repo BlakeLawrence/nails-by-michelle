@@ -1,3 +1,5 @@
+const { default: Script } = require("next/script");
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
