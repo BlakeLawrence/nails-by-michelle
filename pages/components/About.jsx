@@ -29,16 +29,16 @@ const About = () => {
             <h3 className="text-2xl sm:text-4xl font-[montserrat] sm:pl-12 pb-4 text-pink-300 font-bold">
               Hi, I&apos;m Michelle
             </h3>
-            <p className="font-[montserrat] sm:pl-12 sm:text-lg text-gray-600 pb-3  ">
+            <p className="font-[montserrat] sm:pl-12 sm:text-lg text-gray-500 pb-3  ">
               I am a wife and mother of two beautiful children.
             </p>
-            <p className="font-[montserrat] sm:pl-12 sm:text-lg text-gray-600 pb-3  ">
+            <p className="font-[montserrat] sm:pl-12 sm:text-lg text-gray-500 pb-3  ">
               I started my career as a Nail Technician in 2005 in South Africa.
               Two years later, I followed my dreams and opened my very own salon
               at the age of 21, where I sucessfully ran the business for 14
               years.
             </p>
-            <p className="font-[montserrat] sm:pl-12 sm:text-lg text-gray-600 pb-3  ">
+            <p className="font-[montserrat] sm:pl-12 sm:text-lg text-gray-500 pb-3  ">
               In 2019, we made a family decision to immigrate to the UK where I
               took on a temporary job as an admin assistant for a busy business.
               After a while, my entrepreneurial drive and passion for beautiful
@@ -46,7 +46,7 @@ const About = () => {
               quickly became popular and has since allowed me the opportunity to
               open up a salon again in the heart of Cheddar, Somerset.
             </p>
-            <p className="font-[montserrat] sm:pl-12 sm:text-lg text-gray-600 ">
+            <p className="font-[montserrat] sm:pl-12 sm:text-lg text-gray-500 ">
               My salon is a warm, friendly environment where everyone is
               welcome. I pride myself in quality workmanship, I thrive on good
               energy and positivity and I always make sure my clients walk out
