@@ -22,6 +22,7 @@ const About = () => {
               className="rounded-full  border-pink-300"
               width={300}
               height={300}
+              priority
             />
           </div>
           {/* description div */}

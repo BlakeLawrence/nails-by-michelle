@@ -48,7 +48,13 @@ const Navbar = () => {
       {/* Main Nav section - Logo and location etc  */}
       <div className="w-full h-[120px] flex justify-evenly items-center border-b-[1px] border-pink-200 bg-gradient-to-b ">
         <div className=" flex items-center ">
-          <Image src={logo} alt="main logo" width={70} height={70}></Image>
+          <Image
+            src={logo}
+            alt="main logo"
+            width={70}
+            height={70}
+            priority
+          ></Image>
           <h1 className="text-[#ff4f9e] text-2xl sm:text-3xl xl:text-5xl ml-1 sm:ml-4 pt-4">
             Nails by Michelle
           </h1>
