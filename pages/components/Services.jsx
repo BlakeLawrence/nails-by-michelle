@@ -15,37 +15,37 @@ const Services = () => {
           <ul className=" pt-12 pb-12">
             <div>
               <li className="main-welcome flex text-[28px]  sm:text-4xl font-bold text-[#fa9bcf] pt-4 ">
-                <BsHeart className="mr-6" /> Gel Polish
+                <BsHeart className="mr-6 hover:scale-110" /> Gel Polish
               </li>
               <li className="main-welcome flex text-[28px]  sm:text-4xl font-bold text-[#fa9bcf]  pt-4 ">
-                <BsHeart className="mr-6" /> Gel Extensions
+                <BsHeart className="mr-6 hover:scale-110" /> Gel Extensions
               </li>
             </div>
             <li className="main-welcome flex text-[28px]  sm:text-4xl font-bold text-[#fa9bcf]  pt-4 ">
-              <BsHeart className="mr-6" /> Manicures
+              <BsHeart className="mr-6 hover:scale-110" /> Manicures
             </li>
             <li className="main-welcome flex text-[28px]  sm:text-4xl font-bold text-[#fa9bcf]  pt-4 ">
-              <BsHeart className="mr-6" /> Pedicures
+              <BsHeart className="mr-6 hover:scale-110" /> Pedicures
             </li>
 
             <li className="main-welcome flex text-[28px]  sm:text-4xl font-bold text-[#fa9bcf]  pt-4 ">
-              <BsHeart className="mr-6" /> Acrylic Extensions
+              <BsHeart className="mr-6 hover:scale-110" /> Acrylic Extensions
             </li>
             <li className="main-welcome flex text-[28px]  sm:text-4xl font-bold text-[#fa9bcf]  pt-4 ">
-              <BsHeart className="mr-6" /> Acrylic Overlays
+              <BsHeart className="mr-6 hover:scale-110" /> Acrylic Overlays
             </li>
             <li className="main-welcome flex text-[28px]  sm:text-4xl font-bold text-[#fa9bcf]  pt-4 ">
-              <BsHeart className="mr-6" /> Acrylic Infill
+              <BsHeart className="mr-6 hover:scale-110" /> Acrylic Infill
             </li>
             <li className="main-welcome flex text-[28px] sm:text-4xl font-bold text-[#fa9bcf]  pt-4 ">
-              <BsHeart className="mr-6" /> Eye Lash extensions
+              <BsHeart className="mr-6 hover:scale-110" /> Eye Lash extensions
             </li>
           </ul>
         </div>
         <div className="w-full pb-12">
           <h3 className="font-[montserrat] text-sm sm:text-lg text-pink-400">
             For more information, see the{" "}
-            <span className="text-purple-500">
+            <span className="text-purple-500 hover:underline decoration-1  ">
               <Link href="price-list">price list</Link>
             </span>
           </h3>
