@@ -25,7 +25,7 @@ export default function Footer() {
           Built by Baxters of Surrey
         </span>
         <p className="text-[.5rem] sm:text-lg text-pink-400 mr-4">
-          Copyright &copy;2022
+          Copyright &copy; 2022
         </p>
       </div>
       {/* Social Icons*/}
