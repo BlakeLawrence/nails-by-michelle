@@ -19,7 +19,7 @@ export default function Home() {
         {/* Heading and buttons div */}
         <div className="flex flex-col p-8 pt-12 sm:p-24 ">
           <h3 className="text-3xl sm:text-5xl lg:text-6xl font-bold font-[montserrat] text-[#f793dc] drop-shadow-lg">
-            GO ON, TREAT YOURSELF!
+            HELLO AND WELCOME...
           </h3>
           {/* buttons div */}
           <div className="scroll-smooth mt-6 sm:mt-16">
@@ -37,8 +37,8 @@ export default function Home() {
         </div>
       </div>
       <div className="w-full h-screen">
-        <Services />
         <About />
+        <Services />
       </div>
     </div>
   );

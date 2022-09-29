@@ -46,7 +46,7 @@ const Navbar = () => {
       <div className="w-full h-[120px] flex justify-evenly items-center border-b-[1px] border-gray-200 ">
         <div className="pl-3 lg:pl-0 flex items-center">
           <Image src={logo} alt="main logo" width={80} height={80}></Image>
-          <h1 className="text-pink-400 text-2xl sm:text-3xl xl:text-4xl ml-4 font-[montserrat] font-medium">
+          <h1 className="text-[#f793dc] text-2xl sm:text-3xl xl:text-4xl ml-4 font-[montserrat] font-medium">
             Nails By Michelle
           </h1>
         </div>
@@ -96,7 +96,7 @@ const Navbar = () => {
             </li>
           </Link>
 
-          <Link href="/">
+          <Link href="/#about">
             <li className="text-sm sm:text-xl font-medium hover:scale-125 hover:cursor-pointer  hover:text-pink-400">
               About
             </li>
