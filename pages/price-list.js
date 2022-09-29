@@ -11,9 +11,6 @@ export default function PriceList() {
         />
         <link rel="icon" href="/nail-polish.svg" />
       </Head>
-      <div>
-        <h1 className="text-5xl text-blue-400 font-bold">Price List</h1>
-      </div>
     </>
   );
 }
