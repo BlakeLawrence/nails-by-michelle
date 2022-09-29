@@ -15,30 +15,30 @@ const Services = () => {
           <ul className=" pt-12 pb-12">
             <div>
               <li className="main-welcome flex text-[28px]  sm:text-4xl font-bold text-[#fa9bcf] pt-4 ">
-                <BsHeart className="mr-6 hover:scale-110" /> Gel Polish
+                <BsHeart className="mr-6 hover:scale-125" /> Gel Polish
               </li>
               <li className="main-welcome flex text-[28px]  sm:text-4xl font-bold text-[#fa9bcf]  pt-4 ">
-                <BsHeart className="mr-6 hover:scale-110" /> Gel Extensions
+                <BsHeart className="mr-6 hover:scale-125" /> Gel Extensions
               </li>
             </div>
             <li className="main-welcome flex text-[28px]  sm:text-4xl font-bold text-[#fa9bcf]  pt-4 ">
-              <BsHeart className="mr-6 hover:scale-110" /> Manicures
+              <BsHeart className="mr-6 hover:scale-125" /> Manicures
             </li>
             <li className="main-welcome flex text-[28px]  sm:text-4xl font-bold text-[#fa9bcf]  pt-4 ">
-              <BsHeart className="mr-6 hover:scale-110" /> Pedicures
+              <BsHeart className="mr-6 hover:scale-125" /> Pedicures
             </li>
 
             <li className="main-welcome flex text-[28px]  sm:text-4xl font-bold text-[#fa9bcf]  pt-4 ">
-              <BsHeart className="mr-6 hover:scale-110" /> Acrylic Extensions
+              <BsHeart className="mr-6 hover:scale-125" /> Acrylic Extensions
             </li>
             <li className="main-welcome flex text-[28px]  sm:text-4xl font-bold text-[#fa9bcf]  pt-4 ">
-              <BsHeart className="mr-6 hover:scale-110" /> Acrylic Overlays
+              <BsHeart className="mr-6 hover:scale-125" /> Acrylic Overlays
             </li>
             <li className="main-welcome flex text-[28px]  sm:text-4xl font-bold text-[#fa9bcf]  pt-4 ">
-              <BsHeart className="mr-6 hover:scale-110" /> Acrylic Infill
+              <BsHeart className="mr-6 hover:scale-125" /> Acrylic Infill
             </li>
             <li className="main-welcome flex text-[28px] sm:text-4xl font-bold text-[#fa9bcf]  pt-4 ">
-              <BsHeart className="mr-6 hover:scale-110" /> Eye Lash extensions
+              <BsHeart className="mr-6 hover:scale-125" /> Eye Lash extensions
             </li>
           </ul>
         </div>
