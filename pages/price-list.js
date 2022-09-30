@@ -1,5 +1,5 @@
 import Head from "next/head";
-import prices from "./data/prices";
+import prices from "./lib/prices";
 import PriceItem from "./components/PriceItem.jsx";
 
 export default function PriceList() {
