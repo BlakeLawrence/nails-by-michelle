@@ -33,27 +33,3 @@ const Services = () => {
 };
 
 export default Services;
-{
-  /* <li className="main-welcome flex text-[28px]  sm:text-4xl font-bold text-[#fa9bcf]  pt-4 ">
-<BsHeart className="mr-6 hover:scale-125" /> Gel Extensions
-</li>
-<li className="main-welcome flex text-[28px]  sm:text-4xl font-bold text-[#fa9bcf]  pt-4 ">
-<BsHeart className="mr-6 hover:scale-125" /> Manicures
-</li>
-<li className="main-welcome flex text-[28px]  sm:text-4xl font-bold text-[#fa9bcf]  pt-4 ">
-<BsHeart className="mr-6 hover:scale-125" /> Pedicures
-</li>
-
-<li className="main-welcome flex text-[28px]  sm:text-4xl font-bold text-[#fa9bcf]  pt-4 ">
-<BsHeart className="mr-6 hover:scale-125" /> Acrylic Extensions
-</li>
-<li className="main-welcome flex text-[28px]  sm:text-4xl font-bold text-[#fa9bcf]  pt-4 ">
-<BsHeart className="mr-6 hover:scale-125" /> Acrylic Overlays
-</li>
-<li className="main-welcome flex text-[28px]  sm:text-4xl font-bold text-[#fa9bcf]  pt-4 ">
-<BsHeart className="mr-6 hover:scale-125" /> Acrylic Infill
-</li>
-<li className="main-welcome flex text-[28px] sm:text-4xl font-bold text-[#fa9bcf]  pt-4 ">
-<BsHeart className="mr-6 hover:scale-125" /> Eye Lash extensions
-</li> */
-}
