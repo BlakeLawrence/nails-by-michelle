@@ -10,6 +10,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         "hero-background": "url('/hand.jpg')",
+        "flower-background": "url('/flower-background.jpg')",
       },
       animation: {
         "spin-slow": "spin 15s linear infinite",
