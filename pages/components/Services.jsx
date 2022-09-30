@@ -1,5 +1,6 @@
 import Link from "next/link";
-import { BsHeart } from "react-icons/bs";
+import services from "../data/services.js"; /* dummy data is data file - mapping over below to produce all services */
+import ListItem from "./ListItem.jsx";
 
 const Services = () => {
   return (
@@ -13,33 +14,9 @@ const Services = () => {
         </h3>
         <div className="flex">
           <ul className=" pt-12 pb-12">
-            <div>
-              <li className="main-welcome flex text-[28px]  sm:text-4xl font-bold text-[#fa9bcf] pt-4 ">
-                <BsHeart className="mr-6 hover:scale-125" /> Gel Polish
-              </li>
-              <li className="main-welcome flex text-[28px]  sm:text-4xl font-bold text-[#fa9bcf]  pt-4 ">
-                <BsHeart className="mr-6 hover:scale-125" /> Gel Extensions
-              </li>
-            </div>
-            <li className="main-welcome flex text-[28px]  sm:text-4xl font-bold text-[#fa9bcf]  pt-4 ">
-              <BsHeart className="mr-6 hover:scale-125" /> Manicures
-            </li>
-            <li className="main-welcome flex text-[28px]  sm:text-4xl font-bold text-[#fa9bcf]  pt-4 ">
-              <BsHeart className="mr-6 hover:scale-125" /> Pedicures
-            </li>
-
-            <li className="main-welcome flex text-[28px]  sm:text-4xl font-bold text-[#fa9bcf]  pt-4 ">
-              <BsHeart className="mr-6 hover:scale-125" /> Acrylic Extensions
-            </li>
-            <li className="main-welcome flex text-[28px]  sm:text-4xl font-bold text-[#fa9bcf]  pt-4 ">
-              <BsHeart className="mr-6 hover:scale-125" /> Acrylic Overlays
-            </li>
-            <li className="main-welcome flex text-[28px]  sm:text-4xl font-bold text-[#fa9bcf]  pt-4 ">
-              <BsHeart className="mr-6 hover:scale-125" /> Acrylic Infill
-            </li>
-            <li className="main-welcome flex text-[28px] sm:text-4xl font-bold text-[#fa9bcf]  pt-4 ">
-              <BsHeart className="mr-6 hover:scale-125" /> Eye Lash extensions
-            </li>
+            {services.map((service, index) => (
+              <ListItem key={index} service={service} />
+            ))}
           </ul>
         </div>
         <div className="w-full pb-12">
@@ -56,3 +33,27 @@ const Services = () => {
 };
 
 export default Services;
+{
+  /* <li className="main-welcome flex text-[28px]  sm:text-4xl font-bold text-[#fa9bcf]  pt-4 ">
+<BsHeart className="mr-6 hover:scale-125" /> Gel Extensions
+</li>
+<li className="main-welcome flex text-[28px]  sm:text-4xl font-bold text-[#fa9bcf]  pt-4 ">
+<BsHeart className="mr-6 hover:scale-125" /> Manicures
+</li>
+<li className="main-welcome flex text-[28px]  sm:text-4xl font-bold text-[#fa9bcf]  pt-4 ">
+<BsHeart className="mr-6 hover:scale-125" /> Pedicures
+</li>
+
+<li className="main-welcome flex text-[28px]  sm:text-4xl font-bold text-[#fa9bcf]  pt-4 ">
+<BsHeart className="mr-6 hover:scale-125" /> Acrylic Extensions
+</li>
+<li className="main-welcome flex text-[28px]  sm:text-4xl font-bold text-[#fa9bcf]  pt-4 ">
+<BsHeart className="mr-6 hover:scale-125" /> Acrylic Overlays
+</li>
+<li className="main-welcome flex text-[28px]  sm:text-4xl font-bold text-[#fa9bcf]  pt-4 ">
+<BsHeart className="mr-6 hover:scale-125" /> Acrylic Infill
+</li>
+<li className="main-welcome flex text-[28px] sm:text-4xl font-bold text-[#fa9bcf]  pt-4 ">
+<BsHeart className="mr-6 hover:scale-125" /> Eye Lash extensions
+</li> */
+}
