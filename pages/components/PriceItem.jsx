@@ -3,7 +3,7 @@ import React from "react";
 const PriceItem = ({ price }) => {
   return (
     <div className="pt-8 flex items-center justify-between">
-      <li className="main-welcome font-[montserrat] text-xl sm:text-4xl text-pink-400 font-bold">
+      <li className="main-welcome font-[montserrat] text-xl sm:text-4xl text-pink-400 font-boldpl-0 lg:pl-8">
         {price.name}
       </li>
       <div className="flex justify-evenly">
