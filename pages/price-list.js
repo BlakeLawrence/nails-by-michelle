@@ -1,5 +1,5 @@
 import Head from "next/head";
-import prices from "../lib/prices.js";
+import prices from "./lib/prices.js";
 import PriceItem from "./components/PriceItem.jsx";
 
 export default function PriceList() {
