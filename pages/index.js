@@ -22,9 +22,9 @@ export default function Home() {
         <div className="flex flex-col p-8 pt-12 sm:p-24 ">
           <motion.h3
             animate={{ x: 0, y: 0, scale: 1, rotate: 0 }}
-            className="main-welcome text-3xl sm:text-5xl lg:text-6xl font-bold font-[montserrat] text-[#f793dc] drop-shadow-lg"
+            className="main-welcome text-3xl sm:text-5xl lg:text-7xl font-bold font-[montserrat] text-[#f793dc] drop-shadow-lg"
           >
-            HELLO AND WELCOME <br /> TO MY SALON...
+            Hello and welcome <br /> To my salon..
           </motion.h3>
           {/* buttons div */}
           <div className="scroll-smooth mt-10 sm:mt-24">

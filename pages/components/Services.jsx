@@ -11,7 +11,7 @@ const Services = () => {
         className="p-6 pt-12 sm:pt-18 sm:pl-24 bg-[#C084FC]/20 border-t-[1px] border-pink-200"
       >
         <h3 className="main-welcome text-4xl sm:text-5xl lg:text-6xl font-bold font-[montserrat] text-[#f793dc] drop-shadow-lg">
-          SERVICES...
+          Services...
         </h3>
         <div className="flex">
           <ul className=" pt-12 pb-12">
