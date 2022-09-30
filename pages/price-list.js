@@ -18,8 +18,8 @@ export default function PriceList() {
 bg-no-repeat bg-cover"
       >
         {/* Pricing card */}
-        <div className="flex pb-24 justify-center w-full ">
-          <div className="w-7/12 p-6 rounded-xl bg-pink-100 shadow-lg shadow-pink-300 ">
+        <div className="flex pb-32 justify-center w-full ">
+          <div className="w-full xl:w-7/12 p-2 sm:p-6 rounded-xl bg-pink-100 shadow-lg shadow-pink-300 ">
             <h3 className="main-welcome text-4xl text-center sm:text-5xl lg:text-6xl font-bold text-[#f793dc] drop-shadow-lg">
               Prices...
             </h3>
