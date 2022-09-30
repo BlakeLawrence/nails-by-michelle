@@ -8,5 +8,3 @@ const services = [
   "Acrylic Infill",
   "Eye Lash Extensions",
 ];
-
-export default services;
