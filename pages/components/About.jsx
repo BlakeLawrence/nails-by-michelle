@@ -14,33 +14,33 @@ const About = () => {
           </h3>
         </div>
         {/* Image and description div */}
-        <div className="flex flex-col md:flex-row items-start sm:items-center">
+        <div className="flex flex-col lg:flex-row items-start sm:items-center">
           {/* Image div */}
-          <div className="flex flex-col items-start w-1/2 h-1/2 sm:w-1/4 pl-4 sm:pl-12">
+          <div className="flex flex-col items-start w-1/2 h-1/2 sm:w-1/4 pl-8 sm:pl-12">
             <Image
               src={michelle}
               alt="picture of michelle"
-              className="rounded-full  border-pink-300"
+              className="rounded-full  border-pink-300 "
               width={300}
               height={300}
               priority
             />
           </div>
           {/* description div */}
-          <div className="flex flex-col justify-center w-full sm:w-1/2 pl-4 pr-4 sm:pl-0 sm:pr-0 text-left sm:text-center pt-14">
+          <div className="flex flex-col justify-center w-full md:w-1/2 pl-4 pr-4 sm:pl-0 sm:pr-0 text-left sm:text-center pt-14">
             <h3 className="main-welcome text-2xl sm:text-5xl sm:pl-12 pb-4 text-[#f889c6] font-bold">
               Hi, I&apos;m Michelle
             </h3>
-            <p className="font-[montserrat] sm:pl-12 sm:text-lg text-gray-600 pb-3  ">
+            <p className="font-[montserrat] sm:pl-12 sm:text-xl text-gray-600 pb-3  ">
               I&apos;m a wife and mother of two beautiful children.
             </p>
-            <p className="font-[montserrat] sm:pl-12 sm:text-lg text-gray-600 pb-3  ">
+            <p className="font-[montserrat] sm:pl-12 sm:text-xl text-gray-600 pb-3  ">
               I started my career as a Nail Technician in 2005 in South Africa.
               Two years later, I followed my dreams and opened my very own salon
               at the age of 21, where I sucessfully ran the business for 14
               years.
             </p>
-            <p className="font-[montserrat] sm:pl-12 sm:text-lg text-gray-600 pb-3  ">
+            <p className="font-[montserrat] sm:pl-12 sm:text-xl text-gray-600 pb-3  ">
               In 2019, we made a family decision to immigrate to the UK where I
               took on a temporary job as an admin assistant for a busy business.
               After a while, my entrepreneurial drive and passion for beautiful
@@ -48,7 +48,7 @@ const About = () => {
               quickly became popular and has since allowed me the opportunity to
               open up a salon again in the heart of Cheddar, Somerset.
             </p>
-            <p className="font-[montserrat] sm:pl-12 sm:text-lg text-gray-600 ">
+            <p className="font-[montserrat] sm:pl-12 sm:text-xl text-gray-600 ">
               My salon is a warm, friendly environment where everyone is
               welcome. I pride myself in quality workmanship, I thrive on good
               energy and positivity and I always make sure my clients walk out
