@@ -56,12 +56,12 @@ const Navbar = () => {
             height={70}
             priority
           ></Image>
-          <h1 className="text-[#ff4f9e] text-2xl sm:text-3xl xl:text-5xl ml-1 sm:ml-4 pt-4">
+          <h1 className="text-[#ff4f9e] text-4xl  xl:text-6xl ml-1 sm:ml-4 pt-4">
             Nails by Michelle
           </h1>
         </div>
 
-        <ul className="hidden sm:flex justify-between items-center text-sm sm:text-md">
+        <ul className="hidden sm:flex justify-between items-center text-[9px] md:text-md">
           <li className="flex items-center pr-4 lg:pr-10">
             <div className="border-[1px] border-pink-400 rounded-full p-2 mr-3 hover:animate-bounce">
               <ImLocation className="text-pink-400" size="1.5rem" />
