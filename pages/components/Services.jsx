@@ -1,6 +1,7 @@
 import Link from "next/link";
 import services from "../data/services.js"; /* dummy data is data file - mapping over below to produce all services */
 import ListItem from "./ListItem.jsx";
+import { motion } from "framer-motion";
 
 const Services = () => {
   return (
