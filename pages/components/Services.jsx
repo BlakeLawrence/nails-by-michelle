@@ -1,5 +1,5 @@
 import Link from "next/link";
-import services from "../lib/services.js"; /* dummy data is data file - mapping over below to produce all services */
+import services from "../lib/services"; /* dummy data is data file - mapping over below to produce all services */
 import ListItem from "./ListItem.jsx";
 
 const Services = () => {
