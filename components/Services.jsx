@@ -8,7 +8,7 @@ const Services = () => {
     <>
       <div
         id="services"
-        className="p-6 pt-12 sm:pt-18 sm:pl-18 bg-[#C084FC]/20 border-t-[1px] border-pink-200"
+        className="p-6 pt-12 sm:pt-18 xl:pl-20 bg-[#C084FC]/20 border-t-[1px] border-pink-200"
       >
         <h3 className="main-welcome text-4xl sm:text-5xl lg:text-6xl font-bold  text-[#f793dc] drop-shadow-lg">
           Services...
