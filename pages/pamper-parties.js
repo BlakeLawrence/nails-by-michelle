@@ -31,32 +31,32 @@ export default function Pamper() {
                 </li>
               </div>
               <div className=" flex justify-between items-end">
-                <li className="main-welcome text-md sm:text-xl md:text-3xl text-pink-400 font-medium mt-2 ">
+                <li className="main-welcome text-md sm:text-xl md:text-2xl 2xl:text-[27px] text-pink-400 font-medium mt-2 ">
                   - Manicure
                 </li>
               </div>
               <div className=" flex justify-between items-end">
-                <li className="main-welcome text-md sm:text-xl md:text-3xl text-pink-400 font-medium mt-2 ">
+                <li className="main-welcome text-md sm:text-xl md:text-2xl 2xl:text-[27px] text-pink-400 font-medium mt-2 ">
                   - Pedicure
                 </li>
               </div>
               <div className=" flex justify-between items-end">
-                <li className="main-welcome text-md sm:text-xl md:text-3xl text-pink-400 font-medium mt-2 ">
+                <li className="main-welcome text-md sm:text-xl md:text-2xl 2xl:text-[27px] text-pink-400 font-medium mt-2 ">
                   - Robe to wear
                 </li>
               </div>
               <div className=" flex justify-between items-end">
-                <li className="main-welcome text-md sm:text-xl md:text-3xl text-pink-400 font-medium mt-2 ">
+                <li className="main-welcome text-md sm:text-xl md:text-2xl 2xl:text-[27px] text-pink-400 font-medium mt-2 ">
                   - Tattoo - 1 per child
                 </li>
               </div>
               <div className=" flex justify-between items-end">
-                <li className="main-welcome text-md sm:text-xl md:text-3xl text-pink-400 font-medium mt-2">
+                <li className="main-welcome text-md sm:text-xl md:text-2xl 2xl:text-[27px] text-pink-400 font-medium mt-2">
                   - Photo booth
                 </li>
               </div>
               <div className=" flex justify-between items-end">
-                <li className="main-welcome text-md sm:text-xl md:text-3xl text-pink-400 font-medium mt-2">
+                <li className="main-welcome text-md sm:text-xl md:text-2xl 2xl:text-[27px] text-pink-400 font-medium mt-2">
                   - Gift Bag to take home
                 </li>
               </div>
@@ -79,42 +79,42 @@ export default function Pamper() {
                 </li>
               </div>
               <div className=" flex justify-between items-end">
-                <li className="main-welcome text-md sm:text-xl md:text-3xl text-pink-400 font-medium mt-2 ">
+                <li className="main-welcome text-md sm:text-xl md:text-2xl 2xl:text-[27px] text-pink-400 font-medium mt-2 ">
                   - Manicure
                 </li>
               </div>
               <div className=" flex justify-between items-end">
-                <li className="main-welcome text-md sm:text-xl md:text-3xl text-pink-400 font-medium mt-2 ">
+                <li className="main-welcome text-md sm:text-xl md:text-2xl 2xl:text-[27px] text-pink-400 font-medium mt-2 ">
                   - Pedicure
                 </li>
               </div>
               <div className=" flex justify-between items-end">
-                <li className="main-welcome text-md sm:text-xl md:text-3xl text-pink-400 font-medium mt-2 ">
+                <li className="main-welcome text-md sm:text-xl md:text-2xl 2xl:text-[27px] text-pink-400 font-medium mt-2 ">
                   - Robe to wear on the day
                 </li>
               </div>
               <div className=" flex justify-between items-end">
-                <li className="main-welcome text-md sm:text-xl md:text-3xl text-pink-400 font-medium mt-2 ">
+                <li className="main-welcome text-md sm:text-xl md:text-2xl 2xl:text-[27px] text-pink-400 font-medium mt-2 ">
                   - Tattoo - 1 per child
                 </li>
               </div>
               <div className=" flex justify-between items-end">
-                <li className="main-welcome text-md sm:text-xl md:text-3xl text-pink-400 font-medium mt-2 ">
+                <li className="main-welcome text-md sm:text-xl md:text-2xl 2xl:text-[27px] text-pink-400 font-medium mt-2 ">
                   - Make a flower crown to take home
                 </li>
               </div>
               <div className=" flex justify-between items-end">
-                <li className="main-welcome text-md sm:text-xl md:text-3xl text-pink-400 font-medium mt-2">
+                <li className="main-welcome text-md sm:text-xl md:text-2xl 2xl:text-[27px] text-pink-400 font-medium mt-2">
                   - Photo booth
                 </li>
               </div>
               <div className=" flex justify-between items-end">
-                <li className="main-welcome text-md sm:text-xl md:text-3xl text-pink-400 font-medium mt-2">
+                <li className="main-welcome text-md sm:text-xl md:text-2xl 2xl:text-[27px] text-pink-400 font-medium mt-2">
                   - Gift Bag to take home
                 </li>
               </div>
               <div className=" flex justify-between items-end">
-                <li className="main-welcome text-md sm:text-xl md:text-3xl text-pink-400 font-medium mt-2">
+                <li className="main-welcome text-md sm:text-xl md:text-2xl 2xl:text-[27px] text-pink-400 font-medium mt-2">
                   - Snacks and cold drinks
                 </li>
               </div>
