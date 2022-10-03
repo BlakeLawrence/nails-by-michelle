@@ -42,7 +42,7 @@ export default function Pamper() {
               </div>
               <div className=" flex justify-between items-end">
                 <li className="main-welcome text-md sm:text-xl md:text-2xl 2xl:text-[27px] text-pink-400 font-medium mt-2 ">
-                  - Robe to wear
+                  - Robe to wear on the day
                 </li>
               </div>
               <div className=" flex justify-between items-end">
@@ -67,7 +67,7 @@ export default function Pamper() {
 
               <Link href="/contact">
                 <button className="text-[10px] sm:text-[14px] py-2 sm:py-3 text-[#ffffff] font-medium font-[montserrat] md:w-48 rounded-full bg-purple-400 hover:scale-105 ease-in duration-100 mt-8">
-                  book appointment
+                  book a party
                 </button>
               </Link>
             </ul>
@@ -99,11 +99,6 @@ export default function Pamper() {
                 </li>
               </div>
               <div className=" flex justify-between items-end">
-                <li className="main-welcome text-md sm:text-xl md:text-2xl 2xl:text-[27px] text-pink-400 font-medium mt-2 ">
-                  - Make a flower crown to take home
-                </li>
-              </div>
-              <div className=" flex justify-between items-end">
                 <li className="main-welcome text-md sm:text-xl md:text-2xl 2xl:text-[27px] text-pink-400 font-medium mt-2">
                   - Photo booth
                 </li>
@@ -111,6 +106,11 @@ export default function Pamper() {
               <div className=" flex justify-between items-end">
                 <li className="main-welcome text-md sm:text-xl md:text-2xl 2xl:text-[27px] text-pink-400 font-medium mt-2">
                   - Gift Bag to take home
+                </li>
+              </div>
+              <div className=" flex justify-between items-end">
+                <li className="main-welcome text-md sm:text-xl md:text-2xl 2xl:text-[27px] text-pink-400 font-medium mt-2 ">
+                  - Make a flower crown to take home
                 </li>
               </div>
               <div className=" flex justify-between items-end">
