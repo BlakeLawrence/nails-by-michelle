@@ -66,7 +66,7 @@ export default function Pamper() {
               </p>
 
               <Link href="/contact">
-                <button className="text-[13px] sm:text-[16px] py-2 sm:py-3 text-[#ffffff] font-medium font-[montserrat] w-32 md:w-44 xl:w-48 rounded-full bg-purple-400 hover:scale-105 ease-in duration-100 mt-8">
+                <button className="text-[13px] sm:text-[16px] py-2 sm:py-3 text-[#ffffff] font-semibold font-[montserrat] w-32 md:w-44 xl:w-40 rounded-full bg-purple-400 hover:scale-105 ease-in duration-100 mt-8">
                   book a party
                 </button>
               </Link>
