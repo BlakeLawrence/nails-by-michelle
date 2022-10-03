@@ -1,11 +1,10 @@
 import React from "react";
 import Link from "next/link";
-import { useState } from "react";
 import { ImLocation } from "react-icons/im";
 import { AiOutlineClockCircle } from "react-icons/ai";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import Image from "next/image";
-import logo from "../../public/flower-logo.png";
+import logo from "../public/flower-logo.png";
 
 const Navbar = () => {
   return (

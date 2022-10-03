@@ -1,6 +1,5 @@
 import Image from "next/image";
-import { Link } from "react-scroll";
-import michelle from "../../public/michelle.jpg";
+import michelle from "../public/michelle.jpg";
 
 const About = () => {
   return (

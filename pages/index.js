@@ -1,8 +1,8 @@
 import Head from "next/head";
 import Link from "next/link";
-import Services from "./components/Services";
-import About from "./components/About";
-import Footer from "./components/Footer";
+import Services from "../components/Services.jsx";
+import About from "../components/About.jsx";
+import Footer from "../components/Footer";
 import { motion } from "framer-motion";
 
 export default function Home() {

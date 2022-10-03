@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Footer from "../components/Footer";
 
 export default function Pamper() {
   return (
@@ -11,6 +12,8 @@ export default function Pamper() {
         />
         <link rel="icon" href="/flower-logo.png" />
       </Head>
+      <div className="h-screen w-full"></div>
+      <Footer />
     </>
   );
 }

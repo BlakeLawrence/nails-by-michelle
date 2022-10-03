@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Footer from "../components/Footer";
 
 export default function Contact() {
   return (
@@ -9,6 +10,8 @@ export default function Contact() {
         <link rel="icon" href="/flower-logo.png" />
       </Head>
       {/* Opening hours Card */}
+      <div className="w-full h-screen"></div>
+      <Footer />
     </>
   );
 }

@@ -1,5 +1,6 @@
 import "../styles/globals.css";
-import Navbar from "./components/Navbar";
+import Navbar from "../components/Navbar.jsx";
+
 import { motion } from "framer-motion";
 
 function MyApp({ Component, pageProps, router }) {

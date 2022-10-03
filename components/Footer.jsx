@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import { BsHeart } from "react-icons/bs";
 
 import {
   AiFillFacebook,

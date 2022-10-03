@@ -1,6 +1,7 @@
 import Head from "next/head";
-import prices from "./lib/prices.js";
-import PriceItem from "./components/PriceItem.jsx";
+import prices from "../lib/prices.js";
+import PriceItem from "../components/PriceItem.jsx";
+import Footer from "../components/Footer.jsx";
 
 export default function PriceList() {
   return (
@@ -31,6 +32,7 @@ bg-no-repeat bg-cover"
           </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 }
