@@ -8,7 +8,7 @@ import nails5 from "../public/5-nails.jpeg";
 
 const PhotoGallery = () => {
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 sm:gap-3 sm:pt-2 sm:pb-16 pb-8 xl:pr-48 sm:pl-4 pl-12 sm:ml-0 p-8 sm:p-0">
+    <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 sm:gap-3 sm:pt-2 sm:pb-16 pb-8 lg:pr-24 xl:pr-60 sm:pl-4 pl-12 sm:ml-0 p-8 sm:p-0">
       <Image
         src={nails5}
         alt="photo of nails with polish"
