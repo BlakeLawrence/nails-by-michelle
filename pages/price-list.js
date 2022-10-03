@@ -45,6 +45,14 @@ export default function PriceList() {
                   </p>
                 </div>
                 <div className=" flex justify-between items-end">
+                  <li className="main-welcome text-md sm:text-xl md:text-3xl text-pink-400 font-bold mt-2">
+                    Add On - Builder Gel
+                  </li>
+                  <p className="main-welcome text-sm sm:text-xl text-pink-400 font-bold ml-2 md:ml-6">
+                    £5
+                  </p>
+                </div>
+                <div className=" flex justify-between items-end">
                   <li className="main-welcome text-md sm:text-xl md:text-3xl text-pink-400 font-bold mt-2 ">
                     Manicure
                   </li>
@@ -100,14 +108,7 @@ export default function PriceList() {
                     £15
                   </p>
                 </div>
-                <div className=" flex justify-between items-end">
-                  <li className="main-welcome text-md sm:text-xl md:text-3xl text-pink-400 font-bold mt-2">
-                    Add On - Builder Gel
-                  </li>
-                  <p className="main-welcome text-sm sm:text-xl text-pink-400 font-bold ml-2 md:ml-6">
-                    £5
-                  </p>
-                </div>
+
                 <div className=" flex justify-between items-end">
                   <li className="main-welcome text-md sm:text-xl md:text-3xl text-pink-400 font-bold mt-2">
                     Soak Off (If not done by me)
