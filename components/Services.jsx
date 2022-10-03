@@ -14,20 +14,19 @@ const Services = () => {
           Services...
         </h3>
         <div className="flex justify-between">
-          <ul className="pt-12 pb-12">
+          <ul className="pt-12 pb-2">
             {services.map((service, index) => (
               <ListItem key={index} service={service} />
             ))}
+            <div className="pt-6 md:pt-12">
+              <Link href="/price-list">
+                <button className="text-[11px] sm:text-[16px] py-3 bg-purple-400 border-[1px] font-semibold font-[montserrat] w-20 md:w-28 border-purple-400 rounded-full text-[#ffffff] hover:scale-110 ease-in duration-100 mb-12">
+                  Price List
+                </button>
+              </Link>
+            </div>
           </ul>
           <PhotoGallery />
-        </div>
-        <div className="w-full pb-12">
-          <h3 className="font-[montserrat] text-sm sm:text-lg text-pink-400">
-            For more information, see the{" "}
-            <span className="text-purple-500 hover:underline decoration-1  ">
-              <Link href="price-list">price list</Link>
-            </span>
-          </h3>
         </div>
       </div>
     </>
