@@ -105,12 +105,6 @@ const Navbar = () => {
             </li>
           </Link>
 
-          <Link href="/#about">
-            <li className="main-welcome text-sm sm:text-2xl font-semibold hover:scale-125 ease-in duration-100 hover:cursor-pointer  hover:text-pink-500">
-              About
-            </li>
-          </Link>
-
           <Link href="/price-list">
             <li className="main-welcome text-sm sm:text-2xl font-semibold hover:scale-125 ease-in duration-100 hover:cursor-pointer  hover:text-pink-500">
               Price List
