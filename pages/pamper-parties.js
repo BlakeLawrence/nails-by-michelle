@@ -124,24 +124,27 @@ export default function Pamper() {
             </ul>
           </div>
           {/* Photo Gallery */}
-          <div className="m-1 sm:m-6 grid grid-cols-2 lg:grid-cols-3 gap-2  sm:pt-12 sm:pb-16 pb-8 pr-2 pl-2">
+          <div className="mr-1 ml-2 pt-3 xl:pt-0 sm:mr-4 grid grid-cols-2 xl:grid-cols-3 gap-2 sm:gap-3  ">
             <Image
               src={pamper5}
               alt="photo of pamper parties"
               width={250}
               height={250}
+              className="rounded-md"
             />
             <Image
               src={pamper3}
               alt="photo of pamper parties"
               width={250}
               height={250}
+              className="rounded"
             />
             <Image
               src={pamper4}
               alt="photo of pamper parties"
               width={250}
               height={250}
+              className="rounded"
             />
 
             <Image
@@ -149,18 +152,21 @@ export default function Pamper() {
               alt="photo of pamper parties"
               width={250}
               height={250}
+              className="rounded"
             />
             <Image
               src={pamper2}
               alt="photo of pamper parties"
               width={250}
               height={250}
+              className="rounded"
             />
             <Image
               src={pamper1}
               alt="photo of pamper parties"
               width={250}
               height={250}
+              className="rounded"
             />
           </div>
         </ul>
