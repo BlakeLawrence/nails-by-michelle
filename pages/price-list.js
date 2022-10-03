@@ -165,8 +165,3 @@ export default function PriceList() {
     </>
   );
 }
-
-const pricing = [
-  { name: "Acrylic Infill", price: 20 },
-  { name: "Add Gel Colour Over Acrylic", price: 5 },
-];
