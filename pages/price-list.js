@@ -1,6 +1,5 @@
 import Head from "next/head";
-import prices from "../lib/prices.js";
-import PriceItem from "../components/PriceItem.jsx";
+
 import Footer from "../components/Footer.jsx";
 
 export default function PriceList() {
@@ -14,25 +13,155 @@ export default function PriceList() {
         />
         <link rel="icon" href="/flower-logo.png" />
       </Head>
-      <div
-        className="p-8 pt-12 sm:pt-18 lg:pl-24 lg:pr-24 bg-[url('/flower-background.jpg')]
-bg-no-repeat bg-cover"
-      >
+      <div>
         {/* Pricing card */}
-        <div className="flex pb-32 justify-center w-full ">
-          <div className="w-full xl:w-10/12 p-2 sm:p-6 rounded-xl bg-pink-100 shadow-lg shadow-pink-300 ">
-            <h3 className="main-welcome text-4xl text-center sm:text-5xl lg:text-6xl font-bold text-[#f793dc] drop-shadow-lg">
-              Prices...
-            </h3>
-            <ul>
-              {prices.map((price, index) => (
-                <PriceItem key={index} price={price} />
-              ))}
-            </ul>
-          </div>
+
+        <div className="w-full h-full bg-[url('/varnish.jpg')] pb-10 ">
+          <ul className="flex justify-evenly pt-20">
+            <div className="flex w-7/12 justify-evenly bg-pink-100 ml-96 p-8 rounded-lg">
+              <div className="flex flex-col pr-8">
+                <div className="w-80 flex justify-between items-end mr-10">
+                  <li className="main-welcome text-3xl text-pink-400 font-bold mt-2">
+                    Gel Polish
+                  </li>
+                  <p className="main-welcome text-xl text-pink-400 font-bold">
+                    £20
+                  </p>
+                </div>
+                <div className="w-80 flex justify-between items-end">
+                  <li className="main-welcome text-3xl text-pink-400 font-bold mt-2">
+                    Gel Toes
+                  </li>
+                  <p className="main-welcome text-xl text-pink-400 font-bold">
+                    £20
+                  </p>
+                </div>
+                <div className="w-80 flex justify-between items-end">
+                  <li className="main-welcome text-3xl text-pink-400 font-bold mt-2">
+                    Gel Extensions
+                  </li>
+                  <p className="main-welcome text-xl text-pink-400 font-bold">
+                    £25
+                  </p>
+                </div>
+                <div className="w-80 flex justify-between items-end">
+                  <li className="main-welcome text-3xl text-pink-400 font-bold mt-2">
+                    Manicure
+                  </li>
+                  <p className="main-welcome text-xl text-pink-400 font-bold">
+                    £20
+                  </p>
+                </div>
+                <div className="w-80 flex justify-between items-end">
+                  <li className="main-welcome text-3xl text-pink-400 font-bold mt-2">
+                    Pedicure
+                  </li>
+                  <p className="main-welcome text-xl text-pink-400 font-bold">
+                    £25
+                  </p>
+                </div>
+                <div className="w-80 flex justify-between items-end">
+                  <li className="main-welcome text-3xl text-pink-400 font-bold mt-2">
+                    Pedicure & Gel Toes
+                  </li>
+                  <p className="main-welcome text-xl text-pink-400 font-bold">
+                    £40
+                  </p>
+                </div>
+                <div className="w-80 flex justify-between items-end">
+                  <li className="main-welcome text-3xl text-pink-400 font-bold mt-2">
+                    Kids Manicure
+                  </li>
+                  <p className="main-welcome text-xl text-pink-400 font-bold">
+                    £10
+                  </p>
+                </div>
+                <div className="w-80 flex justify-between items-end">
+                  <li className="main-welcome text-3xl text-pink-400 font-bold mt-2">
+                    Kids Pedicure
+                  </li>
+                  <p className="main-welcome text-xl text-pink-400 font-bold">
+                    £10
+                  </p>
+                </div>
+              </div>
+              {/* right items */}
+              <div className="">
+                <div className="w-96 flex justify-between items-end">
+                  <li className="main-welcome text-3xl text-pink-400 font-bold mt-2">
+                    File and Polish
+                  </li>
+                  <p className="main-welcome text-xl text-pink-400 font-bold">
+                    £15
+                  </p>
+                </div>
+                <div className="w-96 flex justify-between items-end">
+                  <li className="main-welcome text-3xl text-pink-400 font-bold mt-2">
+                    Add On - Builder Gel
+                  </li>
+                  <p className="main-welcome text-xl text-pink-400 font-bold">
+                    £5
+                  </p>
+                </div>
+                <div className="w-96 flex justify-between items-end">
+                  <li className="main-welcome text-3xl text-pink-400 font-bold mt-2">
+                    Soak Off (If not done by me)
+                  </li>
+                  <p className="main-welcome text-xl text-pink-400 font-bold">
+                    £5
+                  </p>
+                </div>
+                <div className="w-96 flex justify-between items-end">
+                  <li className="main-welcome text-3xl text-pink-400 font-bold mt-2">
+                    Soak Off & Mini Manicure
+                  </li>
+                  <p className="main-welcome text-xl text-pink-400 font-bold">
+                    £15
+                  </p>
+                </div>
+                <div className="w-96 flex justify-between items-end">
+                  <li className="main-welcome text-3xl text-pink-400 font-bold mt-2">
+                    Acrylic Extensions
+                  </li>
+                  <p className="main-welcome text-xl text-pink-400 font-bold">
+                    £30
+                  </p>
+                </div>
+                <div className="w-96 flex justify-between items-end">
+                  <li className="main-welcome text-3xl text-pink-400 font-bold mt-2">
+                    Acrylic Overlays
+                  </li>
+                  <p className="main-welcome text-xl text-pink-400 font-bold">
+                    £25
+                  </p>
+                </div>
+                <div className="w-96 flex justify-between items-end">
+                  <li className="main-welcome text-3xl text-pink-400 font-bold mt-2">
+                    Acrylic Infill
+                  </li>
+                  <p className="main-welcome text-xl text-pink-400 font-bold">
+                    £20
+                  </p>
+                </div>
+                <div className="w-96 flex justify-between items-end">
+                  <li className="main-welcome text-3xl text-pink-400 font-bold mt-2">
+                    Add Gel Colour Over Acrylic
+                  </li>
+                  <p className="main-welcome text-xl text-pink-400 font-bold">
+                    £5
+                  </p>
+                </div>
+              </div>
+            </div>
+          </ul>
         </div>
       </div>
       <Footer />
     </>
   );
 }
+
+const pricing = [
+  { name: "Acrylic Infill", price: 20 },
+  { name: "Add Gel Colour Over Acrylic", price: 5 },
+];
