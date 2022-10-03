@@ -21,9 +21,9 @@ export default function Pamper() {
         <link rel="icon" href="/flower-logo.png" />
       </Head>
 
-      <div className="w-full h-full pb-10 bg-[url('/varnish.jpg')] ">
-        <ul className="flex justify-center pt-6">
-          <div className="flex w-full lg:w-9/12 xl:w-8/12  justify-evenly bg-pink-100/90 m-2 sm:m-4 md:m-6 p-2 sm:p-8 rounded-lg ">
+      <div className="w-full h-full pb-10 bg-[url('/varnish.jpg')] bg-no-repeat ">
+        <ul className="flex flex-col md:flex-row justify-center pt-6">
+          <div className="flex w-full lg:w-9/12  justify-evenly bg-pink-100/90 ml-2 mr-6 p-2 sm:p-8 rounded-lg ">
             <ul className="flex flex-col pr-4 sm:pr-8 w-1/2">
               <div className=" flex flex-col sm:flex-row  sm:justify-between items-start sm:items-end">
                 <li className="main-welcome text-sm sm:text-xl md:text-4xl text-pink-400 font-bold mt-2">
@@ -123,47 +123,47 @@ export default function Pamper() {
               </p>
             </ul>
           </div>
-        </ul>
-        {/* Photo Gallery */}
-        <div className=" grid grid-cols-1 sm:grid-cols-3 gap-2 sm:gap-3 sm:pt-2 sm:pb-16 pb-8 xl:pr-48 xl:pl-48 pr-2 pl-2">
-          <Image
-            src={pamper1}
-            alt="photo of pamper parties"
-            width={250}
-            height={250}
-          />
-          <Image
-            src={pamper2}
-            alt="photo of pamper parties"
-            width={250}
-            height={250}
-          />
+          {/* Photo Gallery */}
+          <div className="m-1 sm:m-6 grid grid-cols-2 lg:grid-cols-3 gap-2  sm:pt-12 sm:pb-16 pb-8 pr-2 pl-2">
+            <Image
+              src={pamper5}
+              alt="photo of pamper parties"
+              width={250}
+              height={250}
+            />
+            <Image
+              src={pamper3}
+              alt="photo of pamper parties"
+              width={250}
+              height={250}
+            />
+            <Image
+              src={pamper4}
+              alt="photo of pamper parties"
+              width={250}
+              height={250}
+            />
 
-          <Image
-            src={pamper3}
-            alt="photo of pamper parties"
-            width={250}
-            height={250}
-          />
-          <Image
-            src={pamper4}
-            alt="photo of pamper parties"
-            width={250}
-            height={250}
-          />
-          <Image
-            src={pamper5}
-            alt="photo of pamper parties"
-            width={250}
-            height={250}
-          />
-          <Image
-            src={pamper6}
-            alt="photo of pamper parties"
-            width={250}
-            height={250}
-          />
-        </div>
+            <Image
+              src={pamper6}
+              alt="photo of pamper parties"
+              width={250}
+              height={250}
+            />
+            <Image
+              src={pamper2}
+              alt="photo of pamper parties"
+              width={250}
+              height={250}
+            />
+            <Image
+              src={pamper1}
+              alt="photo of pamper parties"
+              width={250}
+              height={250}
+            />
+          </div>
+        </ul>
       </div>
 
       <Footer />
