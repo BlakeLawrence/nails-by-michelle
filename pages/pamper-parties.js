@@ -1,5 +1,13 @@
 import Head from "next/head";
 import Footer from "../components/Footer";
+import Link from "next/link";
+import Image from "next/image";
+import pamper1 from "../public/1.pamper.jpeg";
+import pamper2 from "../public/2.pamper.jpeg";
+import pamper3 from "../public/3.pamper.jpeg";
+import pamper4 from "../public/4.pamper.jpeg";
+import pamper5 from "../public/5.pamper.jpeg";
+import pamper6 from "../public/6.pamper.jpeg";
 
 export default function Pamper() {
   return (
@@ -12,7 +20,152 @@ export default function Pamper() {
         />
         <link rel="icon" href="/flower-logo.png" />
       </Head>
-      <div className="h-screen w-full"></div>
+
+      <div className="w-full h-full pb-10 bg-[url('/varnish.jpg')] ">
+        <ul className="flex justify-center pt-6">
+          <div className="flex w-full lg:w-9/12 xl:w-8/12  justify-evenly bg-pink-100/90 m-2 sm:m-4 md:m-6 p-2 sm:p-8 rounded-lg ">
+            <ul className="flex flex-col pr-4 sm:pr-8 w-1/2">
+              <div className=" flex flex-col sm:flex-row  sm:justify-between items-start sm:items-end">
+                <li className="main-welcome text-sm sm:text-xl md:text-4xl text-pink-400 font-bold mt-2">
+                  Package 1
+                </li>
+              </div>
+              <div className=" flex justify-between items-end">
+                <li className="main-welcome text-md sm:text-xl md:text-3xl text-pink-400 font-medium mt-2 ">
+                  - Manicure
+                </li>
+              </div>
+              <div className=" flex justify-between items-end">
+                <li className="main-welcome text-md sm:text-xl md:text-3xl text-pink-400 font-medium mt-2 ">
+                  - Pedicure
+                </li>
+              </div>
+              <div className=" flex justify-between items-end">
+                <li className="main-welcome text-md sm:text-xl md:text-3xl text-pink-400 font-medium mt-2 ">
+                  - Robe to wear
+                </li>
+              </div>
+              <div className=" flex justify-between items-end">
+                <li className="main-welcome text-md sm:text-xl md:text-3xl text-pink-400 font-medium mt-2 ">
+                  - Tattoo - 1 per child
+                </li>
+              </div>
+              <div className=" flex justify-between items-end">
+                <li className="main-welcome text-md sm:text-xl md:text-3xl text-pink-400 font-medium mt-2">
+                  - Photo booth
+                </li>
+              </div>
+              <div className=" flex justify-between items-end">
+                <li className="main-welcome text-md sm:text-xl md:text-3xl text-pink-400 font-medium mt-2">
+                  - Gift Bag to take home
+                </li>
+              </div>
+              <br />
+              <p className="main-welcome text-md sm:text-xl md:text-2xl text-pink-600 font-bold mt-2">
+                £25 per girl - 1.5hrs
+              </p>
+
+              <Link href="/contact">
+                <button className="text-[10px] sm:text-[14px] py-2 sm:py-3 text-[#ffffff] font-medium font-[montserrat] md:w-48 rounded-full bg-purple-400 hover:scale-105 ease-in duration-100 mt-8">
+                  book appointment
+                </button>
+              </Link>
+            </ul>
+            {/* right items */}
+            <ul className="flex flex-col pr-4 sm:pr-8">
+              <div className="flex flex-col sm:flex-row items-start sm:items-end justify-start sm:justify-between">
+                <li className="main-welcome text-md sm:text-xl md:text-4xl text-pink-400 font-bold mt-2 ">
+                  Package 2
+                </li>
+              </div>
+              <div className=" flex justify-between items-end">
+                <li className="main-welcome text-md sm:text-xl md:text-3xl text-pink-400 font-medium mt-2 ">
+                  - Manicure
+                </li>
+              </div>
+              <div className=" flex justify-between items-end">
+                <li className="main-welcome text-md sm:text-xl md:text-3xl text-pink-400 font-medium mt-2 ">
+                  - Pedicure
+                </li>
+              </div>
+              <div className=" flex justify-between items-end">
+                <li className="main-welcome text-md sm:text-xl md:text-3xl text-pink-400 font-medium mt-2 ">
+                  - Robe to wear on the day
+                </li>
+              </div>
+              <div className=" flex justify-between items-end">
+                <li className="main-welcome text-md sm:text-xl md:text-3xl text-pink-400 font-medium mt-2 ">
+                  - Tattoo - 1 per child
+                </li>
+              </div>
+              <div className=" flex justify-between items-end">
+                <li className="main-welcome text-md sm:text-xl md:text-3xl text-pink-400 font-medium mt-2 ">
+                  - Make a flower crown to take home
+                </li>
+              </div>
+              <div className=" flex justify-between items-end">
+                <li className="main-welcome text-md sm:text-xl md:text-3xl text-pink-400 font-medium mt-2">
+                  - Photo booth
+                </li>
+              </div>
+              <div className=" flex justify-between items-end">
+                <li className="main-welcome text-md sm:text-xl md:text-3xl text-pink-400 font-medium mt-2">
+                  - Gift Bag to take home
+                </li>
+              </div>
+              <div className=" flex justify-between items-end">
+                <li className="main-welcome text-md sm:text-xl md:text-3xl text-pink-400 font-medium mt-2">
+                  - Snacks and cold drinks
+                </li>
+              </div>
+              <p className="main-welcome text-md sm:text-xl md:text-2xl text-pink-600 font-bold mt-2 pt-3">
+                £35 per girl - 2hrs
+              </p>
+            </ul>
+          </div>
+        </ul>
+        {/* Photo Gallery */}
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-2 sm:gap-2 sm:pt-2 sm:pb-16 pb-8 xl:pr-4 pr-2 pl-2 sm:ml-0">
+          <Image
+            src={pamper1}
+            alt="photo of nails with polish"
+            width={250}
+            height={250}
+          />
+          <Image
+            src={pamper2}
+            alt="photo of nails with polish"
+            width={250}
+            height={250}
+          />
+
+          <Image
+            src={pamper3}
+            alt="photo of nails with polish"
+            width={250}
+            height={250}
+          />
+          <Image
+            src={pamper4}
+            alt="photo of nails with polish"
+            width={250}
+            height={250}
+          />
+          <Image
+            src={pamper5}
+            alt="photo of nails with polish"
+            width={250}
+            height={250}
+          />
+          <Image
+            src={pamper6}
+            alt="photo of nails with polish"
+            width={250}
+            height={250}
+          />
+        </div>
+      </div>
+
       <Footer />
     </>
   );
