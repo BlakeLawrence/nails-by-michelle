@@ -14,12 +14,14 @@ const PhotoGallery = () => {
         alt="photo of nails with polish"
         width={250}
         height={250}
+        className="rounded-md"
       />
       <Image
         src={nails1}
         alt="photo of nails with polish"
         width={250}
         height={250}
+        className="rounded-md"
       />
 
       <Image
@@ -27,12 +29,14 @@ const PhotoGallery = () => {
         alt="photo of nails with polish"
         width={250}
         height={250}
+        className="rounded-md"
       />
       <Image
         src={nails4}
         alt="photo of nails with polish"
         width={250}
         height={250}
+        className="rounded-md"
       />
     </div>
   );
