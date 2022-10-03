@@ -125,41 +125,41 @@ export default function Pamper() {
           </div>
         </ul>
         {/* Photo Gallery */}
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-2 sm:gap-2 sm:pt-2 sm:pb-16 pb-8 xl:pr-4 pr-2 pl-2 sm:ml-0">
+        <div className=" grid grid-cols-1 sm:grid-cols-3 gap-2 sm:gap-3 sm:pt-2 sm:pb-16 pb-8 xl:pr-48 xl:pl-48 pr-2 pl-2">
           <Image
             src={pamper1}
-            alt="photo of nails with polish"
+            alt="photo of pamper parties"
             width={250}
             height={250}
           />
           <Image
             src={pamper2}
-            alt="photo of nails with polish"
+            alt="photo of pamper parties"
             width={250}
             height={250}
           />
 
           <Image
             src={pamper3}
-            alt="photo of nails with polish"
+            alt="photo of pamper parties"
             width={250}
             height={250}
           />
           <Image
             src={pamper4}
-            alt="photo of nails with polish"
+            alt="photo of pamper parties"
             width={250}
             height={250}
           />
           <Image
             src={pamper5}
-            alt="photo of nails with polish"
+            alt="photo of pamper parties"
             width={250}
             height={250}
           />
           <Image
             src={pamper6}
-            alt="photo of nails with polish"
+            alt="photo of pamper parties"
             width={250}
             height={250}
           />
