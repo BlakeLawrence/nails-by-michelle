@@ -18,7 +18,7 @@ export default function PriceList() {
 
         <div className="w-full h-full pb-10 bg-[url('/varnish.jpg')] ">
           <ul className="flex justify-center pt-6">
-            <div className="flex w-full lg:w-9/12 xl:w-7/12  justify-evenly bg-pink-100/90 m-2 sm:m-4 md:m-6 p-2 sm:p-8 rounded-lg">
+            <div className="flex w-full lg:w-9/12 xl:w-7/12 justify-start bg-pink-100/90 m-2 sm:m-4 md:m-6 p-2 sm:p-6 rounded-lg">
               <ul className="flex flex-col pr-4 sm:pr-8">
                 <div className=" flex justify-between items-end">
                   <li className="main-welcome text-md sm:text-xl md:text-3xl text-pink-400 font-bold mt-2 sm:mt-4 ">
@@ -99,7 +99,7 @@ export default function PriceList() {
                 </Link>
               </ul>
               {/* right items */}
-              <div className="">
+              <div className="pl-4 sm:pl-14 xl:pl-24">
                 <div className=" flex justify-between items-end">
                   <li className="main-welcome text-md sm:text-xl md:text-3xl text-pink-400 font-bold mt-2 sm:mt-4">
                     File and Polish
