@@ -23,7 +23,7 @@ export default function Pamper() {
 
       <div className="w-full h-full pb-10 bg-[url('/varnish.jpg')] bg-no-repeat ">
         <ul className="flex flex-col md:flex-row justify-center pt-6">
-          <div className="flex w-full lg:w-9/12  justify-evenly bg-pink-100/90 ml-2 mr-6 p-2 sm:p-8 rounded-lg ">
+          <div className="flex w-full lg:w-9/12  justify-evenly bg-gray-100/80 ml-2 mr-6 p-2 sm:p-8 rounded-lg ">
             <ul className="flex flex-col pr-4 sm:pr-8 w-1/2">
               <div className=" flex flex-col sm:flex-row  sm:justify-between items-start sm:items-end">
                 <li className="main-welcome text-lg sm:text-xl md:text-4xl text-pink-400 font-bold mt-2">
