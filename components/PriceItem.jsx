@@ -2,7 +2,7 @@ import React from "react";
 
 const PriceItem = ({ price }) => {
   return (
-    <div className="pt-8 flex items-center justify-between bg-gray-100 mt-3 pb-3 rounded-xl hover:shadow-md hover:scale-105">
+    <div className="pt-8 flex items-center justify-between bg-gray-100 mt-3 pb-3 rounded-xl hover:shadow-md">
       <li className="pb-4 main-welcome font-[montserrat] text-xl sm:text-3xl md:text-4xl text-pink-400 font-semibold  pl-2 sm:pl-3 lg:pl-8 ">
         {price.name}
       </li>
