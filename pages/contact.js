@@ -110,11 +110,14 @@ export default function Contact() {
           </div>
           {/* Thank you paragraph */}
           <div className="w-full lg:w-2/5 flex flex-col ">
-            <div className=" text-center pt-12 text-xl md:text-3xl font-medium font-[montserrat] text-pink-400  ">
+            <div className=" text-center pt-12 text-2xl md:text-3xl font-medium font-[montserrat] text-pink-400  ">
               Thank you for popping in...
             </div>
             <div className=" text-center ml-2 pt-6 text-md md:text-xl font-medium font-[montserrat] text-pink-400  ">
-              For the quickest response, please whatsapp or call
+              For the quickest response, please whatsapp or call me.
+            </div>
+            <div className=" text-center ml-2 pt-2 text-md md:text-xl font-medium font-[montserrat] text-pink-400  ">
+              Emails may take a bit longer.
             </div>
           </div>
         </div>
