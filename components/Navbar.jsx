@@ -46,16 +46,16 @@ const Navbar = () => {
       </ul>
       {/* Main Nav section - Logo and location etc  */}
       <div className="w-full h-[120px] flex justify-between items-center border-b-[1px] border-pink-200 bg-gradient-to-b ">
-        <div className=" flex pt-20">
+        <div className=" flex pt-14">
           <Image
             src={logo}
             alt="main logo"
-            width="250rem"
-            height="250rem"
+            width="175rem"
+            height="175rem"
             priority
             className="rotate-45"
           ></Image>
-          <h1 className="text-[#ff4f9e] text-4xl  xl:text-6xl pt-6 md:pt-14">
+          <h1 className="text-[#ff4f9e] text-4xl  xl:text-6xl pt-4 md:pt-8">
             Nails by Michelle
           </h1>
         </div>
