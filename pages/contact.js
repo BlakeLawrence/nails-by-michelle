@@ -106,10 +106,10 @@ export default function Contact() {
           </div>
           {/* Thank you paragraph */}
           <div className="w-full lg:w-2/5 flex flex-col ">
-            <div className=" text-left ml-12 pt-6 text-xl md:text-3xl font-medium font-[montserrat] text-pink-400 ">
+            <div className=" text-center pt-12 text-xl md:text-3xl font-medium font-[montserrat] text-pink-400 ">
               Thank you for popping in...
             </div>
-            <div className=" text-center md:text-left ml-2 md:ml-12 pt-6 text-md md:text-xl font-medium font-[montserrat] text-pink-400 ">
+            <div className=" text-center ml-2 pt-6 text-md md:text-xl font-medium font-[montserrat] text-pink-400 ">
               For the quickest response, please whatsapp or call
             </div>
           </div>
