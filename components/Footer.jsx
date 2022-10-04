@@ -40,24 +40,23 @@ export default function Footer() {
         </p>
       </div>
       {/* Social Icons*/}
-      <div className="flex flex-row h-auto w-1/4 sm:w-56 justify-evenly">
+      <div className="flex flex-row h-auto w-1/4 sm:w-48 justify-evenly">
         <div className="item w-6 h-6 sm:w-10 sm:h-8 sm:m2">
           <a
             href="https://www.facebook.com/profile.php?id=100084402441658"
             target="blank"
             rel="noreferrer"
           >
-            <AiFillFacebook className="h-6 w-6 sm:h-8 sm:w-8 rounded-md mr-4 text-pink-400 hover:scale-125 ease-in duration-100" />
+            <AiFillFacebook className="h-6 w-6 sm:h-8 sm:w-8 rounded-md text-pink-400 hover:scale-125 ease-in duration-100" />
           </a>
         </div>
         <div className="item w-6 h-6 sm:w-10 sm:h-8">
-          <a href="https://www.instagram.com" target="blank" rel="noreferrer">
+          <a
+            href="https://instagram.com/nails_by_michelle85?igshid=YmMyMTA2M2Y="
+            target="blank"
+            rel="noreferrer"
+          >
             <AiFillInstagram className="h-6 w-6 sm:h-8 sm:w-8 rounded-md mr-4 text-pink-400 hover:scale-125 ease-in duration-100" />
-          </a>
-        </div>
-        <div className="item w-6 h-6 sm:w-10 sm:h-8">
-          <a href="https://www.twitter.com" target="blank" rel="noreferrer">
-            <AiOutlineTwitter className="h-6 w-6 sm:h-8 sm:w-8 mr-2 rounded-md text-pink-400 hover:scale-125 ease-in duration-100" />
           </a>
         </div>
       </div>
