@@ -15,12 +15,14 @@ export default function Contact() {
       {/* main contact card */}
       <div className="flex flex-col h-screen w-full">
         <div className="flex flex-col items-center w-full h-1/3 bg-pink-300 pt-12 lg:pt-8 text-gray-100 font-bold">
-          <h3 className="main-welcome text-6xl lg:text-7xl">Get in touch...</h3>
+          <h3 className="main-welcome text-6xl lg:text-7xl drop-shadow-lg">
+            Get in touch...
+          </h3>
         </div>
         {/* Contact Icons */}
-        <div className="flex flex-col md:flex-row w-full h-2/3 bg-gray-100">
-          <div className="w-full sm:w-8/12 md:w-full lg:w-2/5  flex flex-row">
-            <div className=" flex w-8/12 lg:w-5/12 h-[200px] md:h-[300px] bg-gray-100 border-[1px] border-pink-300 mt-[-70px] lg:mt-[-90px] ml-2 lg:ml-12 rounded-xl">
+        <div className="flex flex-col md:flex-row w-full h-2/3 bg-gray-100 ">
+          <div className="w-full sm:w-8/12 md:w-full lg:w-2/5  flex flex-row ">
+            <div className=" flex w-8/12 lg:w-5/12 h-[200px] md:h-[300px] bg-gray-100 border-[1px] border-pink-300 mt-[-70px] lg:mt-[-90px] ml-2 lg:ml-12 rounded-xl shadow-lg">
               <ul className="p-4 text-pink-400 font-bold">
                 <li className=" flex mt-5 md:mt-8">
                   <BsFillTelephoneFill className="w-[1.5rem] h-[1.5rem] md:w-[1.8rem] md:h-[1.8rem]" />
@@ -45,7 +47,7 @@ export default function Contact() {
               </ul>
             </div>
             {/* Opening Hours */}
-            <div className=" flex justify-center md:justify-start w-8/12 lg:w-7/12 h-[200px] md:h-[300px] bg-gray-100 border-[1px] border-pink-300 mt-[-70px] lg:mt-[-90px] mr-2 ml-1 lg:ml-8 rounded-xl">
+            <div className=" flex justify-center md:justify-start w-8/12 lg:w-7/12 h-[200px] md:h-[300px] bg-gray-100 border-[1px] border-pink-300 mt-[-70px] lg:mt-[-90px] mr-2 ml-1 lg:ml-8 rounded-xl shadow-lg">
               <ul className="p-2 pt-6  text-pink-400 font-bold">
                 <li className=" flex justify-between mt-1 md:mt-3 lg:pl-2 text-[12px] md:text-md font-[montserrat]">
                   <p className=" flex items-center text-[11px] md:text-[14px] ">
