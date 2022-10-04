@@ -1,25 +1,21 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import {
-  AiFillFacebook,
-  AiFillInstagram,
-  AiOutlineTwitter,
-} from "react-icons/ai";
+import { AiFillFacebook, AiFillInstagram } from "react-icons/ai";
 
 export default function Footer() {
   return (
     <footer className="flex justify-between items-center w-full h-[6rem] sm:h-[10rem] px-1 sm:px-4 bg-[#ffffff] border-t-[3px] border-pink-200">
       {/* Logo */}
       <div className="flex flex-row h-auto w-1/4 sm:w-56">
-        <div className=" h-10 w-10 sm:h-20 sm:w-20 relative ml-3 sm:ml-8">
+        <div className=" h-10 w-10 sm:h-20 sm:w-20 relative ml-3 sm:ml-8 pt-4 md:pt-6">
           <Link href="/">
             <Image
-              className="hover:cursor-pointer hover:animate-spin-slow"
-              src="/flower-logo.png"
-              alt="Project Clean-up logo"
-              layout="fill"
-              objectFit="cover"
+              className="hover:cursor-pointer rotate-45 scale-150"
+              src="/logo.svg"
+              alt="flower logo"
+              width={100}
+              height={100}
             />
           </Link>
         </div>

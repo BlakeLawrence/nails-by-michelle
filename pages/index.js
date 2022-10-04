@@ -14,7 +14,7 @@ export default function Home() {
           name="home"
           content="Nails By Michelle - Cheddar's premium nail Salon"
         />
-        <link rel="icon" href="/flower-logo.png" />
+        <link rel="icon" href="/logo.svg" />
       </Head>
       {/* Main Hero div */}
       <div className="  flex w-full bg-[url('/hand.jpg')] h-[450px] sm:h-[550px] bg-no-repeat bg-center bg-cover ">

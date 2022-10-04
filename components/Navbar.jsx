@@ -4,7 +4,7 @@ import { ImLocation } from "react-icons/im";
 import { AiOutlineClockCircle } from "react-icons/ai";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import Image from "next/image";
-import logo from "../public/flower-logo.png";
+import logo from "../public/logo.svg";
 
 const Navbar = () => {
   return (
@@ -45,22 +45,22 @@ const Navbar = () => {
         </li>
       </ul>
       {/* Main Nav section - Logo and location etc  */}
-      <div className="w-full h-[120px] flex justify-evenly items-center border-b-[1px] border-pink-200 bg-gradient-to-b ">
-        <div className=" flex items-center ">
+      <div className="w-full h-[120px] flex justify-between items-center border-b-[1px] border-pink-200 bg-gradient-to-b ">
+        <div className=" flex pt-20">
           <Image
-            className="hover:animate-spin-slow"
             src={logo}
             alt="main logo"
-            width={70}
-            height={70}
+            width="250rem"
+            height="250rem"
             priority
+            className="rotate-45"
           ></Image>
-          <h1 className="text-[#ff4f9e] text-4xl  xl:text-6xl ml-1 sm:ml-4 pt-4">
+          <h1 className="text-[#ff4f9e] text-4xl  xl:text-6xl pt-6 md:pt-14">
             Nails by Michelle
           </h1>
         </div>
 
-        <ul className="hidden sm:flex justify-between items-center text-[9px] md:text-md">
+        <ul className="hidden sm:flex justify-between items-center text-[9px] md:text-md md:mr-4">
           <li className="flex items-center pr-4 lg:pr-10">
             <div className="border-[1px] border-pink-400 rounded-full p-2 mr-3 hover:animate-bounce">
               <ImLocation className="text-pink-400" size="1.5rem" />
