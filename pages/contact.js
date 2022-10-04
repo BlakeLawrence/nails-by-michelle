@@ -31,7 +31,7 @@ export default function Contact() {
                 <li className="flex mt-5 md:mt-8 ">
                   <BsWhatsapp className="w-[1.5rem] h-[1.5rem] md:w-[2rem] md:h-[2rem]" />
                   <p className="pl-4 flex items-center text-[13px] sm:text-[14px] md:text-sm font-[montserrat]">
-                    WhatsApp
+                    0791 768 2549
                   </p>
                 </li>
                 <Link href="mailto:blake-lawrence@hotmail.co.uk">
@@ -46,7 +46,7 @@ export default function Contact() {
             </div>
             {/* Opening Hours */}
             <div className=" flex justify-center md:justify-start w-8/12 lg:w-7/12 h-[200px] md:h-[300px] bg-gray-100 border-[1px] border-pink-300 mt-[-70px] lg:mt-[-90px] mr-2 ml-1 lg:ml-8 rounded-xl">
-              <ul className="p-2  text-pink-400 font-bold">
+              <ul className="p-2 pt-6  text-pink-400 font-bold">
                 <li className=" flex justify-between mt-1 md:mt-3 lg:pl-2 text-[12px] md:text-md font-[montserrat]">
                   <p className=" flex items-center text-[11px] md:text-[14px] ">
                     Monday:
