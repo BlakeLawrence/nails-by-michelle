@@ -23,8 +23,8 @@ export default function Pamper() {
 
       <div className="w-full h-full pb-10 bg-[url('/varnish.jpg')] bg-no-repeat ">
         <ul className="flex flex-col md:flex-row justify-center pt-6">
-          <div className="flex w-full lg:w-9/12  justify-evenly bg-gray-100/80 ml-2 mr-6 p-2 sm:p-8 rounded-lg ">
-            <ul className="flex flex-col pr-4 sm:pr-8 w-1/2">
+          <div className="flex w-full lg:w-9/12 justify-evenly bg-gray-100/80 ml-1 mr-6 p-1 sm:p-8 rounded-lg ">
+            <ul className="flex flex-col pr-2 sm:pr-8 w-1/2">
               <div className=" flex flex-col sm:flex-row  sm:justify-between items-start sm:items-end">
                 <li className="main-welcome text-lg sm:text-xl md:text-4xl text-pink-500 font-bold mt-2">
                   Package 1
@@ -61,18 +61,18 @@ export default function Pamper() {
                 </li>
               </div>
               <br />
-              <p className="sm:w-60 main-welcome text-md sm:text-xl md:text-2xl text-pink-600 font-bold mt-2 ">
+              <p className=" main-welcome text-md sm:text-xl md:text-2xl text-pink-600 font-bold mt-2 ">
                 £25 per girl - 1.5hrs
               </p>
 
               <Link href="/contact">
-                <button className="text-[13px] sm:text-[16px] py-2 sm:py-3 text-[#ffffff] font-semibold font-[montserrat] w-32 md:w-44 xl:w-40 rounded-full bg-purple-500 hover:scale-105 ease-in duration-100 mt-8">
+                <button className="text-[13px] sm:text-[16px] py-2 sm:py-3 text-[#ffffff] font-semibold font-[montserrat] w-32 md:w-44 xl:w-40 rounded-full bg-purple-500 hover:scale-105 ease-in duration-100 mt-8 mb-4">
                   book a party
                 </button>
               </Link>
             </ul>
             {/* right items */}
-            <ul className="flex flex-col pr-4 sm:pr-8">
+            <ul className="flex flex-col sm:pr-8">
               <div className="flex flex-col sm:flex-row items-start sm:items-end justify-start sm:justify-between">
                 <li className="main-welcome text-lg sm:text-xl md:text-4xl text-pink-500 font-bold mt-2 ">
                   Package 2
@@ -118,7 +118,7 @@ export default function Pamper() {
                   - Snacks and cold drinks
                 </li>
               </div>
-              <p className="main-welcome text-md sm:text-xl md:text-2xl text-pink-600 font-bold mt-2">
+              <p className="main-welcome text-md sm:text-xl md:text-2xl text-pink-600 font-bold mt-2 sm:mt-6">
                 £35 per girl - 2hrs
               </p>
             </ul>
