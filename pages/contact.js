@@ -40,7 +40,7 @@ export default function Contact() {
                   <li className="flex mt-5 md:mt-8 hover:cursor-pointer">
                     <AiOutlineMail className="w-[1.5rem] h-[1.5rem] md:w-[2rem] md:h-[2rem]" />
                     <p className="pl-4 flex items-center text-[13px] sm:text-[14px] md:text-sm font-[montserrat]">
-                      Email
+                      click to mail
                     </p>
                   </li>
                 </Link>
