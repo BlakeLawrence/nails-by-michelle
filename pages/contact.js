@@ -9,7 +9,7 @@ export default function Contact() {
         <meta name="contact" content="Nails By Michelle - Contact page" />
         <link rel="icon" href="/flower-logo.png" />
       </Head>
-      {/* Opening hours Card */}
+      {/* main contact card */}
       <div className="w-full h-screen"></div>
       <Footer />
     </>
