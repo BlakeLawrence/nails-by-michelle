@@ -9,7 +9,7 @@ export default function PriceList() {
         <title>
           Nails By Michelle | Price List. Nail Salon in Cheddar, Somerset
         </title>
-        <meta name="robots" content="all" />
+
         <meta name="price-list" content="Nails By Michelle - Price List." />
         <meta
           name="description"

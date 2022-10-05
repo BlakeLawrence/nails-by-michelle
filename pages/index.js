@@ -10,7 +10,7 @@ export default function Home() {
     <div>
       <Head>
         <title>Nails By Michelle | Home. Nail Salon in Cheddar, Somerset</title>
-        <meta name="robots" content="all" />
+
         <meta name="home" content="Nails By Michelle. Home page" />
         <meta
           name="description"

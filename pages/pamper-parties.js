@@ -17,7 +17,7 @@ export default function Pamper() {
           Nails By Michelle | Pamper Parties. Pamper Parties in Cheddar,
           Somerset
         </title>
-        <meta name="robots" content="all" />
+
         <meta
           name="pamper-parties"
           content="Nails By Michelle - Pamper parties"

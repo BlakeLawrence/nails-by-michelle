@@ -11,7 +11,7 @@ export default function Contact() {
         <title>
           Nails By Michelle | Contact. Nail Salon in Cheddar, Somerset
         </title>
-        <meta name="robots" content="all" />
+
         <meta name="contact" content="Nails By Michelle - Contact Page" />
         <meta
           name="description"
