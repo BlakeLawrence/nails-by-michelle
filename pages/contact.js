@@ -20,11 +20,11 @@ export default function Contact() {
         <meta name="robots" content="all" />
         <meta
           property="og:title"
-          content="Nails by Michelle, Nail salon in Cheddar - home page"
+          content="Nails by Michelle, Nail salon in Cheddar - contact page"
         />
         <meta
           property="og:description"
-          content="Affordable nail services in Cheddar, Somerset"
+          content="Affordable nail services in Cheddar, Somerset. Call or whatsapp today."
         />
         <meta property="og:image" content="/logo.svg" />
         <link rel="icon" href="/logo.svg" />

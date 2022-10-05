@@ -22,7 +22,7 @@ export default function PriceList() {
       <div>
         {/* Pricing card */}
 
-        <div className="w-full h-full pb-10 bg-[url('/varnish.jpg')] ">
+        <div className="p-2 w-full h-full pb-10 bg-[url('/varnish.jpg')] ">
           <ul className="flex justify-center pt-6">
             <div className="flex w-full lg:w-9/12 xl:w-7/12 justify-start  bg-gray-100/95 m-2 sm:m-4 md:m-6 p-2 sm:p-6 rounded-lg shadow-lg">
               <ul className="flex flex-col pr-4 sm:pr-8">
@@ -105,7 +105,7 @@ export default function PriceList() {
                 </Link>
               </ul>
               {/* right items */}
-              <div className="pl-4 sm:pl-14 xl:pl-24">
+              <div className="p-2 sm:pl-14 xl:pl-24">
                 <div className=" flex justify-between items-end">
                   <li className="main-welcome text-md sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4">
                     File and Polish
@@ -162,6 +162,35 @@ export default function PriceList() {
                   <p className="main-welcome text-sm sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
                     £5
                   </p>
+                </div>
+                <div className=" flex justify-between items-end">
+                  <li className="main-welcome text-md sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4">
+                    Classic Eyelashes
+                  </li>
+                  <p className="main-welcome text-sm sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
+                    £50
+                  </p>
+                </div>
+                <div className=" flex justify-between items-end">
+                  <li className="main-welcome text-md sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4">
+                    2 week infill
+                  </li>
+                  <p className="main-welcome text-sm sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
+                    £20
+                  </p>
+                </div>
+                <div className=" flex justify-between items-end">
+                  <li className="main-welcome text-md sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4">
+                    3 week infill
+                  </li>
+                  <p className="main-welcome text-sm sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
+                    £25
+                  </p>
+                </div>
+                <div className="">
+                  <li className="main-welcome text-xs sm:text-xl md:text-2xl text-pink-500 font-bold mt-2 sm:mt-4">
+                    ...Various Eye Lash Extension coming soon
+                  </li>
                 </div>
               </div>
             </div>
