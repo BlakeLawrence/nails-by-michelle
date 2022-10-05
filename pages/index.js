@@ -13,7 +13,7 @@ export default function Home() {
         <meta name="home" content="Nails By Michelle. Home page" />
         <meta
           name="description"
-          content="Nails by Michelle is a nail salon in Cheddar. We offer amazing nail treatments at great prices. Nials by michelle is situated in Cheddar, Somerset."
+          content="Nails by Michelle is my nail salon in Cheddar. We offer amazing nail treatments at great prices. Nails by Michelle is situated in the heart of Cheddar, Somerset."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/logo.svg" />
