@@ -7,10 +7,13 @@ export default function PriceList() {
     <>
       <Head>
         <title>Nails By Michelle | Price List </title>
+        <meta name="price-list" content="Nails By Michelle - Price List." />
         <meta
-          name="price-list"
-          content="Nails By Michelle. Our Price list. Treat yourself today to an affordable range of nail treatments"
+          name="description"
+          content="This is my Price list. Treat yourself today to an affordable range of nail treatments. To book yourself in, call or whatsapp me on 073 081 40607."
         />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/logo.svg" />
       </Head>
       <div>

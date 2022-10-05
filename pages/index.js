@@ -10,10 +10,12 @@ export default function Home() {
     <div>
       <Head>
         <title>Nails By Michelle | Home </title>
+        <meta name="home" content="Nails By Michelle. Home page" />
         <meta
-          name="home"
-          content="Nails By Michelle. Welcome to my nail salon in Cheddar. Come in and treat yourself to a range of wonderful nail treatments"
+          name="description"
+          content="Nails by Michelle is a nail salon in Cheddar. We offer amazing nail treatments at great prices. Nials by michelle is situated in Cheddar, Somerset."
         />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/logo.svg" />
       </Head>
       {/* Main Hero div */}

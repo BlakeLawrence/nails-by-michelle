@@ -9,10 +9,12 @@ export default function Contact() {
     <>
       <Head>
         <title>Nails By Michelle | Contact </title>
+        <meta name="contact" content="Nails By Michelle - Contact Page" />
         <meta
-          name="contact"
-          content="Nails By Michelle - Call or whatsapp to book yourself in for a treat."
+          name="description"
+          content="Contact page. Please call or whatsapp me on 073 081 40607 to book in your appointment today."
         />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/logo.svg" />
       </Head>
       {/* main contact card */}
