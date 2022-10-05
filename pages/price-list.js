@@ -18,6 +18,17 @@ export default function PriceList() {
         />
 
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        {/* open graph tags */}
+        <meta
+          property="og:url"
+          content="https://nails-by-michelle.netlify.app/price-list"
+        />
+        <meta property="og:title" content="Nails By Michelle - Price List." />
+        <meta
+          property="og:description"
+          content="This is my Price list. Treat yourself today to an affordable range of nail treatments. To book yourself in, call or whatsapp me on 073 081 40607."
+        />
+        {/* Link Tag */}
         <link rel="icon" href="/logo.svg" />
       </Head>
       <div>
