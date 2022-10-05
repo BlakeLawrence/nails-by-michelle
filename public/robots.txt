@@ -1,0 +1,4 @@
+User-agent: *
+Allow: / 
+
+Sitemap: https://nails-by-michelle.netlify.app/
