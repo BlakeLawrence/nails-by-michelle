@@ -14,7 +14,7 @@ const Services = () => {
           Services...
         </h3>
         <div className="flex justify-between">
-          <ul className="pt-12 pb-2">
+          <ul className="w-2/3 pt-12 pb-2">
             {services.map((service, index) => (
               <ListItem key={index} service={service} />
             ))}
