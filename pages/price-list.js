@@ -25,7 +25,7 @@ export default function PriceList() {
         <div className="p-2 w-full h-full pb-10 bg-[url('/varnish.jpg')] ">
           <ul className="flex justify-center pt-6">
             <div className="flex w-full lg:w-9/12 xl:w-7/12 justify-start  bg-gray-100/95 m-2 sm:m-4 md:m-6 p-2 sm:p-6 rounded-lg shadow-lg">
-              <ul className="flex flex-col pr-4 sm:pr-8">
+              <ul className="p-2 flex flex-col pr-4 sm:pr-8">
                 <div className=" flex justify-between items-end">
                   <li className="main-welcome text-md sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4 ">
                     Gel Polish
@@ -173,7 +173,7 @@ export default function PriceList() {
                 </div>
                 <div className=" flex justify-between items-end">
                   <li className="main-welcome text-md sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4">
-                    2 week infill
+                    - 2 week infill
                   </li>
                   <p className="main-welcome text-sm sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
                     £20
@@ -181,7 +181,7 @@ export default function PriceList() {
                 </div>
                 <div className=" flex justify-between items-end">
                   <li className="main-welcome text-md sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4">
-                    3 week infill
+                    - 3 week infill
                   </li>
                   <p className="main-welcome text-sm sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
                     £25
@@ -189,7 +189,7 @@ export default function PriceList() {
                 </div>
                 <div className="">
                   <li className="main-welcome text-xs sm:text-xl md:text-2xl text-pink-500 font-bold mt-2 sm:mt-4">
-                    ...Various Eye Lash Extension coming soon
+                    various eye lash extension coming soon
                   </li>
                 </div>
               </div>
