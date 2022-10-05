@@ -17,6 +17,7 @@ export default function Home() {
           content="Nails by Michelle is my nail salon in Cheddar. I offer amazing nail treatments at great prices. Nails by Michelle is situated in the heart of Cheddar, Somerset."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="robots" content="all" />
         {/* open graph tags */}
         <meta
           property="og:url"
@@ -30,10 +31,7 @@ export default function Home() {
           property="og:description"
           content="Nails by Michelle is my nail salon in Cheddar. I offer amazing nail treatments at great prices. Nails by Michelle is situated in the heart of Cheddar, Somerset."
         />
-        <meta
-          property="og:image"
-          content="https://ia.media-imdb.com/images/rock.jpg"
-        />
+
         {/* Link Tag */}
         <link rel="icon" href="/logo.svg" />
       </Head>
