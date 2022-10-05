@@ -16,9 +16,9 @@ export default function Pamper() {
         <title>Nails By Michelle | Pamper Parties </title>
         <meta
           name="pamper-parties"
-          content="Nails By Michelle - Pamper Parties...treat your kiddies to a day of spoils"
+          content="Nails By Michelle - Our pamper parties are packed full of fun and girly treats. Spoil your little ones and book them in for a day of bliss."
         />
-        <link rel="icon" href="/flower-logo.png" />
+        <link rel="icon" href="/logo.svg" />
       </Head>
 
       <div className="w-full h-full pb-10 bg-[url('/varnish.jpg')] bg-no-repeat ">

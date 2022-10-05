@@ -9,9 +9,9 @@ export default function PriceList() {
         <title>Nails By Michelle | Price List </title>
         <meta
           name="price-list"
-          content="Nails By Michelle - Price list...come treat yourself at an affordable price"
+          content="Nails By Michelle. Our Price list. Treat yourself today to an affordable range of nail treatments"
         />
-        <link rel="icon" href="/flower-logo.png" />
+        <link rel="icon" href="/logo.svg" />
       </Head>
       <div>
         {/* Pricing card */}

@@ -9,8 +9,11 @@ export default function Contact() {
     <>
       <Head>
         <title>Nails By Michelle | Contact </title>
-        <meta name="contact" content="Nails By Michelle - Contact page" />
-        <link rel="icon" href="/flower-logo.png" />
+        <meta
+          name="contact"
+          content="Nails By Michelle - Call or whatsapp to book yourself in for a treat."
+        />
+        <link rel="icon" href="/logo.svg" />
       </Head>
       {/* main contact card */}
       <div className="flex flex-col h-screen w-full">

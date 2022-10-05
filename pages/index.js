@@ -12,7 +12,7 @@ export default function Home() {
         <title>Nails By Michelle | Home </title>
         <meta
           name="home"
-          content="Nails By Michelle - Cheddar's premium nail Salon"
+          content="Nails By Michelle. Welcome to my nail salon in Cheddar. Come in and treat yourself to a range of wonderful nail treatments"
         />
         <link rel="icon" href="/logo.svg" />
       </Head>
