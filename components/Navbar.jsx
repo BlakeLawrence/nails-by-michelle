@@ -48,9 +48,9 @@ const Navbar = () => {
       <div className="w-full h-[120px] flex justify-between items-center border-b-[1px] border-pink-200 bg-gradient-to-b ">
         <div className=" flex pt-2 sm:pt-1 ml-2 md:ml-4">
           <Image src={logo} alt="main logo" height={100} width={100}></Image>
-          <h1 className="text-[#ff4f9e] text-[38px] sm:text-4xl md:text-[36px]  xl:text-6xl pt-8 md:pt-8">
+          <h2 className="text-[#ff4f9e] text-[38px] sm:text-4xl md:text-[32px]  xl:text-6xl pt-8 md:pt-8">
             Nails by Michelle
-          </h1>
+          </h2>
         </div>
 
         <ul className="hidden sm:flex justify-between items-center text-[9px] md:text-md md:mr-4">

@@ -17,15 +17,16 @@ export default function Home() {
         <link rel="icon" href="/logo.svg" />
       </Head>
       {/* Main Hero div */}
-      <div className="  flex w-full bg-[url('/hand.jpg')] h-[450px] sm:h-[550px] bg-no-repeat bg-center bg-cover ">
+
+      <main className="  flex w-full bg-[url('/hand.jpg')] h-[450px] sm:h-[550px] bg-no-repeat bg-center bg-cover ">
         {/* Heading and buttons div */}
         <div className="flex flex-col p-8 pt-12 sm:p-24 ">
-          <motion.h3
+          <motion.h1
             animate={{ x: 0, y: 0, scale: 1, rotate: 0 }}
             className="main-welcome text-3xl sm:text-5xl lg:text-7xl font-bold font-[montserrat] text-[#f793dc] drop-shadow-lg"
           >
             Hello and welcome <br /> To my salon..
-          </motion.h3>
+          </motion.h1>
           {/* buttons div */}
           <div className="scroll-smooth mt-10 sm:mt-24">
             <Link href="#services" spy={true} smooth={true} duration={500}>
@@ -40,7 +41,7 @@ export default function Home() {
             </Link>
           </div>
         </div>
-      </div>
+      </main>
       <div className="w-full h-screen">
         <About />
         <Services />
