@@ -8,10 +8,10 @@ export default function Footer() {
     <footer className="flex justify-between items-center w-full h-[6rem] sm:h-[10rem] px-1 sm:px-4 bg-[#ffffff] border-t-[3px] border-pink-200">
       {/* Logo */}
       <div className="flex flex-row h-auto w-1/4 sm:w-56">
-        <div className=" h-10 w-10 sm:h-20 sm:w-20 relative ml-3 sm:ml-8 pt-4 md:pt-6">
+        <div className=" h-10 w-10 sm:h-20 sm:w-20 relative ml-3 sm:ml-8 pt-1 md:pt-1">
           <Link href="/">
             <Image
-              className="hover:cursor-pointer rotate-45 scale-150"
+              className="hover:cursor-pointer"
               src="/logo.svg"
               alt="flower logo"
               width={100}
