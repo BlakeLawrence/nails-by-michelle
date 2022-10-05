@@ -7,7 +7,7 @@ export default function PriceList() {
     <>
       <Head>
         <title>
-          Nails By Michelle | Price List. Nail Salon in Cheddar, Somerset{" "}
+          Nails By Michelle | Price List. Nail Salon in Cheddar, Somerset
         </title>
         <meta name="price-list" content="Nails By Michelle - Price List." />
         <meta

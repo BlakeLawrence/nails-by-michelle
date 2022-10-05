@@ -9,7 +9,7 @@ export default function Contact() {
     <>
       <Head>
         <title>
-          Nails By Michelle | Contact. Nail Salon in Cheddar, Somerset{" "}
+          Nails By Michelle | Contact. Nail Salon in Cheddar, Somerset
         </title>
         <meta name="contact" content="Nails By Michelle - Contact Page" />
         <meta
@@ -18,15 +18,7 @@ export default function Contact() {
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="robots" content="all" />
-        <meta
-          property="og:title"
-          content="Nails by Michelle, Nail salon in Cheddar - contact page"
-        />
-        <meta
-          property="og:description"
-          content="Affordable nail services in Cheddar, Somerset. Call or whatsapp today."
-        />
-        <meta property="og:image" content="/logo.svg" />
+
         <link rel="icon" href="/logo.svg" />
       </Head>
       {/* main contact card */}

@@ -9,9 +9,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>
-          Nails By Michelle | Home. Nail Salon in Cheddar, Somerset{" "}
-        </title>
+        <title>Nails By Michelle | Home. Nail Salon in Cheddar, Somerset</title>
         <meta name="home" content="Nails By Michelle. Home page" />
         <meta
           name="description"

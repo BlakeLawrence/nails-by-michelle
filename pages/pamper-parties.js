@@ -14,7 +14,7 @@ export default function Pamper() {
     <>
       <Head>
         <title>
-          Nails By Michelle | Pamper Parties. Nail Salon in Cheddar, Somerset{" "}
+          Nails By Michelle | Pamper Parties. Nail Salon in Cheddar, Somerset
         </title>
         <meta
           name="pamper-parties"
