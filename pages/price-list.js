@@ -6,7 +6,9 @@ export default function PriceList() {
   return (
     <>
       <Head>
-        <title>Nails By Michelle | Price List </title>
+        <title>
+          Nails By Michelle | Price List. Nail Salon in Cheddar, Somerset{" "}
+        </title>
         <meta name="price-list" content="Nails By Michelle - Price List." />
         <meta
           name="description"
@@ -14,6 +16,7 @@ export default function PriceList() {
         />
 
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="robots" content="all" />
         <link rel="icon" href="/logo.svg" />
       </Head>
       <div>

@@ -13,7 +13,9 @@ export default function Pamper() {
   return (
     <>
       <Head>
-        <title>Nails By Michelle | Pamper Parties </title>
+        <title>
+          Nails By Michelle | Pamper Parties. Nail Salon in Cheddar, Somerset{" "}
+        </title>
         <meta
           name="pamper-parties"
           content="Nails By Michelle - Pamper parties"
@@ -23,6 +25,7 @@ export default function Pamper() {
           content="Our pamper parties are packed full of fun and girly treats. Spoil your little ones and book them in for a day of bliss. Book today on 073 081 40607"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="robots" content="all" />
         <link rel="icon" href="/logo.svg" />
       </Head>
 
