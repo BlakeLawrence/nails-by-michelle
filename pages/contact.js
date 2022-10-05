@@ -18,6 +18,15 @@ export default function Contact() {
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="robots" content="all" />
+        <meta
+          property="og:title"
+          content="Nails by Michelle, Nail salon in Cheddar - home page"
+        />
+        <meta
+          property="og:description"
+          content="Affordable nail services in Cheddar, Somerset"
+        />
+        <meta property="og:image" content="/logo.svg" />
         <link rel="icon" href="/logo.svg" />
       </Head>
       {/* main contact card */}
