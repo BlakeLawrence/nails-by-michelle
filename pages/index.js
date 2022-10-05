@@ -9,14 +9,28 @@ export default function Home() {
   return (
     <div>
       <Head>
+        {/* title and description tags */}
         <title>Nails By Michelle | Home. Nail Salon in Cheddar, Somerset</title>
-
-        <meta name="home" content="Nails By Michelle. Home page" />
+        <meta name="home" content="Nails By Michelle - Home page" />
         <meta
           name="description"
           content="Nails by Michelle is my nail salon in Cheddar. I offer amazing nail treatments at great prices. Nails by Michelle is situated in the heart of Cheddar, Somerset."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        {/* open graph tags */}
+        <meta
+          property="og:url"
+          content="https://nails-by-michelle.netlify.app/"
+        />
+        <meta
+          property="og:title"
+          content="Nails By Michelle | Home. Nail Salon in Cheddar, Somerset"
+        />
+        <meta
+          property="og:description"
+          content="Nails by Michelle is my nail salon in Cheddar. I offer amazing nail treatments at great prices. Nails by Michelle is situated in the heart of Cheddar, Somerset."
+        />
+        {/* Link Tag */}
         <link rel="icon" href="/logo.svg" />
       </Head>
       {/* Main Hero div */}

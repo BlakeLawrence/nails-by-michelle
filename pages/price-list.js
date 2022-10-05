@@ -11,6 +11,7 @@ export default function PriceList() {
         </title>
 
         <meta name="price-list" content="Nails By Michelle - Price List." />
+
         <meta
           name="description"
           content="This is my Price list. Treat yourself today to an affordable range of nail treatments. To book yourself in, call or whatsapp me on 073 081 40607."
