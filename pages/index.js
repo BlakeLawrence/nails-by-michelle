@@ -30,7 +30,7 @@ export default function Home() {
             animate={{ x: 0, y: 0, scale: 1, rotate: 0 }}
             className="main-welcome text-3xl sm:text-5xl lg:text-7xl font-bold font-[montserrat] text-[#f793dc] drop-shadow-lg"
           >
-            Hello and welcome <br /> To my salon..
+            Relax, Indulge <br /> and spoil yourself...
           </motion.h1>
           {/* buttons div */}
           <div className="scroll-smooth mt-10 sm:mt-24">
