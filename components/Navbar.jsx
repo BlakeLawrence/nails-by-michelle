@@ -40,7 +40,9 @@ const Navbar = () => {
           </div>
           <div className="flex flex-col text-[10px] md:text-[15px] font-[montserrat]">
             <p className="font-bold text-pink-400">Call</p>
-            <p className="font-medium text-pink-300">073 081 40607</p>
+            <p className="font-medium text-pink-300">
+              <a href="tel:07308140607">073 081 40607</a>
+            </p>
           </div>
         </li>
       </ul>
