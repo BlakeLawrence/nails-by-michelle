@@ -13,7 +13,7 @@ export default function Footer() {
             <Image
               className="hover:cursor-pointer"
               src="/logo.svg"
-              alt="flower logo"
+              alt="flower logo for nails by michelle, nail salon in cheddar, somerset"
               width={100}
               height={100}
             />

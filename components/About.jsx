@@ -45,7 +45,7 @@ const About = () => {
               After a while, my entrepreneurial drive and passion for beautiful
               nails lead me to offer an after hours nail service, which very
               quickly became popular and has since allowed me the opportunity to
-              open up a salon again in the heart of Cheddar, Somerset.
+              open up a nail salon again in the heart of Cheddar, Somerset.
             </p>
             <p className="font-[montserrat] sm:pl-12 sm:text-xl text-gray-600 ">
               My salon is a warm, friendly environment where everyone is
