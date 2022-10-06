@@ -137,21 +137,21 @@ export default function Pamper() {
           <div className="mr-1 ml-2 pt-3 xl:pt-0 sm:mr-4 grid grid-cols-2 xl:grid-cols-3 gap-2 sm:gap-3  ">
             <Image
               src={pamper5}
-              alt="photo of pamper parties"
+              alt="a little girl at a pamper party. party by Nails by michelle in Cheddar"
               width={250}
               height={250}
               className="rounded-md"
             />
             <Image
               src={pamper3}
-              alt="photo of pamper parties"
+              alt="food supplied by nails by michelle, nail salon in cheddar"
               width={250}
               height={250}
               className="rounded"
             />
             <Image
               src={pamper4}
-              alt="photo of pamper parties"
+              alt="food supplied by nails by michelle for a pamper party"
               width={250}
               height={250}
               className="rounded"
@@ -159,21 +159,21 @@ export default function Pamper() {
 
             <Image
               src={pamper6}
-              alt="photo of pamper parties"
+              alt="decor for a pamper party - nails by michelle, nail salon in cheddar"
               width={250}
               height={250}
               className="rounded"
             />
             <Image
               src={pamper2}
-              alt="photo of pamper parties"
+              alt="decor for a pamper party - nails by michelle, nail salon in cheddar"
               width={250}
               height={250}
               className="rounded"
             />
             <Image
               src={pamper1}
-              alt="photo of pamper parties"
+              alt="make a crown at a pamper party by Nails by michelle, nail salon in cheddar"
               width={250}
               height={250}
               className="rounded"

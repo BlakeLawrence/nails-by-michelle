@@ -11,14 +11,14 @@ const PhotoGallery = () => {
     <div className="w-1/2 grid grid-cols-1 sm:grid-cols-2 gap-1.5 sm:gap-3 sm:pt-2 sm:pb-24 pb-8 lg:pr-24 xl:pr-60 pl-12  sm:ml-0 p-6 sm:p-0">
       <Image
         src={nails5}
-        alt="photo of nails with polish"
+        alt="Gel extensions done by nails by michelle,nail salon in cheddar"
         width={250}
         height={250}
         className="rounded-md"
       />
       <Image
         src={nails1}
-        alt="photo of nails with polish"
+        alt="fresh Manicure done by nails by michelle,nail salon in cheddar"
         width={250}
         height={250}
         className="rounded-md"
@@ -26,14 +26,14 @@ const PhotoGallery = () => {
 
       <Image
         src={nails3}
-        alt="photo of nails with polish"
+        alt="Gel polish nail treatment done by nails by michelle,nail salon in cheddar"
         width={250}
         height={250}
         className="rounded-md"
       />
       <Image
         src={nails4}
-        alt="photo of nails with polish"
+        alt="Pink gel polish done by nails by michelle,nail salon in cheddar"
         width={250}
         height={250}
         className="rounded-md"
