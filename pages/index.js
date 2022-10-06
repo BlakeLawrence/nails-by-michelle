@@ -52,7 +52,7 @@ export default function Home() {
           </motion.h1>
           {/* buttons div */}
           <div className="scroll-smooth mt-10 sm:mt-24">
-            <Link href="#services" spy={true} smooth={true} duration={500}>
+            <Link href="#services">
               <button className="text-[11px] sm:text-[16px] py-3 mr-4 sm:mr-6 text-[#ffffff] font-semibold font-[montserrat] w-20 md:w-28 rounded-full bg-purple-400 hover:scale-110 ease-in duration-100">
                 Services
               </button>

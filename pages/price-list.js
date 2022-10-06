@@ -7,14 +7,14 @@ export default function PriceList() {
     <>
       <Head>
         <title>
-          Nails By Michelle | Price List. Nail Salon in Cheddar, Somerset
+          Nails By Michelle | Price List. Pricing for my nail services.
         </title>
 
         <meta name="price-list" content="Nails By Michelle - Price List." />
 
         <meta
           name="description"
-          content="This is my Price list. Treat yourself today to an affordable range of nail treatments. To book yourself in, call or whatsapp me on 073 081 40607."
+          content="This is my Price list. Treat yourself today to an affordable range of nail treatments. To book yourself in, call or whatsapp me on 073 081 40607. I Offer many services including Manicures, pedicures, gel polish applications, kids manicures and pedicures, kids pamper parties and a variety of eye lash services too."
         />
 
         <meta name="viewport" content="width=device-width, initial-scale=1" />

@@ -20,11 +20,11 @@ export default function Pamper() {
 
         <meta
           name="pamper-parties"
-          content="Nails By Michelle - Pamper parties"
+          content="Nails By Michelle - Pamper parties. Book your child in for a magical pamper experience."
         />
         <meta
           name="description"
-          content="Our pamper parties are packed full of fun and girly treats. Spoil your little ones and book them in for a day of bliss. Book today on 073 081 40607"
+          content="Our pamper parties are packed full of fun and girly treats. Spoil your little ones and book them in for a day of bliss. Very popular so dont delay, book today!"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="robots" content="all" />

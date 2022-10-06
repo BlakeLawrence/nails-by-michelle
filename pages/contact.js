@@ -9,7 +9,8 @@ export default function Contact() {
     <>
       <Head>
         <title>
-          Nails By Michelle | Contact. Nail Salon in Cheddar, Somerset
+          Nails By Michelle | Contact. Contact me today and book yourself in at
+          my Nail Salon in Cheddar, Somerset
         </title>
 
         <meta name="contact" content="Nails By Michelle - Contact Page" />
