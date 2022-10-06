@@ -1,10 +1,11 @@
 ## Nails By Michelle 💅🏼
 
-This is a website for a family members Nail Salon business in Cheddar, Somerset.
+This is a website I built for a family members Nail Salon business in Cheddar, Somerset.
 
-It is currently a work in progress as I am still building it.
+I built this website using NextJs and Tailwind as well as Framer-motion for the page transition effects.
 
-...More info to follow
+### See it Live
+[Nails By Michelle](https://nails-by-michelle.netlify.app/)
 
 ### Tech Stack
 - Next.Js
