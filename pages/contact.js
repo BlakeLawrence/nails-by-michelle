@@ -46,7 +46,7 @@ export default function Contact() {
                     073 081 40607
                   </p>
                 </li>
-                <Link href="mailto:nailsbymichellecheddar@outlook.com">
+                <Link href="mailto:nailsbymichellecheddar@outlook.com?subject=Customer Appointment">
                   <li className="flex mt-5 md:mt-8 hover:cursor-pointer">
                     <AiOutlineMail className="w-[1.2rem] h-[1.2rem] md:w-[2rem] md:h-[2rem]" />
                     <p className="pl-3 md:pl-4 flex items-center text-[13px] sm:text-[10px] md:text-sm font-[montserrat]">
