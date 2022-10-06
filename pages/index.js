@@ -14,7 +14,11 @@ export default function Home() {
         <meta name="home" content="Nails By Michelle - Home page" />
         <meta
           name="description"
-          content="Nails by Michelle is my nail salon in Cheddar. I offer amazing nail treatments at great prices. Nails by Michelle is situated in the heart of Cheddar, Somerset."
+          content="Nails by Michelle is my nail salon in Cheddar. I offer amazing nail services in Cheddar at great prices.Services include Manicures, Pedicures, Kids Manicures, Kids Pedicures, Pamper Parties and a range of eye lash services. Nails by Michelle is situated in the heart of Cheddar, Somerset."
+        />
+        <meta
+          name="keywords"
+          content="nail salon cheddar, nail salon in cheddar, nail salons in cheddar, manicure cheddar, manicures in cheddar, pedicures cheddar, pedicures in cheddar, nails for kids in cheddar, childrens pedicures cheddar, childrens manicures cheddars, girls pedicures cheddar, girls manicure cheddar, eye lash extensions cheddar, eye lashes cheddar, nail gel cheddar, pamper parties cheddar"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="robots" content="all" />
