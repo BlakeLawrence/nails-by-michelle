@@ -33,7 +33,7 @@ export default function Contact() {
         <div className="flex flex-col sm:flex-row w-full h-2/3 bg-gray-100 ">
           <div className="w-full sm:w-8/12 md:w-full lg:w-2/5  flex flex-row ">
             <div className=" flex w-8/12 lg:w-5/12 h-[200px] md:h-[300px] bg-gray-100 border-[1px] sm:border-[2px] border-pink-300 mt-[-70px] lg:mt-[-90px] ml-2 lg:ml-12 rounded-xl shadow-lg">
-              <ul className="p-4 sm:p-3 md:p-4 text-pink-400 font-bold">
+              <ul className="p-4 sm:p-3 md:p-4 text-pink-500 font-bold">
                 <li className=" flex mt-5 md:mt-8">
                   <BsFillTelephoneFill className="w-[1.2rem] h-[1.2rem] md:w-[1.8rem] md:h-[1.8rem]" />
                   <p className="pl-3 md:pl-4 flex items-center text-[12px] sm:text-[10px] md:text-[14px] font-[montserrat]">
@@ -58,7 +58,7 @@ export default function Contact() {
             </div>
             {/* Opening Hours */}
             <div className=" flex justify-center md:justify-start w-8/12 lg:w-7/12 h-[200px] md:h-[300px] bg-gray-100 border-[1px] sm:border-[2px] border-pink-300 mt-[-70px] lg:mt-[-90px] mr-2 ml-1 lg:ml-8 rounded-xl shadow-lg">
-              <ul className="p-2 pt-6  text-pink-400 font-bold">
+              <ul className="p-2 pt-6  text-pink-500 font-bold">
                 <li className=" flex justify-between mt-1 md:mt-3 lg:pl-2 text-[12px] md:text-md font-[montserrat]">
                   <p className=" flex items-center text-[11px] sm:text-[8px] md:text-[14px] ">
                     Monday:
@@ -120,13 +120,13 @@ export default function Contact() {
           </div>
           {/* Thank you paragraph */}
           <div className="w-full lg:w-2/5 flex flex-col ">
-            <div className=" text-center pt-12 text-2xl md:text-3xl font-medium font-[montserrat] text-pink-400  ">
+            <div className=" text-center pt-12 text-2xl md:text-3xl font-medium font-[montserrat] text-pink-500  ">
               Thank you for popping in...
             </div>
-            <div className=" text-center ml-2 pt-6 text-md md:text-xl font-medium font-[montserrat] text-pink-400  ">
+            <div className=" text-center ml-2 pt-6 text-md md:text-xl font-medium font-[montserrat] text-pink-500  ">
               For the quickest response, please whatsapp or call me.
             </div>
-            <div className=" text-center ml-2 pt-2 text-md md:text-xl font-medium font-[montserrat] text-pink-400  ">
+            <div className=" text-center ml-2 pt-2 text-md md:text-xl font-medium font-[montserrat] text-pink-500  ">
               Emails may take a bit longer.
             </div>
           </div>
