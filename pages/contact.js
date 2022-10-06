@@ -43,14 +43,14 @@ export default function Contact() {
                 <li className="flex mt-5 md:mt-8 ">
                   <BsWhatsapp className="w-[1.2rem] h-[1.2rem] md:w-[2rem] md:h-[2rem]" />
                   <p className="pl-3 md:pl-4 flex items-center text-[12px] sm:text-[10px] md:text-[14px] md:text-sm font-[montserrat]">
-                    <a href="https://wa.me/+447308140607 ">Whatsapp</a>
+                    <a href="https://wa.me/+447308140607 ">Whatsapp me</a>
                   </p>
                 </li>
                 <Link href="mailto:nailsbymichellecheddar@outlook.com?subject=Customer Appointment">
                   <li className="flex mt-5 md:mt-8 hover:cursor-pointer">
                     <AiOutlineMail className="w-[1.2rem] h-[1.2rem] md:w-[2rem] md:h-[2rem]" />
                     <p className="pl-3 md:pl-4 flex items-center text-[13px] sm:text-[10px] md:text-sm font-[montserrat]">
-                      click to mail
+                      Email me
                     </p>
                   </li>
                 </Link>
