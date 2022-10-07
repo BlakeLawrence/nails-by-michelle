@@ -3,6 +3,7 @@ import Footer from "../components/Footer";
 import Link from "next/link";
 import { BsFillTelephoneFill, BsWhatsapp } from "react-icons/bs";
 import { AiOutlineMail } from "react-icons/ai";
+import { motion } from "framer-motion";
 
 export default function Contact() {
   return (

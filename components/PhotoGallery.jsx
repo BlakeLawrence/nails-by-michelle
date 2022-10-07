@@ -8,7 +8,7 @@ import nails5 from "../public/5-nails.jpeg";
 
 const PhotoGallery = () => {
   return (
-    <div className="w-full sm:w-1/2 grid grid-cols-4 sm:grid-cols-2 gap-1.5 sm:gap-3 sm:pt-2 sm:pb-24 pb-8 lg:pr-24 xl:pr-60 sm:pl-12  sm:ml-0  sm:p-0">
+    <div className="w-full sm:w-10/12 md:w-1/2 grid grid-cols-4 md:grid-cols-2 gap-1.5 sm:gap-3 sm:pt-2 sm:pb-24 pb-8 lg:pr-24 xl:pr-60 md:pl-0  sm:ml-14 md:ml-0  sm:p-0">
       <Image
         src={nails5}
         alt="Gel extensions done by nails by michelle,nail salon in cheddar"
