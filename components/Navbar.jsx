@@ -11,7 +11,7 @@ const Navbar = () => {
     <>
       {/* location etc only for phone mode */}
 
-      <ul className="sm:hidden flex justify-between items-center text-[9px] p-2 border-b-[1px] border-pink-200 bg-[#ffffff] ">
+      <ul className="sm:hidden flex justify-between items-center text-[9px] p-2 border-b-[1px] border-pink-200 bg-[#ffffff] dark:bg-slate-800">
         <li className="flex items-center pr-2">
           <div className="border-[1px] border-pink-400 hover:border-pink-300 rounded-full p-2 mr-3">
             <ImLocation className="text-pink-400" size="1rem" />
@@ -51,7 +51,7 @@ const Navbar = () => {
       </ul>
 
       {/* Main Nav section - Logo and location etc  */}
-      <nav className="w-full h-[120px] flex justify-between items-center border-b-[1px] border-pink-200 bg-[#ffffff] ">
+      <nav className="w-full h-[120px] flex justify-between items-center border-b-[1px] border-pink-200 bg-[#ffffff] dark:bg-slate-800 ">
         <div className=" flex pt-2 sm:pt-1 ml-2 md:ml-4">
           <Image
             src={logo}
@@ -101,7 +101,7 @@ const Navbar = () => {
       </nav>
 
       {/* Main Nav - menu items (Home, About etc) */}
-      <nav className=" w-full h-[70px] flex justify-between items-center border-b-[3px] border-b-pink-200 font-[montserrat] bg-[#ffffff] ">
+      <nav className=" w-full h-[70px] flex justify-between items-center border-b-[3px] border-b-pink-200 font-[montserrat] bg-[#ffffff] dark:bg-slate-800">
         <ul className="w-full flex justify-around items-center  text-pink-400">
           <Link href="/">
             <li className="main-welcome text-md sm:text-2xl font-semibold hover:scale-125 ease-in duration-100 hover:cursor-pointer  hover:text-pink-500">
