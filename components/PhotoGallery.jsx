@@ -15,6 +15,7 @@ const PhotoGallery = () => {
         width={250}
         height={250}
         className="rounded-md"
+        priority
       />
       <Image
         src={nails1}
@@ -22,6 +23,7 @@ const PhotoGallery = () => {
         width={250}
         height={250}
         className="rounded-md"
+        priority
       />
 
       <Image
@@ -30,6 +32,7 @@ const PhotoGallery = () => {
         width={250}
         height={250}
         className="rounded-md"
+        priority
       />
       <Image
         src={nails4}
@@ -37,6 +40,7 @@ const PhotoGallery = () => {
         width={250}
         height={250}
         className="rounded-md"
+        priority
       />
     </div>
   );

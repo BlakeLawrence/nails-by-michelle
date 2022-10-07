@@ -141,6 +141,7 @@ export default function Pamper() {
               width={250}
               height={250}
               className="rounded-md"
+              priority
             />
             <Image
               src={pamper3}
@@ -148,6 +149,7 @@ export default function Pamper() {
               width={250}
               height={250}
               className="rounded"
+              priority
             />
             <Image
               src={pamper4}
@@ -155,6 +157,7 @@ export default function Pamper() {
               width={250}
               height={250}
               className="rounded"
+              priority
             />
 
             <Image
@@ -163,6 +166,7 @@ export default function Pamper() {
               width={250}
               height={250}
               className="rounded"
+              priority
             />
             <Image
               src={pamper2}
@@ -170,6 +174,7 @@ export default function Pamper() {
               width={250}
               height={250}
               className="rounded"
+              priority
             />
             <Image
               src={pamper1}
@@ -177,6 +182,7 @@ export default function Pamper() {
               width={250}
               height={250}
               className="rounded"
+              priority
             />
           </div>
         </ul>

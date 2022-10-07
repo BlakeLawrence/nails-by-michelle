@@ -21,8 +21,8 @@ const About = () => {
           <div className="flex flex-col justify-center items-start  w-1/2 h-1/2 sm:w-1/4 pl-4 sm:pl-12">
             <Image
               src={michelle}
-              alt="picture of michelle"
-              className="rounded-lg  border-pink-300 "
+              alt="picture of michelle - owner of Nails by Michelle in Cheddar"
+              className="rounded-2xl  border-pink-300"
               width={300}
               height={300}
               priority
