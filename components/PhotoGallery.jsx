@@ -12,16 +12,16 @@ const PhotoGallery = () => {
       <Image
         src={nails5}
         alt="Gel extensions done by nails by michelle,nail salon in cheddar"
-        width={250}
-        height={250}
+        width="250"
+        height="250"
         className="rounded-md"
         priority
       />
       <Image
         src={nails1}
         alt="fresh Manicure done by nails by michelle,nail salon in cheddar"
-        width={250}
-        height={250}
+        width="250"
+        height="250"
         className="rounded-md"
         priority
       />
@@ -29,16 +29,16 @@ const PhotoGallery = () => {
       <Image
         src={nails3}
         alt="Gel polish nail treatment done by nails by michelle,nail salon in cheddar"
-        width={250}
-        height={250}
+        width="250"
+        height="250"
         className="rounded-md"
         priority
       />
       <Image
         src={nails4}
         alt="Pink gel polish done by nails by michelle,nail salon in cheddar"
-        width={250}
-        height={250}
+        width="250"
+        height="250"
         className="rounded-md"
         priority
       />

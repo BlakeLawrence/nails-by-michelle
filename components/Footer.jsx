@@ -27,6 +27,7 @@ export default function Footer() {
             href="https://blakelawrence-portfolio.netlify.app/"
             target="blank"
             className="text-pink-400"
+            aria-label="a link to the website creators development portfolio"
           >
             Built by Blake Lawrence
           </a>
@@ -42,6 +43,7 @@ export default function Footer() {
             href="https://www.facebook.com/profile.php?id=100084402441658"
             target="blank"
             rel="noreferrer"
+            aria-label="a link to the business's facebook page"
           >
             <AiFillFacebook className="h-6 w-6 sm:h-8 sm:w-8 rounded-md text-pink-400 hover:scale-125 ease-in duration-100" />
           </a>
@@ -51,6 +53,7 @@ export default function Footer() {
             href="https://instagram.com/nails_by_michelle85?igshid=YmMyMTA2M2Y="
             target="blank"
             rel="noreferrer"
+            aria-label="a link to the business's instagram page"
           >
             <AiFillInstagram className="h-6 w-6 sm:h-8 sm:w-8 rounded-md mr-4 text-pink-400 hover:scale-125 ease-in duration-100" />
           </a>

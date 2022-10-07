@@ -23,16 +23,16 @@ const About = () => {
               src={michelle}
               alt="picture of michelle - owner of Nails by Michelle in Cheddar"
               className="rounded-2xl  border-pink-300"
-              width={300}
-              height={300}
+              width="300"
+              height="300"
               priority
             />
           </div>
           {/* description div */}
           <div className="flex flex-col justify-center w-full md:w-1/2 pl-4 pr-4 sm:pl-0 sm:pr-0 text-left sm:text-center pt-14">
-            <h3 className="main-welcome text-2xl sm:text-5xl sm:pl-12 pb-4 text-[#f889c6] font-bold">
+            <h4 className="main-welcome text-2xl sm:text-5xl sm:pl-12 pb-4 text-[#f889c6] font-bold">
               Hi, I&apos;m Michelle
-            </h3>
+            </h4>
             <p className="font-[montserrat] sm:pl-12 sm:text-xl text-gray-600 pb-3  ">
               I&apos;m a wife and mother of two beautiful children.
             </p>
