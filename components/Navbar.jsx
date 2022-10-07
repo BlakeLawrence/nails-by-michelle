@@ -84,7 +84,7 @@ const Navbar = () => {
                 className="hover:cursor-pointer font-semibold"
                 href="/contact"
               >
-                click for opening hours
+                <span className="font-semibold ">click for opening hours</span>
               </Link>
             </div>
           </li>
@@ -94,7 +94,7 @@ const Navbar = () => {
             </div>
             <div className="flex flex-col text-[10px] md:text-[15px]  text-pink-400 font-[montserrat]">
               <p className="font-bold">Call</p>
-              <p className="font-semibold text-pink-300 ">073 081 40607</p>
+              <p className="font-medium text-pink-400 ">073 081 40607</p>
             </div>
           </li>
         </ul>
