@@ -25,9 +25,9 @@ const Navbar = () => {
             <AiOutlineClockCircle className="text-pink-400" size="1rem" />
           </div>
           <div className="flex flex-col text-[10px] md:text-[15px] text-pink-400 font-[montserrat]">
-            <p className="font-bold text-pink-400">Mon - Sat</p>
+            <p className="font-bold text-pink-500">Mon - Sat</p>
             <Link
-              className="hover:cursor-pointer font-medium text-pink-300"
+              className="hover:cursor-pointer font-medium text-pink-400"
               href="/contact"
             >
               click for opening hours
@@ -39,8 +39,8 @@ const Navbar = () => {
             <BsFillTelephoneFill className="text-pink-400" size="1rem" />
           </div>
           <div className="flex flex-col text-[10px] md:text-[15px] font-[montserrat]">
-            <p className="font-bold text-pink-400">Call</p>
-            <p className="font-medium text-pink-300">
+            <p className="font-bold text-pink-500">Call</p>
+            <p className="font-medium text-pink-400">
               <a href="tel:07308140607">073 081 40607</a>
             </p>
           </div>
