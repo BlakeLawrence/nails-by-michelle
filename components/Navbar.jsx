@@ -51,7 +51,7 @@ const Navbar = () => {
       </ul>
 
       {/* Main Nav section - Logo and location etc  */}
-      <div className="w-full h-[120px] flex justify-between items-center border-b-[1px] border-pink-200 bg-[#ffffff] ">
+      <nav className="w-full h-[120px] flex justify-between items-center border-b-[1px] border-pink-200 bg-[#ffffff] ">
         <div className=" flex pt-2 sm:pt-1 ml-2 md:ml-4">
           <Image
             src={logo}
@@ -69,7 +69,7 @@ const Navbar = () => {
             <div className="border-[1px] border-pink-400 rounded-full p-2 mr-3 hover:animate-bounce">
               <ImLocation className="text-pink-400" size="1.5rem" />
             </div>
-            <div className="flex flex-col text-[15px]  text-pink-700 font-[montserrat] font-medium">
+            <div className="flex flex-col text-[15px]  text-pink-400 font-[montserrat] font-semibold">
               <p>Labourham Way, Draycott</p>
               <p>Cheddar, BS27 3RP</p>
             </div>
@@ -98,7 +98,7 @@ const Navbar = () => {
             </div>
           </li>
         </ul>
-      </div>
+      </nav>
 
       {/* Main Nav - menu items (Home, About etc) */}
       <nav className=" w-full h-[70px] flex justify-between items-center border-b-[3px] border-b-pink-200 font-[montserrat] bg-[#ffffff] ">
