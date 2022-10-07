@@ -7,7 +7,10 @@ const About = () => {
       {/* main div */}
       <div className="w-full bg-pink-100 pb-12 sm:pb-24 border-t-[1px] border-pink-200">
         {/* Heading div */}
-        <div id="about" className="flex p-8 sm:pt-10 sm:pl-20 bg-pink-100">
+        <div
+          id="about"
+          className="flex p-4 sm:p-8 sm:pt-10 sm:pl-20 bg-pink-100"
+        >
           <h3 className=" main-welcome text-3xl pb-4 sm:text-5xl lg:text-6xl font-bold font-[montserrat] text-[#f793dc] drop-shadow-lg">
             Pleased to meet you...
           </h3>
@@ -15,11 +18,11 @@ const About = () => {
         {/* Image and description div */}
         <div className="flex flex-col lg:flex-row items-start sm:items-center">
           {/* Image div */}
-          <div className="flex flex-col items-start w-1/2 h-1/2 sm:w-1/4 pl-8 sm:pl-12">
+          <div className="flex flex-col justify-center items-start  w-1/2 h-1/2 sm:w-1/4 pl-4 sm:pl-12">
             <Image
               src={michelle}
               alt="picture of michelle"
-              className="rounded-full  border-pink-300 "
+              className="rounded-lg  border-pink-300 "
               width={300}
               height={300}
               priority
