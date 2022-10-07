@@ -10,46 +10,46 @@ const Navbar = () => {
   return (
     <>
       {/* location etc only for phone mode */}
-      <div aria-label="navigation for mobile phones">
-        <ul className="sm:hidden flex justify-between items-center text-[9px] p-2 border-b-[1px] border-pink-200 bg-[#ffffff] ">
-          <li className="flex items-center pr-2">
-            <div className="border-[1px] border-pink-400 hover:border-pink-300 rounded-full p-2 mr-3">
-              <ImLocation className="text-pink-400" size="1rem" />
-            </div>
-            <div className="flex flex-col text-[11px] md:text-[15px] text-pink-500 font-[montserrat] font-medium">
-              <p>Labourham Way, Draycott</p>
-              <p>Cheddar, BS27 3RP</p>
-            </div>
-          </li>
-          <li className="flex  items-center pr-2">
-            <div className="border-[1px] border-pink-400 hover:border-pink-300 rounded-full p-2 mr-3">
-              <AiOutlineClockCircle className="text-pink-400" size="1rem" />
-            </div>
-            <div className="flex flex-col text-[11px] md:text-[15px] text-pink-400 font-[montserrat]">
-              <p className="font-bold text-pink-500">Mon - Sat</p>
-              <Link
-                className="hover:cursor-pointer text-pink-400"
-                href="/contact"
-              >
-                <span className="font-semibold text-[11px]">
-                  click for opening hours
-                </span>
-              </Link>
-            </div>
-          </li>
-          <li className="flex items-center ">
-            <div className="border-[1px] border-pink-400 hover:border-pink-300 rounded-full p-2 mr-3">
-              <BsFillTelephoneFill className="text-pink-400" size="1rem" />
-            </div>
-            <div className="flex flex-col text-[10px] md:text-[15px] font-[montserrat]">
-              <p className="font-bold text-pink-500">Call</p>
-              <p className="font-semibold text-pink-400 text-[11px]">
-                <a href="tel:07308140607">073 081 40607</a>
-              </p>
-            </div>
-          </li>
-        </ul>
-      </div>
+
+      <ul className="sm:hidden flex justify-between items-center text-[9px] p-2 border-b-[1px] border-pink-200 bg-[#ffffff] ">
+        <li className="flex items-center pr-2">
+          <div className="border-[1px] border-pink-400 hover:border-pink-300 rounded-full p-2 mr-3">
+            <ImLocation className="text-pink-400" size="1rem" />
+          </div>
+          <div className="flex flex-col text-[11px] md:text-[15px] text-pink-500 font-[montserrat] font-medium">
+            <p>Labourham Way, Draycott</p>
+            <p>Cheddar, BS27 3RP</p>
+          </div>
+        </li>
+        <li className="flex  items-center pr-2">
+          <div className="border-[1px] border-pink-400 hover:border-pink-300 rounded-full p-2 mr-3">
+            <AiOutlineClockCircle className="text-pink-400" size="1rem" />
+          </div>
+          <div className="flex flex-col text-[11px] md:text-[15px] text-pink-400 font-[montserrat]">
+            <p className="font-bold text-pink-500">Mon - Sat</p>
+            <Link
+              className="hover:cursor-pointer text-pink-400"
+              href="/contact"
+            >
+              <span className="font-semibold text-[11px]">
+                click for opening hours
+              </span>
+            </Link>
+          </div>
+        </li>
+        <li className="flex items-center ">
+          <div className="border-[1px] border-pink-400 hover:border-pink-300 rounded-full p-2 mr-3">
+            <BsFillTelephoneFill className="text-pink-400" size="1rem" />
+          </div>
+          <div className="flex flex-col text-[10px] md:text-[15px] font-[montserrat]">
+            <p className="font-bold text-pink-500">Call</p>
+            <p className="font-semibold text-pink-400 text-[11px]">
+              <a href="tel:07308140607">073 081 40607</a>
+            </p>
+          </div>
+        </li>
+      </ul>
+
       {/* Main Nav section - Logo and location etc  */}
       <nav className="w-full h-[120px] flex justify-between items-center border-b-[1px] border-pink-200 bg-[#ffffff] ">
         <div className=" flex pt-2 sm:pt-1 ml-2 md:ml-4">
