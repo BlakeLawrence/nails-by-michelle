@@ -11,9 +11,9 @@ const About = () => {
           id="about"
           className="flex p-4 sm:p-8 sm:pt-10 sm:pl-20 bg-pink-100"
         >
-          <h3 className=" main-welcome text-3xl pb-4 sm:text-5xl lg:text-6xl font-bold font-[montserrat] text-[#f793dc] drop-shadow-lg">
+          <h2 className=" main-welcome text-3xl pb-4 sm:text-5xl lg:text-6xl font-bold font-[montserrat] text-[#f793dc] drop-shadow-lg">
             Pleased to meet you...
-          </h3>
+          </h2>
         </div>
         {/* Image and description div */}
         <div className="flex flex-col lg:flex-row items-start sm:items-center">
@@ -30,9 +30,9 @@ const About = () => {
           </div>
           {/* description div */}
           <div className="flex flex-col justify-center w-full md:w-1/2 pl-4 pr-4 sm:pl-0 sm:pr-0 text-left sm:text-center pt-14">
-            <h4 className="main-welcome text-2xl sm:text-5xl sm:pl-12 pb-4 text-[#f889c6] font-bold">
+            <h3 className="main-welcome text-2xl sm:text-5xl sm:pl-12 pb-4 text-[#f889c6] font-bold">
               Hi, I&apos;m Michelle
-            </h4>
+            </h3>
             <p className="font-[montserrat] sm:pl-12 sm:text-xl text-gray-600 pb-3  ">
               I&apos;m a wife and mother of two beautiful children.
             </p>
