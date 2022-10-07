@@ -34,6 +34,11 @@ export default function Home() {
           property="og:description"
           content="Nails by Michelle is my nail salon in Cheddar. I offer amazing nail treatments at great prices. Nails by Michelle is situated in the heart of Cheddar, Somerset."
         />
+        {/* google search console tag for verification puirposes */}
+        <meta
+          name="google-site-verification"
+          content="knpJraL--4zC6lZCJG1FsKU0AIL2gJTN_DEZ9YgEnZU"
+        />
 
         {/* Link Tag */}
         <link rel="icon" href="/logo.svg" />
