@@ -10,44 +10,46 @@ const Navbar = () => {
   return (
     <>
       {/* location etc only for phone mode */}
-      <ul className="sm:hidden flex justify-between items-center text-[9px] p-2 border-b-[1px] border-pink-200">
-        <li className="flex items-center pr-2">
-          <div className="border-[1px] border-pink-400 hover:border-pink-300 rounded-full p-2 mr-3">
-            <ImLocation className="text-pink-400" size="1rem" />
-          </div>
-          <div className="flex flex-col text-[10px] md:text-[15px] text-pink-500 font-[montserrat] font-medium">
-            <p>Labourham Way, Draycott</p>
-            <p>Cheddar, BS27 3RP</p>
-          </div>
-        </li>
-        <li className="flex  items-center pr-2">
-          <div className="border-[1px] border-pink-400 hover:border-pink-300 rounded-full p-2 mr-3">
-            <AiOutlineClockCircle className="text-pink-400" size="1rem" />
-          </div>
-          <div className="flex flex-col text-[10px] md:text-[15px] text-pink-400 font-[montserrat]">
-            <p className="font-bold text-pink-500">Mon - Sat</p>
-            <Link
-              className="hover:cursor-pointer font-medium text-pink-400"
-              href="/contact"
-            >
-              click for opening hours
-            </Link>
-          </div>
-        </li>
-        <li className="flex items-center ">
-          <div className="border-[1px] border-pink-400 hover:border-pink-300 rounded-full p-2 mr-3">
-            <BsFillTelephoneFill className="text-pink-400" size="1rem" />
-          </div>
-          <div className="flex flex-col text-[10px] md:text-[15px] font-[montserrat]">
-            <p className="font-bold text-pink-500">Call</p>
-            <p className="font-medium text-pink-400">
-              <a href="tel:07308140607">073 081 40607</a>
-            </p>
-          </div>
-        </li>
-      </ul>
+      <nav>
+        <ul className="sm:hidden flex justify-between items-center text-[9px] p-2 border-b-[1px] border-pink-200">
+          <li className="flex items-center pr-2">
+            <div className="border-[1px] border-pink-400 hover:border-pink-300 rounded-full p-2 mr-3">
+              <ImLocation className="text-pink-400" size="1rem" />
+            </div>
+            <div className="flex flex-col text-[10px] md:text-[15px] text-pink-500 font-[montserrat] font-medium">
+              <p>Labourham Way, Draycott</p>
+              <p>Cheddar, BS27 3RP</p>
+            </div>
+          </li>
+          <li className="flex  items-center pr-2">
+            <div className="border-[1px] border-pink-400 hover:border-pink-300 rounded-full p-2 mr-3">
+              <AiOutlineClockCircle className="text-pink-400" size="1rem" />
+            </div>
+            <div className="flex flex-col text-[10px] md:text-[15px] text-pink-400 font-[montserrat]">
+              <p className="font-bold text-pink-500">Mon - Sat</p>
+              <Link
+                className="hover:cursor-pointer font-medium text-pink-400"
+                href="/contact"
+              >
+                click for opening hours
+              </Link>
+            </div>
+          </li>
+          <li className="flex items-center ">
+            <div className="border-[1px] border-pink-400 hover:border-pink-300 rounded-full p-2 mr-3">
+              <BsFillTelephoneFill className="text-pink-400" size="1rem" />
+            </div>
+            <div className="flex flex-col text-[10px] md:text-[15px] font-[montserrat]">
+              <p className="font-bold text-pink-500">Call</p>
+              <p className="font-medium text-pink-400">
+                <a href="tel:07308140607">073 081 40607</a>
+              </p>
+            </div>
+          </li>
+        </ul>
+      </nav>
       {/* Main Nav section - Logo and location etc  */}
-      <div className="w-full h-[120px] flex justify-between items-center border-b-[1px] border-pink-200 bg-gradient-to-b ">
+      <nav className="w-full h-[120px] flex justify-between items-center border-b-[1px] border-pink-200 bg-gradient-to-b ">
         <div className=" flex pt-2 sm:pt-1 ml-2 md:ml-4">
           <Image
             src={logo}
@@ -94,8 +96,8 @@ const Navbar = () => {
             </div>
           </li>
         </ul>
-      </div>
-      <div></div>
+      </nav>
+
       {/* Main Nav - menu items (Home, About etc) */}
       <nav className=" w-full h-[70px] flex justify-between items-center border-b-[3px] border-b-pink-200 font-[montserrat] ">
         <ul className="w-full flex justify-around items-center  text-pink-400">
