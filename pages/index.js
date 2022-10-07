@@ -49,7 +49,7 @@ export default function Home() {
         {/* Heading and buttons div */}
         <div className="flex flex-col p-8 pt-12 sm:p-24 ">
           <h1 className="main-welcome text-3xl sm:text-5xl lg:text-7xl font-bold font-[montserrat] text-[#f793dc] drop-shadow-lg">
-            Relax, Indulge <br /> and spoil yourself...
+            Relax, Indulge <br /> and Spoil Yourself...
           </h1>
           {/* buttons div */}
           <div className="scroll-smooth mt-10 sm:mt-24">
