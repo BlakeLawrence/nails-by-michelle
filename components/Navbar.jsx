@@ -28,10 +28,10 @@ const Navbar = () => {
             <div className="flex flex-col text-[10px] md:text-[15px] text-pink-400 font-[montserrat]">
               <p className="font-bold text-pink-500">Mon - Sat</p>
               <Link
-                className="hover:cursor-pointer font-medium text-pink-400"
+                className="hover:cursor-pointer text-pink-400"
                 href="/contact"
               >
-                click for opening hours
+                <span className="font-semibold">click for opening hours</span>
               </Link>
             </div>
           </li>
@@ -41,7 +41,7 @@ const Navbar = () => {
             </div>
             <div className="flex flex-col text-[10px] md:text-[15px] font-[montserrat]">
               <p className="font-bold text-pink-500">Call</p>
-              <p className="font-medium text-pink-400">
+              <p className="font-semibold text-pink-400">
                 <a href="tel:07308140607">073 081 40607</a>
               </p>
             </div>
@@ -57,7 +57,7 @@ const Navbar = () => {
             height={100}
             width={100}
           ></Image>
-          <h2 className="text-[#ff4f9e] text-[38px] sm:text-4xl md:text-[32px]  xl:text-6xl pt-8 md:pt-8">
+          <h2 className="text-[#ff4f9e] text-[38px] sm:text-4xl md:text-[32px]  xl:text-6xl pt-8 md:pt-8 font-medium">
             Nails by Michelle
           </h2>
         </div>
@@ -79,7 +79,7 @@ const Navbar = () => {
             <div className="flex flex-col text-[10px] md:text-[15px]  text-pink-400 font-[montserrat]">
               <p className="font-bold">Mon - Sat</p>
               <Link
-                className="hover:cursor-pointer font-medium"
+                className="hover:cursor-pointer font-semibold"
                 href="/contact"
               >
                 click for opening hours
@@ -92,7 +92,7 @@ const Navbar = () => {
             </div>
             <div className="flex flex-col text-[10px] md:text-[15px]  text-pink-400 font-[montserrat]">
               <p className="font-bold">Call</p>
-              <p className="font-medium text-pink-300">073 081 40607</p>
+              <p className="font-semibold text-pink-300 ">073 081 40607</p>
             </div>
           </li>
         </ul>
