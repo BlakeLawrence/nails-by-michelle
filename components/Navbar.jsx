@@ -16,7 +16,7 @@ const Navbar = () => {
             <div className="border-[1px] border-pink-400 hover:border-pink-300 rounded-full p-2 mr-3">
               <ImLocation className="text-pink-400" size="1rem" />
             </div>
-            <div className="flex flex-col text-[10px] md:text-[15px] text-pink-500 font-[montserrat] font-medium">
+            <div className="flex flex-col text-[11px] md:text-[15px] text-pink-500 font-[montserrat] font-medium">
               <p>Labourham Way, Draycott</p>
               <p>Cheddar, BS27 3RP</p>
             </div>
@@ -25,13 +25,15 @@ const Navbar = () => {
             <div className="border-[1px] border-pink-400 hover:border-pink-300 rounded-full p-2 mr-3">
               <AiOutlineClockCircle className="text-pink-400" size="1rem" />
             </div>
-            <div className="flex flex-col text-[10px] md:text-[15px] text-pink-400 font-[montserrat]">
+            <div className="flex flex-col text-[11px] md:text-[15px] text-pink-400 font-[montserrat]">
               <p className="font-bold text-pink-500">Mon - Sat</p>
               <Link
                 className="hover:cursor-pointer text-pink-400"
                 href="/contact"
               >
-                <span className="font-semibold">click for opening hours</span>
+                <span className="font-semibold text-[11px]">
+                  click for opening hours
+                </span>
               </Link>
             </div>
           </li>
@@ -41,7 +43,7 @@ const Navbar = () => {
             </div>
             <div className="flex flex-col text-[10px] md:text-[15px] font-[montserrat]">
               <p className="font-bold text-pink-500">Call</p>
-              <p className="font-semibold text-pink-400">
+              <p className="font-semibold text-pink-400 text-[11px]">
                 <a href="tel:07308140607">073 081 40607</a>
               </p>
             </div>
@@ -67,7 +69,7 @@ const Navbar = () => {
             <div className="border-[1px] border-pink-400 rounded-full p-2 mr-3 hover:animate-bounce">
               <ImLocation className="text-pink-400" size="1.5rem" />
             </div>
-            <div className="flex flex-col text-[10px] md:text-[15px]  text-pink-500 font-[montserrat] font-medium">
+            <div className="flex flex-col text-[15px]  text-pink-500 font-[montserrat] font-medium">
               <p>Labourham Way, Draycott</p>
               <p>Cheddar, BS27 3RP</p>
             </div>
@@ -102,25 +104,25 @@ const Navbar = () => {
       <nav className=" w-full h-[70px] flex justify-between items-center border-b-[3px] border-b-pink-200 font-[montserrat] bg-[#fffff3] ">
         <ul className="w-full flex justify-around items-center  text-pink-400">
           <Link href="/">
-            <li className="main-welcome text-sm sm:text-2xl font-semibold hover:scale-125 ease-in duration-100 hover:cursor-pointer  hover:text-pink-500">
+            <li className="main-welcome text-md sm:text-2xl font-semibold hover:scale-125 ease-in duration-100 hover:cursor-pointer  hover:text-pink-500">
               Home
             </li>
           </Link>
 
           <Link href="/price-list">
-            <li className="main-welcome text-sm sm:text-2xl font-semibold hover:scale-125 ease-in duration-100 hover:cursor-pointer  hover:text-pink-500">
+            <li className="main-welcome text-md sm:text-2xl font-semibold hover:scale-125 ease-in duration-100 hover:cursor-pointer  hover:text-pink-500">
               Price List
             </li>
           </Link>
 
           <Link href="/pamper-parties">
-            <li className="main-welcome text-sm sm:text-2xl font-semibold hover:scale-125 ease-in duration-100 hover:cursor-pointer  hover:text-pink-500">
+            <li className="main-welcome text-md sm:text-2xl font-semibold hover:scale-125 ease-in duration-100 hover:cursor-pointer  hover:text-pink-500">
               Pamper Parties
             </li>
           </Link>
 
           <Link href="/contact">
-            <li className="main-welcome text-sm sm:text-2xl font-semibold hover:scale-125 ease-in duration-100 hover:cursor-pointer  hover:text-pink-500">
+            <li className="main-welcome text-md sm:text-2xl font-semibold hover:scale-125 ease-in duration-100 hover:cursor-pointer  hover:text-pink-500">
               Contact
             </li>
           </Link>

@@ -8,7 +8,6 @@ const About = () => {
       <div className="w-full bg-pink-100 pb-12 sm:pb-24 border-t-[1px] border-pink-200">
         {/* Heading div */}
         <div
-          role="section"
           id="about"
           className="flex p-4 sm:p-8 sm:pt-10 sm:pl-20 bg-pink-100"
         >
