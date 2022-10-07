@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <>
       {/* location etc only for phone mode */}
-      <div role="navigation">
+      <div aria-label="navigation for mobile phones">
         <ul className="sm:hidden flex justify-between items-center text-[9px] p-2 border-b-[1px] border-pink-200 bg-[#ffffff] ">
           <li className="flex items-center pr-2">
             <div className="border-[1px] border-pink-400 hover:border-pink-300 rounded-full p-2 mr-3">

@@ -29,7 +29,7 @@ const About = () => {
             />
           </div>
           {/* description div */}
-          <div className="flex flex-col justify-center w-full md:w-1/2 pl-4 pr-4 sm:pl-0 sm:pr-0 text-left sm:text-center pt-14">
+          <section className="flex flex-col justify-center w-full md:w-1/2 pl-4 pr-4 sm:pl-0 sm:pr-0 text-left sm:text-center pt-14">
             <h3 className="main-welcome text-2xl sm:text-5xl sm:pl-12 pb-4 text-[#f889c6] font-bold">
               Hi, I&apos;m Michelle
             </h3>
@@ -57,7 +57,7 @@ const About = () => {
               feeling confident with their new nails... after all, the magic to
               success begins at our finger tips.
             </p>
-          </div>
+          </section>
         </div>
       </div>
     </>
