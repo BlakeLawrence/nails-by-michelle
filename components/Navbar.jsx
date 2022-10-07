@@ -15,7 +15,7 @@ const Navbar = () => {
           <div className="border-[1px] border-pink-400 hover:border-pink-300 rounded-full p-2 mr-3">
             <ImLocation className="text-pink-400" size="1rem" />
           </div>
-          <div className="flex flex-col text-[10px] md:text-[15px] text-pink-400 font-[montserrat] font-medium">
+          <div className="flex flex-col text-[10px] md:text-[15px] text-pink-500 font-[montserrat] font-medium">
             <p>Labourham Way, Draycott</p>
             <p>Cheddar, BS27 3RP</p>
           </div>
