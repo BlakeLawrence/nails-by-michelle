@@ -51,7 +51,7 @@ const Navbar = () => {
       </ul>
 
       {/* Main Nav section - Logo and location etc  */}
-      <nav className="w-full h-[120px] flex justify-between items-center border-b-[1px] border-pink-200 bg-[#ffffff] ">
+      <div className="w-full h-[120px] flex justify-between items-center border-b-[1px] border-pink-200 bg-[#ffffff] ">
         <div className=" flex pt-2 sm:pt-1 ml-2 md:ml-4">
           <Image
             src={logo}
@@ -98,7 +98,7 @@ const Navbar = () => {
             </div>
           </li>
         </ul>
-      </nav>
+      </div>
 
       {/* Main Nav - menu items (Home, About etc) */}
       <nav className=" w-full h-[70px] flex justify-between items-center border-b-[3px] border-b-pink-200 font-[montserrat] bg-[#ffffff] ">
