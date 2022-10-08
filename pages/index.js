@@ -59,7 +59,7 @@ export default function Home() {
               </button>
             </Link>
             <Link href="/price-list">
-              <button className="text-[11px] sm:text-[16px] py-3 text-purple-400 border-[1px] font-semibold font-[montserrat] w-20 md:w-28 border-purple-400 rounded-full bg-[#ffffff] hover:scale-110 ease-in duration-100">
+              <button className="text-[11px] sm:text-[16px] py-3 text-purple-400 border-[1px] font-semibold font-[montserrat] w-20 md:w-28 border-purple-400 rounded-full bg-[#ffffff] dark:bg-slate-800 hover:scale-110 ease-in duration-100">
                 Prices
               </button>
             </Link>

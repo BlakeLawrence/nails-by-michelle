@@ -17,7 +17,7 @@ const Navbar = () => {
             <ImLocation className="text-pink-400" size="1rem" />
           </div>
           <div className="flex flex-col text-[11px] md:text-[15px] text-pink-500 font-[montserrat] font-medium">
-            <p>Labourham Way, Draycott</p>
+            <p>Labourham Wy, Draycott</p>
             <p>Cheddar, BS27 3RP</p>
           </div>
         </li>
@@ -70,7 +70,7 @@ const Navbar = () => {
               <ImLocation className="text-pink-400" size="1.5rem" />
             </div>
             <div className="flex flex-col text-[15px]  text-pink-400 font-[montserrat] font-semibold">
-              <p>Labourham Way, Draycott</p>
+              <p>Labourham Wy, Draycott</p>
               <p>Cheddar, BS27 3RP</p>
             </div>
           </li>
