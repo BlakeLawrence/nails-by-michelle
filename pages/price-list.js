@@ -29,6 +29,12 @@ export default function PriceList() {
           property="og:description"
           content="This is my Price list. Treat yourself today to an affordable range of nail treatments. To book yourself in, call or whatsapp me on 073 081 40607."
         />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:image"
+          content="https://res.cloudinary.com/dnui98kxa/image/upload/v1665416540/OG_Image_-_prilce_list_fot1kf.png"
+        />
+        <meta name="twitter:card" content="summary_large_image" />
         {/* Link Tag */}
         <link rel="icon" href="/logo.svg" />
       </Head>

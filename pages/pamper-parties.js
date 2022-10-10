@@ -29,6 +29,27 @@ export default function Pamper() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="robots" content="all" />
         <link rel="icon" href="/logo.svg" />
+
+        {/* open graph tags */}
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:url"
+          content="https://nails-by-michelle.netlify.app/pamper-parties"
+        />
+        <meta property="og:site_name" content="Nails By Michelle" />
+        <meta
+          property="og:title"
+          content="Nails By Michelle | Pamper Parties. Nail Salon in Cheddar, Somerset"
+        />
+        <meta
+          property="og:description"
+          content="Our pamper parties are packed full of fun and girly treats. Spoil your little ones and book them in for a day of bliss. Very popular so dont delay, book today!"
+        />
+        <meta
+          property="og:image"
+          content="https://res.cloudinary.com/dnui98kxa/image/upload/v1665417693/OG_Image_-_pamper_party_olaqmy.png"
+        />
+        <meta name="twitter:card" content="summary_large_image" />
       </Head>
 
       <div className="w-full h-full pb-10 bg-[url('/varnish.jpg')] bg-no-repeat ">
