@@ -22,18 +22,25 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="robots" content="all" />
         {/* open graph tags */}
+        <meta property="og:type" content="website" />
         <meta
           property="og:url"
           content="https://nails-by-michelle.netlify.app/"
         />
+        <meta property="og:site_name" content="Nails By Michelle" />
         <meta
           property="og:title"
           content="Nails By Michelle | Home. Nail Salon in Cheddar, Somerset"
         />
         <meta
           property="og:description"
-          content="Nails by Michelle is my nail salon in Cheddar. I offer amazing nail treatments at great prices. Nails by Michelle is situated in the heart of Cheddar, Somerset."
+          content="Nails by Michelle is my nail salon in Cheddar. I offer nail treatments at great prices. Nails by Michelle is situated in the heart of Cheddar, Somerset."
         />
+        <meta
+          property="og:image"
+          content="https://res.cloudinary.com/dnui98kxa/image/upload/v1665416540/OG_Image_-_home_page_gwv6xx.png"
+        />
+        <meta name="twitter:card" content="summary_large_image" />
         {/* google search console tag for verification puirposes */}
         <meta
           name="google-site-verification"
