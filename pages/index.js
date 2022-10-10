@@ -38,7 +38,7 @@ export default function Home() {
         />
         <meta
           property="og:image"
-          content="https://res.cloudinary.com/dnui98kxa/image/upload/v1665416540/OG_Image_-_home_page_gwv6xx.png"
+          content="https://res.cloudinary.com/dnui98kxa/image/upload/v1665417554/OG_Image_-_home_page_a2shpy.png"
         />
         <meta name="twitter:card" content="summary_large_image" />
         {/* google search console tag for verification puirposes */}
