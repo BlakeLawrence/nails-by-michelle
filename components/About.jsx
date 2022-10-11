@@ -23,8 +23,8 @@ const About = () => {
               src={michelle}
               alt="picture of michelle - owner of Nails by Michelle in Cheddar"
               className="rounded-2xl  border-pink-300"
-              width="300"
-              height="300"
+              width="300px"
+              height="300px"
               priority
             />
           </div>

@@ -12,16 +12,22 @@ const PhotoGallery = () => {
       <Image
         src={nails5}
         alt="Gel extensions done by nails by michelle,nail salon in cheddar"
-        width="250"
-        height="250"
+        width="250px"
+        height="250px"
+        sizes="(max-width: 768px) 100vw,
+        (max-width: 1200px) 50vw,
+        33vw"
         className="rounded-md"
         priority
       />
       <Image
         src={nails1}
         alt="fresh Manicure done by nails by michelle,nail salon in cheddar"
-        width="250"
-        height="250"
+        width="250px"
+        height="250px"
+        sizes="(max-width: 768px) 100vw,
+        (max-width: 1200px) 50vw,
+        33vw"
         className="rounded-md"
         priority
       />
@@ -29,16 +35,22 @@ const PhotoGallery = () => {
       <Image
         src={nails3}
         alt="Gel polish nail treatment done by nails by michelle,nail salon in cheddar"
-        width="250"
-        height="250"
+        width="250px"
+        height="250px"
+        sizes="(max-width: 768px) 100vw,
+        (max-width: 1200px) 50vw,
+        33vw"
         className="rounded-md"
         priority
       />
       <Image
         src={nails4}
         alt="Pink gel polish done by nails by michelle,nail salon in cheddar"
-        width="250"
-        height="250"
+        width="250px"
+        height="250px"
+        sizes="(max-width: 768px) 100vw,
+        (max-width: 1200px) 50vw,
+        33vw"
         className="rounded-md"
         priority
       />

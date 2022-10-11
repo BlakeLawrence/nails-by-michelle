@@ -159,24 +159,24 @@ export default function Pamper() {
             <Image
               src={pamper5}
               alt="a little girl at a pamper party. party by Nails by michelle in Cheddar"
-              width="250"
-              height="250"
+              width="250px"
+              height="250px"
               className="rounded-md"
               priority
             />
             <Image
               src={pamper3}
               alt="food supplied by nails by michelle, nail salon in cheddar"
-              width="250"
-              height="250"
+              width="250px"
+              height="250px"
               className="rounded"
               priority
             />
             <Image
               src={pamper4}
               alt="food supplied by nails by michelle for a pamper party"
-              width="250"
-              height="250"
+              width="250px"
+              height="250px"
               className="rounded"
               priority
             />
@@ -184,24 +184,24 @@ export default function Pamper() {
             <Image
               src={pamper6}
               alt="decor for a pamper party - nails by michelle, nail salon in cheddar"
-              width="250"
-              height="250"
+              width="250px"
+              height="250px"
               className="rounded"
               priority
             />
             <Image
               src={pamper2}
               alt="decor for a pamper party - nails by michelle, nail salon in cheddar"
-              width="250"
-              height="250"
+              width="250px"
+              height="250px"
               className="rounded"
               priority
             />
             <Image
               src={pamper1}
               alt="make a crown at a pamper party by Nails by michelle, nail salon in cheddar"
-              width="250"
-              height="250"
+              width="250px"
+              height="250px"
               className="rounded"
               priority
             />
