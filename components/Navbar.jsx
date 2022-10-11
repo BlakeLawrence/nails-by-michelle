@@ -12,40 +12,41 @@ const Navbar = () => {
       {/* location etc only for phone mode */}
 
       <ul className="sm:hidden flex justify-between items-center text-[9px] p-2 border-b-[1px] border-pink-200 bg-[#ffffff] dark:bg-slate-800">
-        <li className="flex items-center pr-2">
-          <div className="border-[1px] border-pink-400 hover:border-pink-300 rounded-full p-2 mr-3">
-            <ImLocation className="text-pink-400" size="1rem" />
+        <li className="flex flex-col md:flex-row items-start md:items-center  pr-2">
+          <div className="border-[1px] border-pink-400 hover:border-pink-300 rounded-full p-2">
+            <ImLocation className="text-pink-400" size="0.6rem" />
           </div>
           <a href="https://goo.gl/maps/Hk7R5snpfPEbQeLC6" target="blank">
-            <div className="flex flex-col text-[11px] md:text-[15px] text-pink-500 font-[montserrat] font-medium">
+            <div className="flex flex-col text-[9.5px] md:text-[15px] text-pink-500 font-[montserrat] font-medium pt-1 mr-1">
               <p>Labourham Wy, Draycott</p>
+
               <p>Cheddar, BS27 3RP</p>
             </div>
           </a>
         </li>
-        <li className="flex  items-center pr-2">
+        <li className="flex flex-col md:flex-row  items-start md:items-center">
           <div className="border-[1px] border-pink-400 hover:border-pink-300 rounded-full p-2 mr-3">
-            <AiOutlineClockCircle className="text-pink-400" size="1rem" />
+            <AiOutlineClockCircle className="text-pink-400" size="0.6rem" />
           </div>
-          <div className="flex flex-col text-[11px] md:text-[15px] text-pink-400 font-[montserrat]">
-            <p className="font-bold text-pink-500">Mon - Sat</p>
+          <div className="flex flex-col text-[9.5px] md:text-[15px] text-pink-400 font-[montserrat]">
+            <p className="font-bold text-pink-500 pt-1">Mon - Sat</p>
             <Link
               className="hover:cursor-pointer text-pink-400"
               href="/contact"
             >
-              <span className="font-semibold text-[11px]">
+              <span className="font-semibold text-[9.5px] mr-3">
                 click for opening hours
               </span>
             </Link>
           </div>
         </li>
-        <li className="flex items-center ">
+        <li className="flex flex-col md:flex-row items-start md:items-center">
           <div className="border-[1px] border-pink-400 hover:border-pink-300 rounded-full p-2 mr-3">
-            <BsFillTelephoneFill className="text-pink-400" size="1rem" />
+            <BsFillTelephoneFill className="text-pink-400" size="0.6rem" />
           </div>
-          <div className="flex flex-col text-[10px] md:text-[15px] font-[montserrat]">
-            <p className="font-bold text-pink-500">Call</p>
-            <p className="font-semibold text-pink-400 text-[11px]">
+          <div className="flex flex-col text-[9.5px] md:text-[15px] font-[montserrat]">
+            <p className="font-bold text-pink-500 pt-1">Call</p>
+            <p className="font-semibold text-pink-400 text-[9.5px] text-left">
               <a href="tel:07308140607">073 081 40607</a>
             </p>
           </div>
