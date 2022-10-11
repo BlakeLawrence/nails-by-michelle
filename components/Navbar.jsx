@@ -16,10 +16,12 @@ const Navbar = () => {
           <div className="border-[1px] border-pink-400 hover:border-pink-300 rounded-full p-2 mr-3">
             <ImLocation className="text-pink-400" size="1rem" />
           </div>
-          <div className="flex flex-col text-[11px] md:text-[15px] text-pink-500 font-[montserrat] font-medium">
-            <p>Labourham Wy, Draycott</p>
-            <p>Cheddar, BS27 3RP</p>
-          </div>
+          <a href="https://goo.gl/maps/Hk7R5snpfPEbQeLC6" target="blank">
+            <div className="flex flex-col text-[11px] md:text-[15px] text-pink-500 font-[montserrat] font-medium">
+              <p>Labourham Wy, Draycott</p>
+              <p>Cheddar, BS27 3RP</p>
+            </div>
+          </a>
         </li>
         <li className="flex  items-center pr-2">
           <div className="border-[1px] border-pink-400 hover:border-pink-300 rounded-full p-2 mr-3">
@@ -69,24 +71,26 @@ const Navbar = () => {
             <div className="border-[1px] border-pink-400 rounded-full p-2 mr-3 hover:animate-bounce">
               <ImLocation className="text-pink-400" size="1.5rem" />
             </div>
-            <div className="flex flex-col text-[15px]  text-pink-400 font-[montserrat] font-semibold">
-              <p>Labourham Wy, Draycott</p>
-              <p>Cheddar, BS27 3RP</p>
-            </div>
+            <a href="https://goo.gl/maps/Hk7R5snpfPEbQeLC6" target="blank">
+              <div className="hover:cursor-pointer flex flex-col text-[15px]  text-pink-400 font-[montserrat] font-semibold">
+                <p>Labourham Wy, Draycott</p>
+                <p>Cheddar, BS27 3RP</p>
+              </div>
+            </a>
           </li>
           <li className="flex  items-center pr-4 lg:pr-10">
             <div className="border-[1px] border-pink-400 rounded-full p-2 mr-3 hover:animate-bounce">
               <AiOutlineClockCircle className="text-pink-400" size="1.5rem" />
             </div>
-            <div className="flex flex-col text-[10px] md:text-[15px]  text-pink-400 font-[montserrat]">
-              <p className="font-bold">Mon - Sat</p>
-              <Link
-                className="hover:cursor-pointer font-semibold"
-                href="/contact"
-              >
+            <Link
+              className="hover:cursor-pointer font-semibold"
+              href="/contact"
+            >
+              <div className="hover:cursor-pointer flex flex-col text-[10px] md:text-[15px]  text-pink-400 font-[montserrat]">
+                <p className="font-bold">Mon - Sat</p>
                 <span className="font-semibold ">click for opening hours</span>
-              </Link>
-            </div>
+              </div>
+            </Link>
           </li>
           <li className="flex  items-center">
             <div className="border-[1px] border-pink-400 rounded-full p-2 mr-3 hover:animate-bounce">
@@ -94,7 +98,9 @@ const Navbar = () => {
             </div>
             <div className="flex flex-col text-[10px] md:text-[15px]  text-pink-400 font-[montserrat]">
               <p className="font-bold">Call</p>
-              <p className="font-medium text-pink-400 ">073 081 40607</p>
+              <p className="font-medium text-pink-400 ">
+                <a href="tel:07308140607">073 081 40607</a>
+              </p>
             </div>
           </li>
         </ul>
