@@ -4,10 +4,11 @@ This is a website I built for a family members Nail Salon business in Cheddar, S
 
 I built this website using NextJs and Tailwind as well as Framer-motion for the page transition effects.
 
-### See it Live
+### See it Live here...
 [Nails By Michelle](https://nails-by-michelle.netlify.app/)
 
 ### Tech Stack
 - Next.Js
+- JavaScript
 - Tailwind
 - Framer Motion
