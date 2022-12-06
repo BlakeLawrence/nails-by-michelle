@@ -175,7 +175,7 @@ export default function PriceList() {
                 </div>
                 <div className=" flex justify-between items-end">
                   <li className="main-welcome text-sm sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4">
-                    - with gel
+                    - with gel polish
                   </li>
                   <p className="main-welcome text-xs sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
                     £40
@@ -191,7 +191,7 @@ export default function PriceList() {
                 </div>
                 <div className=" flex justify-between items-end">
                   <li className="main-welcome text-sm sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4">
-                    - with gel
+                    - with gel polish
                   </li>
                   <p className="main-welcome text-xs sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
                     £35
