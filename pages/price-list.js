@@ -43,78 +43,102 @@ export default function PriceList() {
 
         <div className="p-2 w-full h-full pb-10 bg-[url('/varnish.jpg')] ">
           <ul className="flex justify-center pt-6">
-            <div className="flex w-full lg:w-9/12 xl:w-7/12 justify-start  bg-gray-100/95 dark:bg-slate-800 sm:m-4 md:m-6 p-2 sm:p-6 rounded-lg shadow-lg">
+            <div className="flex w-full lg:w-9/12 xl:w-8/12 justify-start  bg-gray-100/95 dark:bg-slate-800 sm:m-4 md:m-6 p-2 sm:p-6 rounded-lg shadow-lg">
               <ul className="p-2 flex flex-col pr-4 sm:pr-8">
                 <div className=" flex justify-between items-end">
                   <li className="main-welcome text-md sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4 ">
                     Gel Polish
                   </li>
-                  <p className="main-welcome text-sm sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
+                  <p className="main-welcome text-xs sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
                     £20
                   </p>
                 </div>
                 <div className=" flex justify-between items-end">
-                  <li className="main-welcome text-md sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4 ">
+                  <li className="main-welcome text-sm sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4 ">
                     Gel Toes
                   </li>
-                  <p className="main-welcome text-sm sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
+                  <p className="main-welcome text-xs sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
                     £20
                   </p>
                 </div>
                 <div className=" flex justify-between items-end">
-                  <li className="main-welcome text-md sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4 ">
+                  <li className="main-welcome text-sm sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4 ">
                     Gel Extensions
                   </li>
-                  <p className="main-welcome text-sm sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
-                    £25
+                  <p className="main-welcome text-xs sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
+                    £30
                   </p>
                 </div>
                 <div className=" flex justify-between items-end">
                   <li className="main-welcome text-md sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4">
                     Add On - Builder Gel
                   </li>
-                  <p className="main-welcome text-sm sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
+                  <p className="main-welcome text-xs sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
                     £5
                   </p>
                 </div>
                 <div className=" flex justify-between items-end">
-                  <li className="main-welcome text-md sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4 ">
+                  <li className="main-welcome text-sm sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4 ">
                     Manicure
                   </li>
-                  <p className="main-welcome text-sm sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
+                  <p className="main-welcome text-xs sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
                     £20
                   </p>
                 </div>
                 <div className=" flex justify-between items-end">
-                  <li className="main-welcome text-md sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4">
+                  <li className="main-welcome text-sm sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4">
                     Pedicure
                   </li>
-                  <p className="main-welcome text-sm sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
+                  <p className="main-welcome text-xs sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
                     £25
                   </p>
                 </div>
                 <div className=" flex justify-between items-end">
-                  <li className="main-welcome text-md sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4 ">
+                  <li className="main-welcome text-sm sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4 ">
                     Pedicure & Gel Toes
                   </li>
-                  <p className="main-welcome text-sm sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
+                  <p className="main-welcome text-xs sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
                     £40
                   </p>
                 </div>
                 <div className=" flex justify-between items-end">
-                  <li className="main-welcome text-md sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4 ">
+                  <li className="main-welcome text-sm sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4 ">
                     Kids Manicure
                   </li>
-                  <p className="main-welcome text-sm sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
+                  <p className="main-welcome text-xs sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
                     £10
                   </p>
                 </div>
                 <div className=" flex justify-between items-end">
-                  <li className="main-welcome text-md sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4 ">
+                  <li className="main-welcome text-sm sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4 ">
                     Kids Pedicure
                   </li>
-                  <p className="main-welcome text-sm sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
+                  <p className="main-welcome text-xs sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
                     £10
+                  </p>
+                </div>
+                <div className=" flex justify-between items-end">
+                  <li className="main-welcome text-sm sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4 ">
+                    File and Polish
+                  </li>
+                  <p className="main-welcome text-xs sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
+                    £15
+                  </p>
+                </div>
+                <div className=" flex justify-between items-end">
+                  <li className="main-welcome text-sm sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4 ">
+                    Soak Off (If not done by me)
+                  </li>
+                  <p className="main-welcome text-xs sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
+                    £5
+                  </p>
+                </div>
+                <div className=" flex justify-between items-end">
+                  <li className="main-welcome text-sm sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4 ">
+                    Soak Off & Mini Manicure
+                  </li>
+                  <p className="main-welcome text-xs sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
+                    £15
                   </p>
                 </div>
                 <Link href="/contact">
@@ -126,90 +150,108 @@ export default function PriceList() {
               {/* right items */}
               <div className="p-2 sm:pl-14 xl:pl-24">
                 <div className=" flex justify-between items-end">
-                  <li className="main-welcome text-md sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4">
-                    File and Polish
+                  <li className="main-welcome text-sm sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4">
+                    Nail Art
                   </li>
-                  <p className="main-welcome text-sm sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
-                    £15
-                  </p>
-                </div>
-
-                <div className=" flex justify-between items-end">
-                  <li className="main-welcome text-md sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4">
-                    Soak Off (If not done by me)
-                  </li>
-                  <p className="main-welcome text-sm sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
+                  <p className="main-welcome text-xs sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
                     £5
                   </p>
                 </div>
                 <div className=" flex justify-between items-end">
-                  <li className="main-welcome text-md sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4">
-                    Soak Off & Mini Manicure
+                  <li className="main-welcome text-sm sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4">
+                    Nail Fix
                   </li>
-                  <p className="main-welcome text-sm sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
-                    £15
+                  <p className="main-welcome text-xs sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
+                    £5
                   </p>
                 </div>
                 <div className=" flex justify-between items-end">
-                  <li className="main-welcome text-md sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4">
+                  <li className="main-welcome text-sm sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4">
                     Acrylic Extensions
                   </li>
-                  <p className="main-welcome text-sm sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
+                  <p className="main-welcome text-xs sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
                     £30
                   </p>
                 </div>
                 <div className=" flex justify-between items-end">
-                  <li className="main-welcome text-md sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4">
+                  <li className="main-welcome text-sm sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4">
                     Acrylic Overlays
                   </li>
-                  <p className="main-welcome text-sm sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
+                  <p className="main-welcome text-xs sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
                     £25
                   </p>
                 </div>
                 <div className=" flex justify-between items-end">
-                  <li className="main-welcome text-md sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4">
+                  <li className="main-welcome text-sm sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4">
                     Acrylic Infill
                   </li>
-                  <p className="main-welcome text-sm sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
+                  <p className="main-welcome text-xs sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
                     £20
                   </p>
                 </div>
                 <div className=" flex justify-between items-end">
-                  <li className="main-welcome text-md sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4">
+                  <li className="main-welcome text-sm sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4">
                     Add Gel Colour Over Acrylic
                   </li>
-                  <p className="main-welcome text-sm sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
+                  <p className="main-welcome text-xs sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
                     £5
                   </p>
                 </div>
                 <div className=" flex justify-between items-end">
-                  <li className="main-welcome text-md sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4">
-                    Classic Eyelashes
+                  <li className="main-welcome text-sm sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4">
+                    Classic Eyelash extensions
                   </li>
-                  <p className="main-welcome text-sm sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
+                  <p className="main-welcome text-xs sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
                     £50
                   </p>
                 </div>
                 <div className=" flex justify-between items-end">
-                  <li className="main-welcome text-md sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4">
-                    - 2 week infill
+                  <li className="main-welcome text-sm sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4">
+                    Classic Eyelash infill - 2 weeks
                   </li>
-                  <p className="main-welcome text-sm sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
+                  <p className="main-welcome text-xs sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
                     £20
                   </p>
                 </div>
                 <div className=" flex justify-between items-end">
-                  <li className="main-welcome text-md sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4">
-                    - 3 week infill
+                  <li className="main-welcome text-sm sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4">
+                    Classic Eyelash infill - 3 weeks
                   </li>
-                  <p className="main-welcome text-sm sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
+                  <p className="main-welcome text-xs sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
                     £25
                   </p>
                 </div>
-                <div className="">
-                  <li className="main-welcome text-xs sm:text-xl md:text-2xl text-pink-500 font-bold mt-2 sm:mt-4">
-                    various eye lash extension coming soon
+                <div className=" flex justify-between items-end">
+                  <li className="main-welcome text-sm sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4">
+                    Volume Lashes
                   </li>
+                  <p className="main-welcome text-xs sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
+                    £55
+                  </p>
+                </div>
+                <div className=" flex justify-between items-end">
+                  <li className="main-welcome text-sm sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4">
+                    Volume Lash infill - 2 weeks
+                  </li>
+                  <p className="main-welcome text-xs sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
+                    £30
+                  </p>
+                </div>
+                <div className=" flex justify-between items-end">
+                  <li className="main-welcome text-sm sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4">
+                    Volume Lash infill - 3 weeks
+                  </li>
+                  <p className="main-welcome text-xs sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
+                    £35
+                  </p>
+                </div>
+                <div className=" flex justify-between items-end">
+                  <li className="main-welcome text-sm sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4">
+                    Lvl Ceralift (lift, curl and tint natural lashes) 
+                  </li>
+                  <p className="main-welcome text-xs sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
+                    £45
+                  </p>
                 </div>
               </div>
             </div>
