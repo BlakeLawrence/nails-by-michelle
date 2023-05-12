@@ -24,16 +24,16 @@ export default function Footer() {
       <div className="mt-3 sm:mt-6 text-center">
         <span className="text-pink-400 text-xs sm:text-xl mr-4 font-medium">
           <a
-            href="https://blakelawrence-portfolio.netlify.app/"
+            href="https://nails-by-michelle.netlify.app/"
             target="blank"
             className="text-pink-400"
             aria-label="a link to the website creators development portfolio"
           >
-            Built by Blake Lawrence
+            Nails by Michelle
           </a>
         </span>
         <p className="text-[.5rem] sm:text-lg text-pink-400 mr-4">
-          Copyright &copy; 2022
+          Copyright &copy; 2023
         </p>
       </div>
       {/* Social Icons*/}
