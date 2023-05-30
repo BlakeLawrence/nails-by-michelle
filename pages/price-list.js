@@ -48,6 +48,62 @@ export default function PriceList() {
                   Nails
                 </h4>
                 <div className=" flex justify-between items-end">
+                  <li className="main-welcome text-sm sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4">
+                    Acrylic Extensions
+                  </li>
+                  <p className="main-welcome text-xs sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
+                    £30
+                  </p>
+                </div>
+                <div className=" flex justify-between items-end">
+                  <li className="main-welcome text-sm sm:text-xl md:text-2xl text-pink-500 font-bold mt-2 sm:mt-4">
+                    - with gel polish
+                  </li>
+                  <p className="main-welcome text-xs sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
+                    £40
+                  </p>
+                </div>
+                <div className=" flex justify-between items-end">
+                  <li className="main-welcome text-sm sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4">
+                    Acrylic Overlays
+                  </li>
+                  <p className="main-welcome text-xs sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
+                    £25
+                  </p>
+                </div>
+                <div className=" flex justify-between items-end">
+                  <li className="main-welcome text-sm sm:text-xl md:text-2xl text-pink-500 font-bold mt-2 sm:mt-4">
+                    - with gel polish
+                  </li>
+                  <p className="main-welcome text-xs sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
+                    £35
+                  </p>
+                </div>
+                <div className=" flex justify-between items-end">
+                  <li className="main-welcome text-sm sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4">
+                    Acrylic Infill with gel polish
+                  </li>
+                  <p className="main-welcome text-xs sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
+                    £25
+                  </p>
+                </div>
+                <div className=" flex justify-between items-end">
+                  <li className="main-welcome text-sm sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4">
+                    Acrylic / Gel Removal
+                  </li>
+                  <p className="main-welcome text-xs sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
+                    £10
+                  </p>
+                </div>
+                <div className=" flex justify-between items-end">
+                  <li className="main-welcome text-sm sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4 ">
+                    Gel Extensions
+                  </li>
+                  <p className="main-welcome text-xs sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
+                    £30
+                  </p>
+                </div>
+                <div className=" flex justify-between items-end">
                   <li className="main-welcome text-md sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4 ">
                     Gel Polish
                   </li>
@@ -61,14 +117,6 @@ export default function PriceList() {
                   </li>
                   <p className="main-welcome text-xs sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
                     £20
-                  </p>
-                </div>
-                <div className=" flex justify-between items-end">
-                  <li className="main-welcome text-sm sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4 ">
-                    Gel Extensions
-                  </li>
-                  <p className="main-welcome text-xs sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
-                    £30
                   </p>
                 </div>
                 <div className=" flex justify-between items-end">
@@ -87,13 +135,31 @@ export default function PriceList() {
                     £27
                   </p>
                 </div>
-
                 <div className=" flex justify-between items-end">
-                  <li className="main-welcome text-sm sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4 ">
-                    Manicure
+                  <li className="main-welcome text-sm sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4">
+                    Nail Art / Nail Fix
                   </li>
                   <p className="main-welcome text-xs sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
-                    £20
+                    £5
+                  </p>
+                </div>
+                <h4 className="font-mono underline text-sm sm:text-xl md:text-2xl text-pink-500 font-bold mt-2 sm:mt-6 ">
+                  Manis & Pedis
+                </h4>
+                <div className=" flex justify-between items-end">
+                  <li className="main-welcome text-sm sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4">
+                    Elim Pedicure
+                  </li>
+                  <p className="main-welcome text-xs sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
+                    £37
+                  </p>
+                </div>
+                <div className=" flex justify-between items-end">
+                  <li className="main-welcome text-sm sm:text-xl md:text-2xl text-pink-500 font-bold mt-2 sm:mt-4">
+                    - Cut, file & Paint
+                  </li>
+                  <p className="main-welcome text-xs sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
+                    £15
                   </p>
                 </div>
                 <div className=" flex justify-between items-end">
@@ -105,35 +171,20 @@ export default function PriceList() {
                   </p>
                 </div>
                 <div className=" flex justify-between items-end">
-                  <li className="main-welcome text-sm sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4">
-                    Pedicure
-                  </li>
-                  <p className="main-welcome text-xs sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
-                    £25
-                  </p>
-                </div>
-                <div className=" flex justify-between items-end">
-                  <li className="main-welcome text-sm sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4">
-                    Elim Pedicure
-                  </li>
-                  <p className="main-welcome text-xs sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
-                    £37
-                  </p>
-                </div>
-                <div className=" flex justify-between items-end">
-                  <li className="main-welcome text-sm sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4">
-                    Cut, file & Paint
+                  <li className="main-welcome text-sm sm:text-xl md:text-2xl text-pink-500 font-bold mt-2 sm:mt-4">
+                    - Cut, file & Paint
                   </li>
                   <p className="main-welcome text-xs sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
                     £15
                   </p>
                 </div>
+
                 <div className=" flex justify-between items-end">
-                  <li className="main-welcome text-sm sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4 ">
-                    Pedicure & Gel Toes
+                  <li className="main-welcome text-sm sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4">
+                    Add Gel Polish
                   </li>
                   <p className="main-welcome text-xs sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
-                    £40
+                    £10
                   </p>
                 </div>
                 <div className=" flex justify-between items-end">
@@ -150,71 +201,6 @@ export default function PriceList() {
                   </li>
                   <p className="main-welcome text-xs sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
                     £10
-                  </p>
-                </div>
-                <div className=" flex justify-between items-end">
-                  <li className="main-welcome text-sm sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4 ">
-                    File and Polish
-                  </li>
-                  <p className="main-welcome text-xs sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
-                    £15
-                  </p>
-                </div>
-                <div className=" flex justify-between items-end">
-                  <li className="main-welcome text-sm sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4">
-                    Nail Art / Nail Fix
-                  </li>
-                  <p className="main-welcome text-xs sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
-                    £5
-                  </p>
-                </div>
-
-                <div className=" flex justify-between items-end">
-                  <li className="main-welcome text-sm sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4">
-                    Acrylic Extensions
-                  </li>
-                  <p className="main-welcome text-xs sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
-                    £30
-                  </p>
-                </div>
-                <div className=" flex justify-between items-end">
-                  <li className="main-welcome text-sm sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4">
-                    - with gel polish
-                  </li>
-                  <p className="main-welcome text-xs sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
-                    £40
-                  </p>
-                </div>
-                <div className=" flex justify-between items-end">
-                  <li className="main-welcome text-sm sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4">
-                    Acrylic Overlays
-                  </li>
-                  <p className="main-welcome text-xs sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
-                    £25
-                  </p>
-                </div>
-                <div className=" flex justify-between items-end">
-                  <li className="main-welcome text-sm sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4">
-                    - with gel polish
-                  </li>
-                  <p className="main-welcome text-xs sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
-                    £35
-                  </p>
-                </div>
-                <div className=" flex justify-between items-end">
-                  <li className="main-welcome text-sm sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4">
-                    Acrylic Infill with gel polish
-                  </li>
-                  <p className="main-welcome text-xs sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
-                    £25
-                  </p>
-                </div>
-                <div className=" flex justify-between items-end">
-                  <li className="main-welcome text-sm sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4">
-                    Add Gel Colour Over Acrylic
-                  </li>
-                  <p className="main-welcome text-xs sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
-                    £5
                   </p>
                 </div>
                 <Link href="/contact">
@@ -337,7 +323,7 @@ export default function PriceList() {
                 </div>
 
                 <h4 className="font-mono underline text-sm sm:text-xl md:text-2xl text-pink-500 font-bold mt-2 sm:mt-4 ">
-                  Massage
+                  Massages
                 </h4>
                 <div className=" flex justify-between items-end">
                   <li className="main-welcome text-sm sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4">
