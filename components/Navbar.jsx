@@ -62,13 +62,21 @@ const Navbar = () => {
             height={100}
             width={100}
           ></Image>
-
-          <h2 className="text-[#ff4f9e] text-[38px] sm:text-4xl md:text-[32px]  xl:text-6xl pt-8 md:pt-8 font-medium">
-            Nails by Michelle
-          </h2>
+          <div className="flex-col pb-6">
+            <h2 className="text-[#ff4f9e] text-[38px] sm:text-4xl md:text-[32px]  xl:text-6xl pt-8 md:pt-8 font-medium">
+              Nails by Michelle
+            </h2>
+            <h3 className="text-[#ff4f9e]  md:text-xl text-center font-mono sm:pt-1">
+              all things beauty
+            </h3>
+          </div>
         </div>
 
-        <ul className="hidden sm:flex justify-between items-center text-[9px] md:text-md md:mr-4">
+        <ul
+          font-mono
+          pt-1
+          className="hidden sm:flex justify-between items-center text-[9px] md:text-md md:mr-4"
+        >
           <li className="flex items-center pr-4 lg:pr-10">
             <div className="border-[1px] border-pink-400 rounded-full p-2 mr-3 hover:animate-bounce">
               <ImLocation className="text-pink-400" size="1.5rem" />
