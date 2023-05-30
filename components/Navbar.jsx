@@ -16,11 +16,11 @@ const Navbar = () => {
           <div className="border-[1px] border-pink-400 hover:border-pink-300 rounded-full p-2">
             <ImLocation className="text-pink-400" size="0.6rem" />
           </div>
-          <a href="https://goo.gl/maps/Hk7R5snpfPEbQeLC6" target="blank">
+          <a href="https://goo.gl/maps/W1Mwr4CVsXu9CWfs9" target="blank">
             <div className="flex flex-col text-[9.5px] md:text-[15px] text-pink-500 font-[montserrat] font-medium pt-1 mr-1">
-              <p>Labourham Wy, Draycott</p>
+              <p>4 Bath Street</p>
 
-              <p>Cheddar, BS27 3RP</p>
+              <p>Cheddar, BS27 3AA</p>
             </div>
           </a>
         </li>
@@ -47,7 +47,7 @@ const Navbar = () => {
           <div className="flex flex-col text-[9.5px] md:text-[15px] font-[montserrat]">
             <p className="font-bold text-pink-500 pt-1">Call</p>
             <p className="font-semibold text-pink-400 text-[9.5px] text-left">
-              <a href="tel:07308140607">073 081 40607</a>
+              <a href="tel:07490540901">074 905 40901</a>
             </p>
           </div>
         </li>
@@ -62,6 +62,7 @@ const Navbar = () => {
             height={100}
             width={100}
           ></Image>
+
           <h2 className="text-[#ff4f9e] text-[38px] sm:text-4xl md:text-[32px]  xl:text-6xl pt-8 md:pt-8 font-medium">
             Nails by Michelle
           </h2>
@@ -72,10 +73,10 @@ const Navbar = () => {
             <div className="border-[1px] border-pink-400 rounded-full p-2 mr-3 hover:animate-bounce">
               <ImLocation className="text-pink-400" size="1.5rem" />
             </div>
-            <a href="https://goo.gl/maps/Hk7R5snpfPEbQeLC6" target="blank">
+            <a href="https://goo.gl/maps/W1Mwr4CVsXu9CWfs9" target="blank">
               <div className="hover:cursor-pointer flex flex-col text-[15px]  text-pink-400 font-[montserrat] font-semibold">
-                <p>Labourham Wy, Draycott</p>
-                <p>Cheddar, BS27 3RP</p>
+                <p>4 Bath Street</p>
+                <p>Cheddar, BS27 3AA</p>
               </div>
             </a>
           </li>
@@ -100,7 +101,7 @@ const Navbar = () => {
             <div className="flex flex-col text-[10px] md:text-[15px]  text-pink-400 font-[montserrat]">
               <p className="font-bold">Call</p>
               <p className="font-medium text-pink-400 ">
-                <a href="tel:07308140607">073 081 40607</a>
+                <a href="tel:07490540901">074 905 40901</a>
               </p>
             </div>
           </li>

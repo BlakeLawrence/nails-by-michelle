@@ -12,7 +12,7 @@ const About = () => {
           className="flex p-4 sm:p-8 sm:pt-10 sm:pl-20 bg-pink-100"
         >
           <h2 className=" main-welcome text-3xl pb-4 sm:text-5xl lg:text-6xl font-bold font-[montserrat] text-[#f793dc] drop-shadow-lg">
-            Pleased to meet you
+            Pleased to meet you...
           </h2>
         </div>
         {/* Image and description div */}
