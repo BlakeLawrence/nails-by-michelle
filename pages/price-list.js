@@ -44,7 +44,7 @@ export default function PriceList() {
           <ul className="flex justify-center pt-6">
             <div className="flex w-full lg:w-9/12 xl:w-8/12 justify-start  bg-gray-100/95 dark:bg-slate-800 sm:m-4 md:m-6 p-2 sm:p-6 rounded-lg shadow-lg">
               <ul className="p-2 flex flex-col pr-4 sm:pr-8">
-                <h4 className="font-mono underline text-md sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4 ">
+                <h4 className="font-mono underline text-sm sm:text-xl md:text-2xl text-pink-500 font-bold mt-2 sm:mt-4 ">
                   Nails
                 </h4>
                 <div className=" flex justify-between items-end">
@@ -225,7 +225,7 @@ export default function PriceList() {
               </ul>
               {/* right items */}
               <div className=" sm:pl-14 xl:pl-24">
-                <h4 className="pt-2 font-mono underline text-md sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4 ">
+                <h4 className="pt-2 font-mono underline text-sm sm:text-xl md:text-2xl text-pink-500 font-bold mt-2 sm:mt-4 ">
                   Lashes and Brows
                 </h4>
                 <div className=" flex justify-between items-end">
@@ -252,7 +252,7 @@ export default function PriceList() {
                     £18
                   </p>
                 </div>
-                <h4 className="font-mono underline text-md sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4 ">
+                <h4 className="font-mono underline text-sm sm:text-xl md:text-2xl text-pink-500 font-bold mt-2 sm:mt-4 ">
                   Waxing
                 </h4>
                 <div className=" flex justify-between items-end">
@@ -336,7 +336,7 @@ export default function PriceList() {
                   </p>
                 </div>
 
-                <h4 className="font-mono underline text-md sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4 ">
+                <h4 className="font-mono underline text-sm sm:text-xl md:text-2xl text-pink-500 font-bold mt-2 sm:mt-4 ">
                   Massage
                 </h4>
                 <div className=" flex justify-between items-end">
