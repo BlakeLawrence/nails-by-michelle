@@ -58,13 +58,13 @@ export default function Contact() {
                 <li className=" flex mt-5 md:mt-8">
                   <BsFillTelephoneFill className="w-[1.2rem] h-[1.2rem] md:w-[1.8rem] md:h-[1.8rem]" />
                   <p className="pl-3 md:pl-4 flex items-center text-[12px] sm:text-[10px] md:text-[14px] font-[montserrat]">
-                    <a href="tel:07308140607">073 081 40607</a>
+                    <a href="tel:07490540901">074 905 40901</a>
                   </p>
                 </li>
                 <li className="flex mt-5 md:mt-8 ">
                   <BsWhatsapp className="w-[1.2rem] h-[1.2rem] md:w-[2rem] md:h-[2rem]" />
                   <p className="pl-3 md:pl-4 flex items-center text-[12px] sm:text-[10px] md:text-[14px] md:text-sm font-[montserrat]">
-                    <a href="https://wa.me/+447308140607 ">Whatsapp me</a>
+                    <a href="https://wa.me/+447490540901 ">Whatsapp me</a>
                   </p>
                 </li>
                 <Link href="mailto:nailsbymichellecheddar@outlook.com?subject=Customer Appointment">
