@@ -69,14 +69,7 @@ export default function PriceList() {
                     £30
                   </p>
                 </div>
-                <div className=" flex justify-between items-end">
-                  <li className="main-welcome text-md sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4">
-                    Add On - Builder Gel
-                  </li>
-                  <p className="main-welcome text-xs sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
-                    £5
-                  </p>
-                </div>
+
                 <div className=" flex justify-between items-end">
                   <li className="main-welcome text-sm sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4 ">
                     Manicure
@@ -125,22 +118,7 @@ export default function PriceList() {
                     £15
                   </p>
                 </div>
-                <div className=" flex justify-between items-end">
-                  <li className="main-welcome text-sm sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4 ">
-                    Soak Off (If not done by me)
-                  </li>
-                  <p className="main-welcome text-xs sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
-                    £5
-                  </p>
-                </div>
-                <div className=" flex justify-between items-end">
-                  <li className="main-welcome text-sm sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4 ">
-                    Soak Off & Mini Manicure
-                  </li>
-                  <p className="main-welcome text-xs sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
-                    £15
-                  </p>
-                </div>
+
                 <Link href="/contact">
                   <button className="text-[10px] sm:text-[14px] py-2 sm:py-3 text-[#ffffff] font-medium font-[montserrat] md:w-48 rounded-full bg-purple-500 hover:scale-105 ease-in duration-100 mt-4 sm:mt-7">
                     book appointment
@@ -151,20 +129,13 @@ export default function PriceList() {
               <div className="p-2 sm:pl-14 xl:pl-24">
                 <div className=" flex justify-between items-end">
                   <li className="main-welcome text-sm sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4">
-                    Nail Art
+                    Nail Art / Nail Fix
                   </li>
                   <p className="main-welcome text-xs sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
                     £5
                   </p>
                 </div>
-                <div className=" flex justify-between items-end">
-                  <li className="main-welcome text-sm sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4">
-                    Nail Fix
-                  </li>
-                  <p className="main-welcome text-xs sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
-                    £5
-                  </p>
-                </div>
+
                 <div className=" flex justify-between items-end">
                   <li className="main-welcome text-sm sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4">
                     Acrylic Extensions
@@ -213,54 +184,7 @@ export default function PriceList() {
                     £5
                   </p>
                 </div>
-                <div className=" flex justify-between items-end">
-                  <li className="main-welcome text-sm sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4">
-                    Classic Eyelash extensions
-                  </li>
-                  <p className="main-welcome text-xs sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
-                    £50
-                  </p>
-                </div>
-                <div className=" flex justify-between items-end">
-                  <li className="main-welcome text-sm sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4">
-                    Classic Eyelash infill - 2 weeks
-                  </li>
-                  <p className="main-welcome text-xs sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
-                    £20
-                  </p>
-                </div>
-                <div className=" flex justify-between items-end">
-                  <li className="main-welcome text-sm sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4">
-                    Classic Eyelash infill - 3 weeks
-                  </li>
-                  <p className="main-welcome text-xs sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
-                    £25
-                  </p>
-                </div>
-                <div className=" flex justify-between items-end">
-                  <li className="main-welcome text-sm sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4">
-                    Volume Lashes
-                  </li>
-                  <p className="main-welcome text-xs sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
-                    £55
-                  </p>
-                </div>
-                <div className=" flex justify-between items-end">
-                  <li className="main-welcome text-sm sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4">
-                    Volume Lash infill - 2 weeks
-                  </li>
-                  <p className="main-welcome text-xs sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
-                    £30
-                  </p>
-                </div>
-                <div className=" flex justify-between items-end">
-                  <li className="main-welcome text-sm sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4">
-                    Volume Lash infill - 3 weeks
-                  </li>
-                  <p className="main-welcome text-xs sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
-                    £35
-                  </p>
-                </div>
+
                 <div className=" flex justify-between items-end">
                   <li className="main-welcome text-sm sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4">
                     Lvl Ceralift (lift, curl and tint natural lashes) 
