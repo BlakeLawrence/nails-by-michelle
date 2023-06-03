@@ -10,7 +10,7 @@ import lashes2 from "../public/lashes2.jpg";
 
 const PhotoGallery = () => {
   return (
-    <div className="w-full sm:w-10/12 md:w-1/2 grid grid-cols-3 md:grid-cols-2 gap-1.5 sm:gap-3 sm:pt-2 sm:pb-24 pb-8 lg:pr-24 xl:pr-60 md:pl-0  sm:ml-14 md:ml-0  sm:p-0">
+    <div className="w-full sm:w-10/12 md:w-1/2 grid grid-cols-2 md:grid-cols-2 gap-1.5 sm:gap-3 sm:pt-2 sm:pb-24 pb-8 lg:pr-24 xl:pr-60 md:pl-0  sm:ml-14 md:ml-0  sm:p-0">
       <Image
         src={nails5}
         alt="Gel extensions done by nails by michelle,nail salon in cheddar"
@@ -47,28 +47,6 @@ const PhotoGallery = () => {
       />
       <Image
         src={nails4}
-        alt="Pink gel polish done by nails by michelle,nail salon in cheddar"
-        width="250px"
-        height="250px"
-        sizes="(max-width: 768px) 100vw,
-        (max-width: 1200px) 50vw,
-        33vw"
-        className="rounded-md"
-        priority
-      />
-      <Image
-        src={lashes1}
-        alt="Pink gel polish done by nails by michelle,nail salon in cheddar"
-        width="250px"
-        height="250px"
-        sizes="(max-width: 768px) 100vw,
-        (max-width: 1200px) 50vw,
-        33vw"
-        className="rounded-md"
-        priority
-      />
-      <Image
-        src={lashes2}
         alt="Pink gel polish done by nails by michelle,nail salon in cheddar"
         width="250px"
         height="250px"
