@@ -62,14 +62,10 @@ const Navbar = () => {
             height={100}
             width={100}
           ></Image>
-          <div className="flex-col pb-6">
-            <h2 className="text-[#ff4f9e] text-[38px] sm:text-4xl md:text-[32px]  xl:text-6xl pt-8 md:pt-8 font-medium">
-              Nails by Michelle
-            </h2>
-            <h3 className="text-[#ff4f9e]  md:text-xl text-center font-mono sm:pt-1">
-              all things beauty
-            </h3>
-          </div>
+
+          <h2 className="text-[#ff4f9e] text-[38px] sm:text-4xl md:text-[32px]  xl:text-6xl pt-8 md:pt-8 font-medium">
+            Nails by Michelle
+          </h2>
         </div>
 
         <ul
