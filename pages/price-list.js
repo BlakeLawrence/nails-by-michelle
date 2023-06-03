@@ -51,7 +51,7 @@ export default function PriceList() {
                   <li className="main-welcome text-sm sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4">
                     Acrylic Extensions
                   </li>
-                  <p className="main-welcome text-xs sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
+                  <p className="main-welcome text-xs sm:text-xl text-pink-500 font-bold ml-0 md:ml-6">
                     £30
                   </p>
                 </div>
@@ -91,7 +91,7 @@ export default function PriceList() {
                   <li className="main-welcome text-sm sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4">
                     Acrylic / Gel Removal
                   </li>
-                  <p className="main-welcome text-xs sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
+                  <p className="main-welcome text-xs sm:text-xl text-pink-500 font-bold ml-0 md:ml-6">
                     £10
                   </p>
                 </div>
@@ -123,7 +123,7 @@ export default function PriceList() {
                   <li className="main-welcome text-sm sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4 ">
                     BIAB Gel Polish
                   </li>
-                  <p className="main-welcome text-xs sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
+                  <p className="main-welcome text-xs sm:text-xl text-pink-500 font-bold ml-0 md:ml-6">
                     £30
                   </p>
                 </div>
@@ -139,7 +139,7 @@ export default function PriceList() {
                   <li className="main-welcome text-sm sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4">
                     Nail Art / Nail Fix
                   </li>
-                  <p className="main-welcome text-xs sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
+                  <p className="main-welcome text-xs sm:text-xl text-pink-500 font-bold ml-0 md:ml-6">
                     £5
                   </p>
                 </div>
@@ -156,9 +156,9 @@ export default function PriceList() {
                 </div>
                 <div className=" flex justify-between items-end">
                   <li className="main-welcome text-sm sm:text-xl md:text-2xl text-pink-500 font-bold mt-2 sm:mt-4">
-                    - Cut, file & Paint
+                    Cut, file & Paint
                   </li>
-                  <p className="main-welcome text-xs sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
+                  <p className="main-welcome text-xs sm:text-xl text-pink-500 font-bold ml-0 md:ml-6">
                     £15
                   </p>
                 </div>
@@ -166,15 +166,15 @@ export default function PriceList() {
                   <li className="main-welcome text-sm sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4 ">
                     Luxury Manicure
                   </li>
-                  <p className="main-welcome text-xs sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
+                  <p className="main-welcome text-xs sm:text-xl text-pink-500 font-bold ml-0 md:ml-6">
                     £30
                   </p>
                 </div>
                 <div className=" flex justify-between items-end">
                   <li className="main-welcome text-sm sm:text-xl md:text-2xl text-pink-500 font-bold mt-2 sm:mt-4">
-                    - Cut, file & Paint
+                    Cut, file & Paint
                   </li>
-                  <p className="main-welcome text-xs sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
+                  <p className="main-welcome text-xs sm:text-xl text-pink-500 font-bold ml-0 md:ml-6">
                     £15
                   </p>
                 </div>
@@ -211,11 +211,11 @@ export default function PriceList() {
               </ul>
               {/* right items */}
               <div className=" sm:pl-14 xl:pl-24">
-                <h4 className="pt-2 font-mono underline text-sm sm:text-xl md:text-2xl text-pink-500 font-bold mt-2 sm:mt-4 ">
+                <h4 className="pt-2 font-mono underline text-sm sm:text-xl md:text-2xl text-pink-500 font-bold mt-2 sm:mt-4 pl-2 sm:pl-0 ">
                   Lashes and Brows
                 </h4>
                 <div className=" flex justify-between items-end">
-                  <li className="main-welcome text-sm sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4">
+                  <li className="main-welcome text-sm sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4 pl-2 sm:pl-0">
                     Lvl Ceralift (lift, curl and tint natural lashes) 
                   </li>
                   <p className="main-welcome text-xs sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
@@ -223,7 +223,7 @@ export default function PriceList() {
                   </p>
                 </div>
                 <div className=" flex justify-between items-end">
-                  <li className="main-welcome text-sm sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4">
+                  <li className="main-welcome text-sm sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4 pl-2 sm:pl-0">
                     Eyebrow tint
                   </li>
                   <p className="main-welcome text-xs sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
@@ -231,18 +231,18 @@ export default function PriceList() {
                   </p>
                 </div>
                 <div className=" flex justify-between items-end">
-                  <li className="main-welcome text-sm sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4">
+                  <li className="main-welcome text-sm sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4 pl-2 sm:pl-0">
                     Eyebrow tint & wax
                   </li>
                   <p className="main-welcome text-xs sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
                     £18
                   </p>
                 </div>
-                <h4 className="font-mono underline text-sm sm:text-xl md:text-2xl text-pink-500 font-bold mt-2 sm:mt-4 ">
+                <h4 className="font-mono underline text-sm sm:text-xl md:text-2xl text-pink-500 font-bold mt-2 sm:mt-4 pl-2 sm:pl-0 ">
                   Waxing
                 </h4>
                 <div className=" flex justify-between items-end">
-                  <li className="main-welcome text-sm sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4">
+                  <li className="main-welcome text-sm sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4 pl-2 sm:pl-0">
                     Eyebrow
                   </li>
                   <p className="main-welcome text-xs sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
@@ -250,7 +250,7 @@ export default function PriceList() {
                   </p>
                 </div>
                 <div className=" flex justify-between items-end">
-                  <li className="main-welcome text-sm sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4">
+                  <li className="main-welcome text-sm sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4 pl-2 sm:pl-0">
                     Lip or Chin
                   </li>
                   <p className="main-welcome text-xs sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
@@ -258,7 +258,7 @@ export default function PriceList() {
                   </p>
                 </div>
                 <div className=" flex justify-between items-end">
-                  <li className="main-welcome text-sm sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4">
+                  <li className="main-welcome text-sm sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4 pl-2 sm:pl-0">
                     Full face
                   </li>
                   <p className="main-welcome text-xs sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
@@ -266,7 +266,7 @@ export default function PriceList() {
                   </p>
                 </div>
                 <div className=" flex justify-between items-end">
-                  <li className="main-welcome text-sm sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4">
+                  <li className="main-welcome text-sm sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4 pl-2 sm:pl-0">
                     1/2 Leg
                   </li>
                   <p className="main-welcome text-xs sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
@@ -274,7 +274,7 @@ export default function PriceList() {
                   </p>
                 </div>
                 <div className=" flex justify-between items-end">
-                  <li className="main-welcome text-sm sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4">
+                  <li className="main-welcome text-sm sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4 pl-2 sm:pl-0">
                     3/4 Leg
                   </li>
                   <p className="main-welcome text-xs sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
@@ -282,7 +282,7 @@ export default function PriceList() {
                   </p>
                 </div>
                 <div className=" flex justify-between items-end">
-                  <li className="main-welcome text-sm sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4">
+                  <li className="main-welcome text-sm sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4 pl-2 sm:pl-0">
                     Full Leg
                   </li>
                   <p className="main-welcome text-xs sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
@@ -290,7 +290,7 @@ export default function PriceList() {
                   </p>
                 </div>
                 <div className=" flex justify-between items-end">
-                  <li className="main-welcome text-sm sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4">
+                  <li className="main-welcome text-sm sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4 pl-2 sm:pl-0">
                     Bikini
                   </li>
                   <p className="main-welcome text-xs sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
@@ -298,7 +298,7 @@ export default function PriceList() {
                   </p>
                 </div>
                 <div className=" flex justify-between items-end">
-                  <li className="main-welcome text-sm sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4">
+                  <li className="main-welcome text-sm sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4 pl-2 sm:pl-0">
                     Underarm
                   </li>
                   <p className="main-welcome text-xs sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
@@ -306,7 +306,7 @@ export default function PriceList() {
                   </p>
                 </div>
                 <div className=" flex justify-between items-end">
-                  <li className="main-welcome text-sm sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4">
+                  <li className="main-welcome text-sm sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4 pl-2 sm:pl-0">
                     Full arm
                   </li>
                   <p className="main-welcome text-xs sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
@@ -314,7 +314,7 @@ export default function PriceList() {
                   </p>
                 </div>
                 <div className=" flex justify-between items-end">
-                  <li className="main-welcome text-sm sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4">
+                  <li className="main-welcome text-sm sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4 pl-2 sm:pl-0">
                     Chest or Back
                   </li>
                   <p className="main-welcome text-xs sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
@@ -322,19 +322,19 @@ export default function PriceList() {
                   </p>
                 </div>
 
-                <h4 className="font-mono underline text-sm sm:text-xl md:text-2xl text-pink-500 font-bold mt-2 sm:mt-4 ">
+                <h4 className="font-mono underline text-sm sm:text-xl md:text-2xl text-pink-500 font-bold mt-2 sm:mt-4 pl-2 sm:pl-0 ">
                   Massages
                 </h4>
                 <div className=" flex justify-between items-end">
-                  <li className="main-welcome text-sm sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4">
+                  <li className="main-welcome text-sm sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4 pl-2 sm:pl-0">
                     Full Body (1 hr)
                   </li>
-                  <p className="main-welcome text-xs sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
+                  <p className="main-welcome text-xs sm:text-xl text-pink-500 font-bold ml-0 md:ml-6">
                     £45
                   </p>
                 </div>
                 <div className=" flex justify-between items-end">
-                  <li className="main-welcome text-sm sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4">
+                  <li className="main-welcome text-sm sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4 pl-2 sm:pl-0">
                     Back, Neck & Shoulders (30 mins)
                   </li>
                   <p className="main-welcome text-xs sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
