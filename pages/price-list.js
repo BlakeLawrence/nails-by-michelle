@@ -203,10 +203,12 @@ export default function PriceList() {
                     £10
                   </p>
                 </div>
-                <Link href="/contact">
-                  <button className="text-[10px] sm:text-[14px] py-2 sm:py-3 text-[#ffffff] font-medium font-[montserrat] md:w-48 rounded-full bg-purple-500 hover:scale-105 ease-in duration-100 mt-4 sm:mt-7">
-                    book appointment
-                  </button>
+                <Link href="https://www.fresha.com/a/nails-by-michelle-cheddar-bath-street-cd78i7xy?pId=749479">
+                  <a target="_blank">
+                    <button className="text-[10px] sm:text-[14px] py-2 sm:py-3 text-[#ffffff] font-medium font-[montserrat] md:w-48 rounded-full bg-purple-500 hover:scale-105 ease-in duration-100 mt-4 sm:mt-7">
+                      book appointment
+                    </button>
+                  </a>
                 </Link>
               </ul>
               {/* right items */}
