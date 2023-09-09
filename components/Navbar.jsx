@@ -29,7 +29,7 @@ const Navbar = () => {
             <AiOutlineClockCircle className="text-pink-400" size="0.6rem" />
           </div>
           <div className="flex flex-col text-[9.5px] md:text-[15px] text-pink-400 font-[montserrat]">
-            <p className="font-bold text-pink-500 pt-1">Mon - Sat</p>
+            <p className="font-bold text-pink-500 pt-1">Tues - Sat</p>
             <Link
               className="hover:cursor-pointer text-pink-400"
               href="/contact"
@@ -93,7 +93,7 @@ const Navbar = () => {
               href="/contact"
             >
               <div className="hover:cursor-pointer flex flex-col text-[10px] md:text-[15px]  text-pink-400 font-[montserrat]">
-                <p className="font-bold">Mon - Sat</p>
+                <p className="font-bold">Tues - Sat</p>
                 <span className="font-semibold ">click for opening hours</span>
               </div>
             </Link>

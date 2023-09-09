@@ -85,7 +85,7 @@ export default function Contact() {
                     Monday:
                   </p>
                   <p className="pl-4 flex items-center text-[10px] sm:text-[8px] md:text-[13px] ">
-                    09:00 - 17:00
+                    Closed
                   </p>
                 </li>
                 <li className=" flex justify-between mt-1 md:mt-3 lg:pl-2 text-[12px] md:text-md font-[montserrat]">
