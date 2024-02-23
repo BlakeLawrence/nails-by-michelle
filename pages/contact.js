@@ -8,6 +8,11 @@ export default function Contact() {
   return (
     <>
       <Head>
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4913332375600787"
+          crossorigin="anonymous"
+        ></script>
         <title>
           Nails By Michelle | Contact. Contact me today and book yourself in at
           my Nail Salon in Cheddar, Somerset

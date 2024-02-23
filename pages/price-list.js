@@ -6,6 +6,11 @@ export default function PriceList() {
   return (
     <>
       <Head>
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4913332375600787"
+          crossorigin="anonymous"
+        ></script>
         <title>
           Nails By Michelle | Price List. Pricing for my nail services.
         </title>

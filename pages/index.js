@@ -8,6 +8,11 @@ export default function Home() {
   return (
     <div>
       <Head>
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4913332375600787"
+          crossorigin="anonymous"
+        ></script>
         {/* title and description tags */}
         <title>Nails By Michelle | Home. Nail Salon in Cheddar, Somerset</title>
         <meta name="home" content="Nails By Michelle - Home page" />
