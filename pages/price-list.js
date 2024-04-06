@@ -6,7 +6,6 @@ export default function PriceList() {
   return (
     <>
       <Head>
-        
         <title>
           Nails By Michelle | Price List. Pricing for my nail services.
         </title>
@@ -66,26 +65,19 @@ export default function PriceList() {
                 </div>
                 <div className=" flex justify-between items-end">
                   <li className="main-welcome text-sm sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4">
-                    Acrylic Overlays
-                  </li>
-                  <p className="main-welcome text-xs sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
-                    £25
-                  </p>
-                </div>
-                <div className=" flex justify-between items-end">
-                  <li className="main-welcome text-sm sm:text-xl md:text-2xl text-pink-500 font-bold mt-2 sm:mt-4">
-                    - with gel polish
+                    Acrylic Overlays - with gel polish
                   </li>
                   <p className="main-welcome text-xs sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
                     £35
                   </p>
                 </div>
+
                 <div className=" flex justify-between items-end">
                   <li className="main-welcome text-sm sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4">
-                    Acrylic Infill with gel polish
+                    Acrylic Infill - with gel polish
                   </li>
                   <p className="main-welcome text-xs sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
-                    £25
+                    £30
                   </p>
                 </div>
                 <div className=" flex justify-between items-end">
@@ -105,11 +97,27 @@ export default function PriceList() {
                   </p>
                 </div>
                 <div className=" flex justify-between items-end">
+                  <li className="main-welcome text-sm sm:text-xl md:text-2xl text-pink-500 font-bold mt-2 sm:mt-4">
+                    - with French polish
+                  </li>
+                  <p className="main-welcome text-xs sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
+                    from £32
+                  </p>
+                </div>
+                <div className=" flex justify-between items-end">
                   <li className="main-welcome text-md sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4 ">
                     Gel Polish
                   </li>
                   <p className="main-welcome text-xs sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
                     £25
+                  </p>
+                </div>
+                <div className=" flex justify-between items-end">
+                  <li className="main-welcome text-sm sm:text-xl md:text-2xl text-pink-500 font-bold mt-2 sm:mt-4">
+                    - French gel polish
+                  </li>
+                  <p className="main-welcome text-xs sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
+                    £27
                   </p>
                 </div>
                 <div className=" flex justify-between items-end">
@@ -129,6 +137,14 @@ export default function PriceList() {
                   </p>
                 </div>
                 <div className=" flex justify-between items-end">
+                  <li className="main-welcome text-sm sm:text-xl md:text-2xl text-pink-500 font-bold mt-2 sm:mt-4">
+                    - French BIAB gel polish
+                  </li>
+                  <p className="main-welcome text-xs sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
+                    £32
+                  </p>
+                </div>
+                <div className=" flex justify-between items-end">
                   <li className="main-welcome text-sm sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4 ">
                     BIAB Gel Infill
                   </li>
@@ -137,8 +153,24 @@ export default function PriceList() {
                   </p>
                 </div>
                 <div className=" flex justify-between items-end">
+                  <li className="main-welcome text-sm sm:text-xl md:text-2xl text-pink-500 font-bold mt-2 sm:mt-4">
+                    - French BIAB gel infill
+                  </li>
+                  <p className="main-welcome text-xs sm:text-xl text-pink-500 font-bold ml-2 md:ml-6">
+                    £30
+                  </p>
+                </div>
+                <div className=" flex justify-between items-end">
                   <li className="main-welcome text-sm sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4">
                     Nail Art / Nail Fix
+                  </li>
+                  <p className="main-welcome text-xs sm:text-xl text-pink-500 font-bold ml-0 md:ml-6">
+                    £5
+                  </p>
+                </div>
+                <div className=" flex justify-between items-end">
+                  <li className="main-welcome text-sm sm:text-xl md:text-3xl text-pink-500 font-bold mt-2 sm:mt-4">
+                    Ombre add on
                   </li>
                   <p className="main-welcome text-xs sm:text-xl text-pink-500 font-bold ml-0 md:ml-6">
                     £5
