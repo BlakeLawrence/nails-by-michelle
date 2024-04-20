@@ -19,10 +19,12 @@ const Services = () => {
               <ListItem key={index} service={service} />
             ))}
             <div className="pt-6 md:pt-12">
-              <Link href="/price-list">
-                <button className="text-[11px] sm:text-[16px] py-3 bg-purple-400 border-[1px] font-semibold font-[montserrat] w-20 sm:w-24 md:w-28 border-purple-400 rounded-full text-[#ffffff] hover:scale-110 ease-in duration-100 mb-8 sm:mb-12">
-                  Price List
-                </button>
+              <Link href="https://www.fresha.com/a/nails-by-michelle-cheddar-bath-street-cd78i7xy?pId=749479">
+                <a target="_blank">
+                  <button className="text-[11px] sm:text-[16px] py-3 bg-purple-400 border-[1px] font-semibold font-[montserrat] w-20 sm:w-24 md:w-28 border-purple-400 rounded-full text-[#ffffff] hover:scale-110 ease-in duration-100 mb-8 sm:mb-12">
+                    Book Now
+                  </button>
+                </a>
               </Link>
             </div>
           </ul>

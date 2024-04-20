@@ -121,10 +121,12 @@ const Navbar = () => {
             </li>
           </Link>
 
-          <Link href="/price-list">
-            <li className="main-welcome text-md sm:text-2xl font-semibold hover:scale-125 ease-in duration-100 hover:cursor-pointer  hover:text-pink-500">
-              Price List
-            </li>
+          <Link href="https://www.fresha.com/a/nails-by-michelle-cheddar-bath-street-cd78i7xy?pId=749479">
+            <a target="_blank">
+              <li className="main-welcome text-md sm:text-2xl font-semibold hover:scale-125 ease-in duration-100 hover:cursor-pointer  hover:text-pink-500">
+                Price List
+              </li>
+            </a>
           </Link>
 
           <Link href="/pamper-parties">
